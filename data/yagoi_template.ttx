@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.5">
+
+  <GlyphOrder>
+    <!-- This GlyphOrder will be discarded by Bitmap2OTF. -->
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0x00000000"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00001011"/>
+    
+    <!-- These values will be recalculated by Bitmap2OTF -->
+    <unitsPerEm value="1000"/>
+    <created value="Thu Jan 01 00:00:00 1970"/>
+    <modified value="Thu Jan 01 00:00:00 1970"/>
+    <xMin value="0"/>
+    <yMin value="0"/>
+    <xMax value="0"/>
+    <yMax value="0"/>
+    
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="8"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="1.0"/>
+    <ascent value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <descent value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <lineGap value="100"/>
+    <advanceWidthMax value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <minLeftSideBearing value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <minRightSideBearing value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <xMaxExtent value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="1"/><!-- This value will be recalculated by Bitmap2OTF -->
+  </hhea>
+
+  <maxp>
+    <tableVersion value="0x5000"/>
+    <numGlyphs value="0"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="4"/>
+    <xAvgCharWidth value="1000"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000000"/>
+    <ySubscriptXSize value="600"/>
+    <ySubscriptYSize value="600"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="200"/>
+    <ySuperscriptXSize value="600"/>
+    <ySuperscriptYSize value="600"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="500"/>
+    <yStrikeoutSize value="100"/>
+    <yStrikeoutPosition value="300"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="2"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="0"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    
+    <!-- These values will be recalculated by Bitmap2OTF -->
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulUnicodeRange2 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    
+    <achVendID value=""/>
+    <fsSelection value="00000000 11000000"/>
+    <usFirstCharIndex value="0"/>
+    <usLastCharIndex value="0"/>
+    <sTypoAscender value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <sTypoDescender value="-0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <sTypoLineGap value="100"/>
+    <usWinAscent value="0"/>
+    <usWinDescent value="0"/>
+    <ulCodePageRange1 value="00000000 00000010 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <sCapHeight value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="1"/>
+  </OS_2>
+
+  <name>
+    <!-- This table will be recalculated by Bitmap2OTF -->
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0">
+      Untitled
+    </namerecord>
+  </name>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <!-- Mappings in these subtables will be recalculated by Bitmap2OTF -->
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+    </cmap_format_4>
+    <cmap_format_0 platformID="1" platEncID="0" language="0">
+      <map code="0x0" name=".notdef"/>
+      <map code="0x1" name=".notdef"/>
+      <map code="0x2" name=".notdef"/>
+      <map code="0x3" name=".notdef"/>
+      <map code="0x4" name=".notdef"/>
+      <map code="0x5" name=".notdef"/>
+      <map code="0x6" name=".notdef"/>
+      <map code="0x7" name=".notdef"/>
+      <map code="0x8" name=".notdef"/>
+      <map code="0x9" name=".notdef"/>
+      <map code="0xa" name=".notdef"/>
+      <map code="0xb" name=".notdef"/>
+      <map code="0xc" name=".notdef"/>
+      <map code="0xd" name=".notdef"/>
+      <map code="0xe" name=".notdef"/>
+      <map code="0xf" name=".notdef"/>
+      <map code="0x10" name=".notdef"/>
+      <map code="0x11" name=".notdef"/>
+      <map code="0x12" name=".notdef"/>
+      <map code="0x13" name=".notdef"/>
+      <map code="0x14" name=".notdef"/>
+      <map code="0x15" name=".notdef"/>
+      <map code="0x16" name=".notdef"/>
+      <map code="0x17" name=".notdef"/>
+      <map code="0x18" name=".notdef"/>
+      <map code="0x19" name=".notdef"/>
+      <map code="0x1a" name=".notdef"/>
+      <map code="0x1b" name=".notdef"/>
+      <map code="0x1c" name=".notdef"/>
+      <map code="0x1d" name=".notdef"/>
+      <map code="0x1e" name=".notdef"/>
+      <map code="0x1f" name=".notdef"/>
+      <map code="0x20" name=".notdef"/>
+      <map code="0x21" name=".notdef"/>
+      <map code="0x22" name=".notdef"/>
+      <map code="0x23" name=".notdef"/>
+      <map code="0x24" name=".notdef"/>
+      <map code="0x25" name=".notdef"/>
+      <map code="0x26" name=".notdef"/>
+      <map code="0x27" name=".notdef"/>
+      <map code="0x28" name=".notdef"/>
+      <map code="0x29" name=".notdef"/>
+      <map code="0x2a" name=".notdef"/>
+      <map code="0x2b" name=".notdef"/>
+      <map code="0x2c" name=".notdef"/>
+      <map code="0x2d" name=".notdef"/>
+      <map code="0x2e" name=".notdef"/>
+      <map code="0x2f" name=".notdef"/>
+      <map code="0x30" name=".notdef"/>
+      <map code="0x31" name=".notdef"/>
+      <map code="0x32" name=".notdef"/>
+      <map code="0x33" name=".notdef"/>
+      <map code="0x34" name=".notdef"/>
+      <map code="0x35" name=".notdef"/>
+      <map code="0x36" name=".notdef"/>
+      <map code="0x37" name=".notdef"/>
+      <map code="0x38" name=".notdef"/>
+      <map code="0x39" name=".notdef"/>
+      <map code="0x3a" name=".notdef"/>
+      <map code="0x3b" name=".notdef"/>
+      <map code="0x3c" name=".notdef"/>
+      <map code="0x3d" name=".notdef"/>
+      <map code="0x3e" name=".notdef"/>
+      <map code="0x3f" name=".notdef"/>
+      <map code="0x40" name=".notdef"/>
+      <map code="0x41" name=".notdef"/>
+      <map code="0x42" name=".notdef"/>
+      <map code="0x43" name=".notdef"/>
+      <map code="0x44" name=".notdef"/>
+      <map code="0x45" name=".notdef"/>
+      <map code="0x46" name=".notdef"/>
+      <map code="0x47" name=".notdef"/>
+      <map code="0x48" name=".notdef"/>
+      <map code="0x49" name=".notdef"/>
+      <map code="0x4a" name=".notdef"/>
+      <map code="0x4b" name=".notdef"/>
+      <map code="0x4c" name=".notdef"/>
+      <map code="0x4d" name=".notdef"/>
+      <map code="0x4e" name=".notdef"/>
+      <map code="0x4f" name=".notdef"/>
+      <map code="0x50" name=".notdef"/>
+      <map code="0x51" name=".notdef"/>
+      <map code="0x52" name=".notdef"/>
+      <map code="0x53" name=".notdef"/>
+      <map code="0x54" name=".notdef"/>
+      <map code="0x55" name=".notdef"/>
+      <map code="0x56" name=".notdef"/>
+      <map code="0x57" name=".notdef"/>
+      <map code="0x58" name=".notdef"/>
+      <map code="0x59" name=".notdef"/>
+      <map code="0x5a" name=".notdef"/>
+      <map code="0x5b" name=".notdef"/>
+      <map code="0x5c" name=".notdef"/>
+      <map code="0x5d" name=".notdef"/>
+      <map code="0x5e" name=".notdef"/>
+      <map code="0x5f" name=".notdef"/>
+      <map code="0x60" name=".notdef"/>
+      <map code="0x61" name=".notdef"/>
+      <map code="0x62" name=".notdef"/>
+      <map code="0x63" name=".notdef"/>
+      <map code="0x64" name=".notdef"/>
+      <map code="0x65" name=".notdef"/>
+      <map code="0x66" name=".notdef"/>
+      <map code="0x67" name=".notdef"/>
+      <map code="0x68" name=".notdef"/>
+      <map code="0x69" name=".notdef"/>
+      <map code="0x6a" name=".notdef"/>
+      <map code="0x6b" name=".notdef"/>
+      <map code="0x6c" name=".notdef"/>
+      <map code="0x6d" name=".notdef"/>
+      <map code="0x6e" name=".notdef"/>
+      <map code="0x6f" name=".notdef"/>
+      <map code="0x70" name=".notdef"/>
+      <map code="0x71" name=".notdef"/>
+      <map code="0x72" name=".notdef"/>
+      <map code="0x73" name=".notdef"/>
+      <map code="0x74" name=".notdef"/>
+      <map code="0x75" name=".notdef"/>
+      <map code="0x76" name=".notdef"/>
+      <map code="0x77" name=".notdef"/>
+      <map code="0x78" name=".notdef"/>
+      <map code="0x79" name=".notdef"/>
+      <map code="0x7a" name=".notdef"/>
+      <map code="0x7b" name=".notdef"/>
+      <map code="0x7c" name=".notdef"/>
+      <map code="0x7d" name=".notdef"/>
+      <map code="0x7e" name=".notdef"/>
+      <map code="0x7f" name=".notdef"/>
+      <map code="0x80" name=".notdef"/>
+      <map code="0x81" name=".notdef"/>
+      <map code="0x82" name=".notdef"/>
+      <map code="0x83" name=".notdef"/>
+      <map code="0x84" name=".notdef"/>
+      <map code="0x85" name=".notdef"/>
+      <map code="0x86" name=".notdef"/>
+      <map code="0x87" name=".notdef"/>
+      <map code="0x88" name=".notdef"/>
+      <map code="0x89" name=".notdef"/>
+      <map code="0x8a" name=".notdef"/>
+      <map code="0x8b" name=".notdef"/>
+      <map code="0x8c" name=".notdef"/>
+      <map code="0x8d" name=".notdef"/>
+      <map code="0x8e" name=".notdef"/>
+      <map code="0x8f" name=".notdef"/>
+      <map code="0x90" name=".notdef"/>
+      <map code="0x91" name=".notdef"/>
+      <map code="0x92" name=".notdef"/>
+      <map code="0x93" name=".notdef"/>
+      <map code="0x94" name=".notdef"/>
+      <map code="0x95" name=".notdef"/>
+      <map code="0x96" name=".notdef"/>
+      <map code="0x97" name=".notdef"/>
+      <map code="0x98" name=".notdef"/>
+      <map code="0x99" name=".notdef"/>
+      <map code="0x9a" name=".notdef"/>
+      <map code="0x9b" name=".notdef"/>
+      <map code="0x9c" name=".notdef"/>
+      <map code="0x9d" name=".notdef"/>
+      <map code="0x9e" name=".notdef"/>
+      <map code="0x9f" name=".notdef"/>
+      <map code="0xa0" name=".notdef"/>
+      <map code="0xa1" name=".notdef"/>
+      <map code="0xa2" name=".notdef"/>
+      <map code="0xa3" name=".notdef"/>
+      <map code="0xa4" name=".notdef"/>
+      <map code="0xa5" name=".notdef"/>
+      <map code="0xa6" name=".notdef"/>
+      <map code="0xa7" name=".notdef"/>
+      <map code="0xa8" name=".notdef"/>
+      <map code="0xa9" name=".notdef"/>
+      <map code="0xaa" name=".notdef"/>
+      <map code="0xab" name=".notdef"/>
+      <map code="0xac" name=".notdef"/>
+      <map code="0xad" name=".notdef"/>
+      <map code="0xae" name=".notdef"/>
+      <map code="0xaf" name=".notdef"/>
+      <map code="0xb0" name=".notdef"/>
+      <map code="0xb1" name=".notdef"/>
+      <map code="0xb2" name=".notdef"/>
+      <map code="0xb3" name=".notdef"/>
+      <map code="0xb4" name=".notdef"/>
+      <map code="0xb5" name=".notdef"/>
+      <map code="0xb6" name=".notdef"/>
+      <map code="0xb7" name=".notdef"/>
+      <map code="0xb8" name=".notdef"/>
+      <map code="0xb9" name=".notdef"/>
+      <map code="0xba" name=".notdef"/>
+      <map code="0xbb" name=".notdef"/>
+      <map code="0xbc" name=".notdef"/>
+      <map code="0xbd" name=".notdef"/>
+      <map code="0xbe" name=".notdef"/>
+      <map code="0xbf" name=".notdef"/>
+      <map code="0xc0" name=".notdef"/>
+      <map code="0xc1" name=".notdef"/>
+      <map code="0xc2" name=".notdef"/>
+      <map code="0xc3" name=".notdef"/>
+      <map code="0xc4" name=".notdef"/>
+      <map code="0xc5" name=".notdef"/>
+      <map code="0xc6" name=".notdef"/>
+      <map code="0xc7" name=".notdef"/>
+      <map code="0xc8" name=".notdef"/>
+      <map code="0xc9" name=".notdef"/>
+      <map code="0xca" name=".notdef"/>
+      <map code="0xcb" name=".notdef"/>
+      <map code="0xcc" name=".notdef"/>
+      <map code="0xcd" name=".notdef"/>
+      <map code="0xce" name=".notdef"/>
+      <map code="0xcf" name=".notdef"/>
+      <map code="0xd0" name=".notdef"/>
+      <map code="0xd1" name=".notdef"/>
+      <map code="0xd2" name=".notdef"/>
+      <map code="0xd3" name=".notdef"/>
+      <map code="0xd4" name=".notdef"/>
+      <map code="0xd5" name=".notdef"/>
+      <map code="0xd6" name=".notdef"/>
+      <map code="0xd7" name=".notdef"/>
+      <map code="0xd8" name=".notdef"/>
+      <map code="0xd9" name=".notdef"/>
+      <map code="0xda" name=".notdef"/>
+      <map code="0xdb" name=".notdef"/>
+      <map code="0xdc" name=".notdef"/>
+      <map code="0xdd" name=".notdef"/>
+      <map code="0xde" name=".notdef"/>
+      <map code="0xdf" name=".notdef"/>
+      <map code="0xe0" name=".notdef"/>
+      <map code="0xe1" name=".notdef"/>
+      <map code="0xe2" name=".notdef"/>
+      <map code="0xe3" name=".notdef"/>
+      <map code="0xe4" name=".notdef"/>
+      <map code="0xe5" name=".notdef"/>
+      <map code="0xe6" name=".notdef"/>
+      <map code="0xe7" name=".notdef"/>
+      <map code="0xe8" name=".notdef"/>
+      <map code="0xe9" name=".notdef"/>
+      <map code="0xea" name=".notdef"/>
+      <map code="0xeb" name=".notdef"/>
+      <map code="0xec" name=".notdef"/>
+      <map code="0xed" name=".notdef"/>
+      <map code="0xee" name=".notdef"/>
+      <map code="0xef" name=".notdef"/>
+      <map code="0xf0" name=".notdef"/>
+      <map code="0xf1" name=".notdef"/>
+      <map code="0xf2" name=".notdef"/>
+      <map code="0xf3" name=".notdef"/>
+      <map code="0xf4" name=".notdef"/>
+      <map code="0xf5" name=".notdef"/>
+      <map code="0xf6" name=".notdef"/>
+      <map code="0xf7" name=".notdef"/>
+      <map code="0xf8" name=".notdef"/>
+      <map code="0xf9" name=".notdef"/>
+      <map code="0xfa" name=".notdef"/>
+      <map code="0xfb" name=".notdef"/>
+      <map code="0xfc" name=".notdef"/>
+      <map code="0xfd" name=".notdef"/>
+      <map code="0xfe" name=".notdef"/>
+      <map code="0xff" name=".notdef"/>
+    </cmap_format_0>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+    </cmap_format_4>
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="0" language="0" nGroups="0">
+    </cmap_format_12>
+  </cmap>
+
+  <post>
+    <formatType value="3.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-100"/>
+    <underlineThickness value="100"/>
+    <isFixedPitch value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+  </post>
+
+  <CFF>
+    <CFFFont name="Untitled"><!-- The "name" will be recalculated by Bitmap2OTF -->
+      <!-- "version", "Copyright", "FullName", "FamilyName" will be recalculated by Bitmap2OTF -->
+      <ItalicAngle value="0"/>
+      <UnderlinePosition value="0"/>
+      <UnderlineThickness value="100"/>
+      <PaintType value="0"/>
+      <CharstringType value="2"/>
+      <!-- "FontMatrix" will be recalculated by Bitmap2OTF -->
+      <StrokeWidth value="0"/>
+      <!-- charset is dumped separately as the 'GlyphOrder' element -->
+      <Encoding name="StandardEncoding"/>
+      <Private>
+        <ForceBold value="0"/>
+        <LanguageGroup value="0"/>
+        <ExpansionFactor value="0.06"/>
+        <initialRandomSeed value="0"/>
+        <defaultWidthX value="1000"/>
+        <nominalWidthX value="0"/>
+        <Subrs>
+          <!-- This will be recalculated by Bitmap2OTF -->
+          <!-- The 'index' attribute is only for humans; it is ignored when parsed. -->
+        </Subrs>
+      </Private>
+      <CharStrings>
+        <!-- These CharStrings will be discarded by Bitmap2OTF -->
+        <CharString name=".notdef">
+          400 300 rmoveto
+          200 200 -200 hlineto
+          endchar
+        </CharString>
+      </CharStrings>
+    </CFFFont>
+
+    <GlobalSubrs>
+      <!-- The 'index' attribute is only for humans; it is ignored when parsed. -->
+    </GlobalSubrs>
+  </CFF>
+
+  <hmtx>
+    <!-- This table will be recalculated by Bitmap2OTF -->
+    <mtx name=".notdef" width="1000" lsb="0"/>
+  </hmtx>
+
+  <!-- You can omit these three table "vhea", "vmtx", "VORG" -->
+  <vhea>
+    <tableVersion value="1.0625"/>
+    <ascent value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <descent value="-0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <lineGap value="100"/>
+    <advanceHeightMax value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <minTopSideBearing value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <minBottomSideBearing value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <yMaxExtent value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+    <caretSlopeRise value="0"/>
+    <caretSlopeRun value="1"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <reserved4 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfVMetrics value="1"/><!-- This value will be recalculated by Bitmap2OTF -->
+  </vhea>
+
+  <vmtx>
+    <!-- This table will be recalculated by Bitmap2OTF -->
+    <mtx name=".notdef" height="1000" tsb="0"/>
+  </vmtx>
+
+  <VORG>
+    <!-- This table will be recalculated by Bitmap2OTF -->
+    <majorVersion value="1"/>
+    <minorVersion value="0"/>
+    <defaultVertOriginY value="0"/>
+    <numVertOriginYMetrics value="0"/>
+  </VORG>
+
+  <!-- These two tables "EBDT", "EBLC" will be removed by Bitmap2OTF if you omit "Bitmap" element in the config file. -->
+  <EBDT>
+    <header version="2.0"/>
+    <strikedata index="0">
+      <!-- This will be recalculated by Bitmap2OTF -->
+      <ebdt_bitmap_format_7 name=".notdef">
+        <BigGlyphMetrics>
+          <height value="1"/>
+          <width value="1"/>
+          <horiBearingX value="0"/>
+          <horiBearingY value="1"/>
+          <horiAdvance value="10"/>
+          <vertBearingX value="-5"/>
+          <vertBearingY value="0"/>
+          <vertAdvance value="10"/>
+        </BigGlyphMetrics>
+        <rawimagedata>
+          00   
+        </rawimagedata>
+      </ebdt_bitmap_format_7>
+    </strikedata>
+  </EBDT>
+
+  <EBLC>
+    <header version="2.0"/>
+    <strike index="0">
+      <bitmapSizeTable>
+        <sbitLineMetrics direction="hori">
+          <ascender value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <descender value="-0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <widthMax value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <caretSlopeNumerator value="1"/>
+          <caretSlopeDenominator value="0"/>
+          <caretOffset value="0"/>
+          <minOriginSB value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <minAdvanceSB value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <maxBeforeBL value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <minAfterBL value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <pad1 value="0"/>
+          <pad2 value="0"/>
+        </sbitLineMetrics>
+        <sbitLineMetrics direction="vert">
+          <ascender value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <descender value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <widthMax value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <caretSlopeNumerator value="1"/>
+          <caretSlopeDenominator value="0"/>
+          <caretOffset value="0"/>
+          <minOriginSB value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <minAdvanceSB value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <maxBeforeBL value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <minAfterBL value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+          <pad1 value="0"/>
+          <pad2 value="0"/>
+        </sbitLineMetrics>
+        <colorRef value="0"/>
+        <startGlyphIndex value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+        <endGlyphIndex value="0"/><!-- This value will be recalculated by Bitmap2OTF -->
+        <ppemX value="10"/><!-- This value will be recalculated by Bitmap2OTF -->
+        <ppemY value="10"/><!-- This value will be recalculated by Bitmap2OTF -->
+        <bitDepth value="1"/>
+        <flags value="1"/>
+      </bitmapSizeTable>
+      <!-- Subtable(s) will be recalculated by Bitmap2OTF -->
+      <!-- GlyphIds are written but not read. The firstGlyphIndex and
+           lastGlyphIndex values will be recalculated by the compiler. -->
+      <eblc_index_sub_table_1 imageFormat="7" firstGlyphIndex="0" lastGlyphIndex="0">
+        <glyphLoc id="0" name=".notdef"/>
+      </eblc_index_sub_table_1>
+    </strike>
+  </EBLC>
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=8 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="1">
+        <ScriptTag value="armn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="2">
+        <ScriptTag value="cyrl"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="3">
+        <ScriptTag value="grek"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="4">
+        <ScriptTag value="hani"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="5">
+        <ScriptTag value="kana"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="6">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="7">
+        <ScriptTag value="musc"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=2 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=2 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="vert"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="vrt2"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=2 -->
+      <Lookup index="0">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="uni0020" out="uni0020.vert"/>
+          <Substitution in="uni0021" out="uni0021.vert"/>
+          <Substitution in="uni0022" out="uni0022.vert"/>
+          <Substitution in="uni0023" out="uni0023.vert"/>
+          <Substitution in="uni0024" out="uni0024.vert"/>
+          <Substitution in="uni0025" out="uni0025.vert"/>
+          <Substitution in="uni0026" out="uni0026.vert"/>
+          <Substitution in="uni0027" out="uni0027.vert"/>
+          <Substitution in="uni0028" out="uni0028.vert"/>
+          <Substitution in="uni0029" out="uni0029.vert"/>
+          <Substitution in="uni002A" out="uni002A.vert"/>
+          <Substitution in="uni002B" out="uni002B.vert"/>
+          <Substitution in="uni002C" out="uni002C.vert"/>
+          <Substitution in="uni002D" out="uni002D.vert"/>
+          <Substitution in="uni002E" out="uni002E.vert"/>
+          <Substitution in="uni002F" out="uni002F.vert"/>
+          <Substitution in="uni0030" out="uni0030.vert"/>
+          <Substitution in="uni0031" out="uni0031.vert"/>
+          <Substitution in="uni0032" out="uni0032.vert"/>
+          <Substitution in="uni0033" out="uni0033.vert"/>
+          <Substitution in="uni0034" out="uni0034.vert"/>
+          <Substitution in="uni0035" out="uni0035.vert"/>
+          <Substitution in="uni0036" out="uni0036.vert"/>
+          <Substitution in="uni0037" out="uni0037.vert"/>
+          <Substitution in="uni0038" out="uni0038.vert"/>
+          <Substitution in="uni0039" out="uni0039.vert"/>
+          <Substitution in="uni003A" out="uni003A.vert"/>
+          <Substitution in="uni003B" out="uni003B.vert"/>
+          <Substitution in="uni003F" out="uni003F.vert"/>
+          <Substitution in="uni0040" out="uni0040.vert"/>
+          <Substitution in="uni0041" out="uni0041.vert"/>
+          <Substitution in="uni0042" out="uni0042.vert"/>
+          <Substitution in="uni0043" out="uni0043.vert"/>
+          <Substitution in="uni0044" out="uni0044.vert"/>
+          <Substitution in="uni0045" out="uni0045.vert"/>
+          <Substitution in="uni0046" out="uni0046.vert"/>
+          <Substitution in="uni0047" out="uni0047.vert"/>
+          <Substitution in="uni0048" out="uni0048.vert"/>
+          <Substitution in="uni0049" out="uni0049.vert"/>
+          <Substitution in="uni004A" out="uni004A.vert"/>
+          <Substitution in="uni004B" out="uni004B.vert"/>
+          <Substitution in="uni004C" out="uni004C.vert"/>
+          <Substitution in="uni004D" out="uni004D.vert"/>
+          <Substitution in="uni004E" out="uni004E.vert"/>
+          <Substitution in="uni004F" out="uni004F.vert"/>
+          <Substitution in="uni0050" out="uni0050.vert"/>
+          <Substitution in="uni0051" out="uni0051.vert"/>
+          <Substitution in="uni0052" out="uni0052.vert"/>
+          <Substitution in="uni0053" out="uni0053.vert"/>
+          <Substitution in="uni0054" out="uni0054.vert"/>
+          <Substitution in="uni0055" out="uni0055.vert"/>
+          <Substitution in="uni0056" out="uni0056.vert"/>
+          <Substitution in="uni0057" out="uni0057.vert"/>
+          <Substitution in="uni0058" out="uni0058.vert"/>
+          <Substitution in="uni0059" out="uni0059.vert"/>
+          <Substitution in="uni005A" out="uni005A.vert"/>
+          <Substitution in="uni005C" out="uni00A5.vert"/>
+          <Substitution in="uni005E" out="uni005E.vert"/>
+          <Substitution in="uni005F" out="uni005F.vert"/>
+          <Substitution in="uni0061" out="uni0061.vert"/>
+          <Substitution in="uni0062" out="uni0062.vert"/>
+          <Substitution in="uni0063" out="uni0063.vert"/>
+          <Substitution in="uni0064" out="uni0064.vert"/>
+          <Substitution in="uni0065" out="uni0065.vert"/>
+          <Substitution in="uni0066" out="uni0066.vert"/>
+          <Substitution in="uni0067" out="uni0067.vert"/>
+          <Substitution in="uni0068" out="uni0068.vert"/>
+          <Substitution in="uni0069" out="uni0069.vert"/>
+          <Substitution in="uni006A" out="uni006A.vert"/>
+          <Substitution in="uni006B" out="uni006B.vert"/>
+          <Substitution in="uni006C" out="uni006C.vert"/>
+          <Substitution in="uni006D" out="uni006D.vert"/>
+          <Substitution in="uni006E" out="uni006E.vert"/>
+          <Substitution in="uni006F" out="uni006F.vert"/>
+          <Substitution in="uni0070" out="uni0070.vert"/>
+          <Substitution in="uni0071" out="uni0071.vert"/>
+          <Substitution in="uni0072" out="uni0072.vert"/>
+          <Substitution in="uni0073" out="uni0073.vert"/>
+          <Substitution in="uni0074" out="uni0074.vert"/>
+          <Substitution in="uni0075" out="uni0075.vert"/>
+          <Substitution in="uni0076" out="uni0076.vert"/>
+          <Substitution in="uni0077" out="uni0077.vert"/>
+          <Substitution in="uni0078" out="uni0078.vert"/>
+          <Substitution in="uni0079" out="uni0079.vert"/>
+          <Substitution in="uni007A" out="uni007A.vert"/>
+          <Substitution in="uni007B" out="uni007B.vert"/>
+          <Substitution in="uni007C" out="uni007C.vert"/>
+          <Substitution in="uni007D" out="uni007D.vert"/>
+          <Substitution in="uni00A0" out="uni0020.vert"/>
+          <Substitution in="uni00A5" out="uni00A5.vert"/>
+          <Substitution in="uni00B2" out="uni00B2.vert"/>
+          <Substitution in="uni00B3" out="uni00B3.vert"/>
+          <Substitution in="uni00B5" out="uni03BC.vert"/>
+          <Substitution in="uni00B9" out="uni00B9.vert"/>
+          <Substitution in="uni0386" out="uni0386.vert"/>
+          <Substitution in="uni0388" out="uni0388.vert"/>
+          <Substitution in="uni0389" out="uni0389.vert"/>
+          <Substitution in="uni038A" out="uni038A.vert"/>
+          <Substitution in="uni038C" out="uni038C.vert"/>
+          <Substitution in="uni038E" out="uni038E.vert"/>
+          <Substitution in="uni038F" out="uni038F.vert"/>
+          <Substitution in="uni0390" out="uni0390.vert"/>
+          <Substitution in="uni0391" out="uni0391.vert"/>
+          <Substitution in="uni0392" out="uni0392.vert"/>
+          <Substitution in="uni0393" out="uni0393.vert"/>
+          <Substitution in="uni0394" out="uni0394.vert"/>
+          <Substitution in="uni0395" out="uni0395.vert"/>
+          <Substitution in="uni0396" out="uni0396.vert"/>
+          <Substitution in="uni0397" out="uni0397.vert"/>
+          <Substitution in="uni0398" out="uni0398.vert"/>
+          <Substitution in="uni0399" out="uni0399.vert"/>
+          <Substitution in="uni039A" out="uni039A.vert"/>
+          <Substitution in="uni039B" out="uni039B.vert"/>
+          <Substitution in="uni039C" out="uni039C.vert"/>
+          <Substitution in="uni039D" out="uni039D.vert"/>
+          <Substitution in="uni039E" out="uni039E.vert"/>
+          <Substitution in="uni039F" out="uni039F.vert"/>
+          <Substitution in="uni03A0" out="uni03A0.vert"/>
+          <Substitution in="uni03A1" out="uni03A1.vert"/>
+          <Substitution in="uni03A3" out="uni03A3.vert"/>
+          <Substitution in="uni03A4" out="uni03A4.vert"/>
+          <Substitution in="uni03A5" out="uni03A5.vert"/>
+          <Substitution in="uni03A6" out="uni03A6.vert"/>
+          <Substitution in="uni03A7" out="uni03A7.vert"/>
+          <Substitution in="uni03A8" out="uni03A8.vert"/>
+          <Substitution in="uni03A9" out="uni03A9.vert"/>
+          <Substitution in="uni03AC" out="uni03AC.vert"/>
+          <Substitution in="uni03AD" out="uni03AD.vert"/>
+          <Substitution in="uni03AE" out="uni03AE.vert"/>
+          <Substitution in="uni03AF" out="uni03AF.vert"/>
+          <Substitution in="uni03B0" out="uni03B0.vert"/>
+          <Substitution in="uni03B1" out="uni03B1.vert"/>
+          <Substitution in="uni03B2" out="uni03B2.vert"/>
+          <Substitution in="uni03B3" out="uni03B3.vert"/>
+          <Substitution in="uni03B4" out="uni03B4.vert"/>
+          <Substitution in="uni03B5" out="uni03B5.vert"/>
+          <Substitution in="uni03B6" out="uni03B6.vert"/>
+          <Substitution in="uni03B7" out="uni03B7.vert"/>
+          <Substitution in="uni03B8" out="uni03B8.vert"/>
+          <Substitution in="uni03B9" out="uni03B9.vert"/>
+          <Substitution in="uni03BA" out="uni03BA.vert"/>
+          <Substitution in="uni03BB" out="uni03BB.vert"/>
+          <Substitution in="uni03BC" out="uni03BC.vert"/>
+          <Substitution in="uni03BD" out="uni03BD.vert"/>
+          <Substitution in="uni03BE" out="uni03BE.vert"/>
+          <Substitution in="uni03BF" out="uni03BF.vert"/>
+          <Substitution in="uni03C0" out="uni03C0.vert"/>
+          <Substitution in="uni03C1" out="uni03C1.vert"/>
+          <Substitution in="uni03C2" out="uni03C2.vert"/>
+          <Substitution in="uni03C3" out="uni03C3.vert"/>
+          <Substitution in="uni03C4" out="uni03C4.vert"/>
+          <Substitution in="uni03C5" out="uni03C5.vert"/>
+          <Substitution in="uni03C6" out="uni03C6.vert"/>
+          <Substitution in="uni03C7" out="uni03C7.vert"/>
+          <Substitution in="uni03C8" out="uni03C8.vert"/>
+          <Substitution in="uni03C9" out="uni03C9.vert"/>
+          <Substitution in="uni03CA" out="uni03CA.vert"/>
+          <Substitution in="uni03CB" out="uni03CB.vert"/>
+          <Substitution in="uni03CC" out="uni03CC.vert"/>
+          <Substitution in="uni03CD" out="uni03CD.vert"/>
+          <Substitution in="uni03CE" out="uni03CE.vert"/>
+          <Substitution in="uni0410" out="uni0410.vert"/>
+          <Substitution in="uni0411" out="uni0411.vert"/>
+          <Substitution in="uni0412" out="uni0412.vert"/>
+          <Substitution in="uni0413" out="uni0413.vert"/>
+          <Substitution in="uni0414" out="uni0414.vert"/>
+          <Substitution in="uni0415" out="uni0415.vert"/>
+          <Substitution in="uni0418" out="uni0418.vert"/>
+          <Substitution in="uni0419" out="uni0419.vert"/>
+          <Substitution in="uni041A" out="uni041A.vert"/>
+          <Substitution in="uni041B" out="uni041B.vert"/>
+          <Substitution in="uni041C" out="uni041C.vert"/>
+          <Substitution in="uni041D" out="uni041D.vert"/>
+          <Substitution in="uni041E" out="uni041E.vert"/>
+          <Substitution in="uni041F" out="uni041F.vert"/>
+          <Substitution in="uni0420" out="uni0420.vert"/>
+          <Substitution in="uni0421" out="uni0421.vert"/>
+          <Substitution in="uni0422" out="uni0422.vert"/>
+          <Substitution in="uni0423" out="uni0423.vert"/>
+          <Substitution in="uni0424" out="uni0424.vert"/>
+          <Substitution in="uni0425" out="uni0425.vert"/>
+          <Substitution in="uni0426" out="uni0426.vert"/>
+          <Substitution in="uni0427" out="uni0427.vert"/>
+          <Substitution in="uni0428" out="uni0428.vert"/>
+          <Substitution in="uni0429" out="uni0429.vert"/>
+          <Substitution in="uni042A" out="uni042A.vert"/>
+          <Substitution in="uni042B" out="uni042B.vert"/>
+          <Substitution in="uni042C" out="uni042C.vert"/>
+          <Substitution in="uni042D" out="uni042D.vert"/>
+          <Substitution in="uni042E" out="uni042E.vert"/>
+          <Substitution in="uni042F" out="uni042F.vert"/>
+          <Substitution in="uni0531" out="uni0531.vert"/>
+          <Substitution in="uni0532" out="uni0532.vert"/>
+          <Substitution in="uni0533" out="uni0533.vert"/>
+          <Substitution in="uni0534" out="uni0534.vert"/>
+          <Substitution in="uni0535" out="uni0535.vert"/>
+          <Substitution in="uni0536" out="uni0536.vert"/>
+          <Substitution in="uni0537" out="uni0537.vert"/>
+          <Substitution in="uni0538" out="uni0538.vert"/>
+          <Substitution in="uni0539" out="uni0539.vert"/>
+          <Substitution in="uni053A" out="uni053A.vert"/>
+          <Substitution in="uni053B" out="uni053B.vert"/>
+          <Substitution in="uni053C" out="uni053C.vert"/>
+          <Substitution in="uni053D" out="uni053D.vert"/>
+          <Substitution in="uni053E" out="uni053E.vert"/>
+          <Substitution in="uni053F" out="uni053F.vert"/>
+          <Substitution in="uni0540" out="uni0540.vert"/>
+          <Substitution in="uni0541" out="uni0541.vert"/>
+          <Substitution in="uni0542" out="uni0542.vert"/>
+          <Substitution in="uni0543" out="uni0543.vert"/>
+          <Substitution in="uni0544" out="uni0544.vert"/>
+          <Substitution in="uni0545" out="uni0545.vert"/>
+          <Substitution in="uni0546" out="uni0546.vert"/>
+          <Substitution in="uni0547" out="uni0547.vert"/>
+          <Substitution in="uni0548" out="uni0548.vert"/>
+          <Substitution in="uni0549" out="uni0549.vert"/>
+          <Substitution in="uni054A" out="uni054A.vert"/>
+          <Substitution in="uni054B" out="uni054B.vert"/>
+          <Substitution in="uni054C" out="uni054C.vert"/>
+          <Substitution in="uni054D" out="uni054D.vert"/>
+          <Substitution in="uni054E" out="uni054E.vert"/>
+          <Substitution in="uni054F" out="uni054F.vert"/>
+          <Substitution in="uni0550" out="uni0550.vert"/>
+          <Substitution in="uni0551" out="uni0551.vert"/>
+          <Substitution in="uni0552" out="uni0552.vert"/>
+          <Substitution in="uni0553" out="uni0553.vert"/>
+          <Substitution in="uni0554" out="uni0554.vert"/>
+          <Substitution in="uni0555" out="uni0555.vert"/>
+          <Substitution in="uni0556" out="uni0556.vert"/>
+          <Substitution in="uni2010" out="uni002D.vert"/>
+          <Substitution in="uni2012" out="uni002D.vert"/>
+          <Substitution in="uni2013" out="uni002D.vert"/>
+          <Substitution in="uni2018" out="uni2018.vert"/>
+          <Substitution in="uni2019" out="uni2019.vert"/>
+          <Substitution in="uni201D" out="uni201D.vert"/>
+          <Substitution in="uni2026" out="uniFE19"/>
+          <Substitution in="uni203E" out="uniFFE3.vert"/>
+          <Substitution in="uni2070" out="uni2070.vert"/>
+          <Substitution in="uni2074" out="uni2074.vert"/>
+          <Substitution in="uni2075" out="uni2075.vert"/>
+          <Substitution in="uni2076" out="uni2076.vert"/>
+          <Substitution in="uni2077" out="uni2077.vert"/>
+          <Substitution in="uni2078" out="uni2078.vert"/>
+          <Substitution in="uni2079" out="uni2079.vert"/>
+          <Substitution in="uni207A" out="uni207A.vert"/>
+          <Substitution in="uni207B" out="uni207B.vert"/>
+          <Substitution in="uni220F" out="uni03A0.vert"/>
+          <Substitution in="uni2211" out="uni03A3.vert"/>
+          <Substitution in="uni2212" out="uni002D.vert"/>
+          <Substitution in="uni221A" out="uni221A.vert"/>
+          <Substitution in="uni222B" out="uni222B.vert"/>
+          <Substitution in="uni2236" out="uni003A.vert"/>
+          <Substitution in="uni2283" out="uni2283.vert"/>
+          <Substitution in="uni3001" out="uniFE11"/>
+          <Substitution in="uni3002" out="uniFE12"/>
+          <Substitution in="uni300C" out="uniFE41"/>
+          <Substitution in="uni300D" out="uniFE42"/>
+          <Substitution in="uni301C" out="uni301C.vert"/>
+          <Substitution in="uni3041" out="uni3041.vert"/>
+          <Substitution in="uni3043" out="uni3043.vert"/>
+          <Substitution in="uni3045" out="uni3045.vert"/>
+          <Substitution in="uni3047" out="uni3047.vert"/>
+          <Substitution in="uni3049" out="uni3049.vert"/>
+          <Substitution in="uni3063" out="uni3063.vert"/>
+          <Substitution in="uni3083" out="uni3083.vert"/>
+          <Substitution in="uni3085" out="uni3085.vert"/>
+          <Substitution in="uni3087" out="uni3087.vert"/>
+          <Substitution in="uni308E" out="uni308E.vert"/>
+          <Substitution in="uni3095" out="uni3095.vert"/>
+          <Substitution in="uni309B" out="uni309B.vert"/>
+          <Substitution in="uni309C" out="uni309C.vert"/>
+          <Substitution in="uni30A1" out="uni30A1.vert"/>
+          <Substitution in="uni30A3" out="uni30A3.vert"/>
+          <Substitution in="uni30A5" out="uni30A5.vert"/>
+          <Substitution in="uni30A7" out="uni30A7.vert"/>
+          <Substitution in="uni30A9" out="uni30A9.vert"/>
+          <Substitution in="uni30C3" out="uni30C3.vert"/>
+          <Substitution in="uni30E3" out="uni30E3.vert"/>
+          <Substitution in="uni30E5" out="uni30E5.vert"/>
+          <Substitution in="uni30E7" out="uni30E7.vert"/>
+          <Substitution in="uni30EE" out="uni30EE.vert"/>
+          <Substitution in="uni30F5" out="uni30F5.vert"/>
+          <Substitution in="uni30FC" out="uni30FC.vert"/>
+          <Substitution in="uni3300" out="uni3300.vert"/>
+          <Substitution in="uni3301" out="uni3301.vert"/>
+          <Substitution in="uni3302" out="uni3302.vert"/>
+          <Substitution in="uni3303" out="uni3303.vert"/>
+          <Substitution in="uni3304" out="uni3304.vert"/>
+          <Substitution in="uni3305" out="uni3305.vert"/>
+          <Substitution in="uni3306" out="uni3306.vert"/>
+          <Substitution in="uni3307" out="uni3307.vert"/>
+          <Substitution in="uni3308" out="uni3308.vert"/>
+          <Substitution in="uni3309" out="uni3309.vert"/>
+          <Substitution in="uni330A" out="uni330A.vert"/>
+          <Substitution in="uni330B" out="uni330B.vert"/>
+          <Substitution in="uni330D" out="uni330D.vert"/>
+          <Substitution in="uni330E" out="uni330E.vert"/>
+          <Substitution in="uni330F" out="uni330F.vert"/>
+          <Substitution in="uni3310" out="uni3310.vert"/>
+          <Substitution in="uni3311" out="uni3311.vert"/>
+          <Substitution in="uni3312" out="uni3312.vert"/>
+          <Substitution in="uni3313" out="uni3313.vert"/>
+          <Substitution in="uni3314" out="uni3314.vert"/>
+          <Substitution in="uni3315" out="uni3315.vert"/>
+          <Substitution in="uni3316" out="uni3316.vert"/>
+          <Substitution in="uni3317" out="uni3317.vert"/>
+          <Substitution in="uni3318" out="uni3318.vert"/>
+          <Substitution in="uni3319" out="uni3319.vert"/>
+          <Substitution in="uni331A" out="uni331A.vert"/>
+          <Substitution in="uni331B" out="uni331B.vert"/>
+          <Substitution in="uni331C" out="uni331C.vert"/>
+          <Substitution in="uni331D" out="uni331D.vert"/>
+          <Substitution in="uni331E" out="uni331E.vert"/>
+          <Substitution in="uni331F" out="uni331F.vert"/>
+          <Substitution in="uni3320" out="uni3320.vert"/>
+          <Substitution in="uni3321" out="uni3321.vert"/>
+          <Substitution in="uni3322" out="uni3322.vert"/>
+          <Substitution in="uni3323" out="uni3323.vert"/>
+          <Substitution in="uni3324" out="uni3324.vert"/>
+          <Substitution in="uni3325" out="uni3325.vert"/>
+          <Substitution in="uni3326" out="uni3326.vert"/>
+          <Substitution in="uni3327" out="uni3327.vert"/>
+          <Substitution in="uni3329" out="uni3329.vert"/>
+          <Substitution in="uni332A" out="uni332A.vert"/>
+          <Substitution in="uni332B" out="uni332B.vert"/>
+          <Substitution in="uni332C" out="uni332C.vert"/>
+          <Substitution in="uni332E" out="uni332E.vert"/>
+          <Substitution in="uni332F" out="uni332F.vert"/>
+          <Substitution in="uni3330" out="uni3330.vert"/>
+          <Substitution in="uni3331" out="uni3331.vert"/>
+          <Substitution in="uni3332" out="uni3332.vert"/>
+          <Substitution in="uni3333" out="uni3333.vert"/>
+          <Substitution in="uni3334" out="uni3334.vert"/>
+          <Substitution in="uni3335" out="uni3335.vert"/>
+          <Substitution in="uni3336" out="uni3336.vert"/>
+          <Substitution in="uni3337" out="uni3337.vert"/>
+          <Substitution in="uni3338" out="uni3338.vert"/>
+          <Substitution in="uni3339" out="uni3339.vert"/>
+          <Substitution in="uni333A" out="uni333A.vert"/>
+          <Substitution in="uni333B" out="uni333B.vert"/>
+          <Substitution in="uni333C" out="uni333C.vert"/>
+          <Substitution in="uni333D" out="uni333D.vert"/>
+          <Substitution in="uni333E" out="uni333E.vert"/>
+          <Substitution in="uni3340" out="uni3340.vert"/>
+          <Substitution in="uni3341" out="uni3341.vert"/>
+          <Substitution in="uni3342" out="uni3342.vert"/>
+          <Substitution in="uni3343" out="uni3343.vert"/>
+          <Substitution in="uni3344" out="uni3344.vert"/>
+          <Substitution in="uni3345" out="uni3345.vert"/>
+          <Substitution in="uni3346" out="uni3346.vert"/>
+          <Substitution in="uni3347" out="uni3347.vert"/>
+          <Substitution in="uni3348" out="uni3348.vert"/>
+          <Substitution in="uni3349" out="uni3349.vert"/>
+          <Substitution in="uni334B" out="uni334B.vert"/>
+          <Substitution in="uni334C" out="uni334C.vert"/>
+          <Substitution in="uni334D" out="uni334D.vert"/>
+          <Substitution in="uni334E" out="uni334E.vert"/>
+          <Substitution in="uni334F" out="uni334F.vert"/>
+          <Substitution in="uni3350" out="uni3350.vert"/>
+          <Substitution in="uni3351" out="uni3351.vert"/>
+          <Substitution in="uni3352" out="uni3352.vert"/>
+          <Substitution in="uni3353" out="uni3353.vert"/>
+          <Substitution in="uni3354" out="uni3354.vert"/>
+          <Substitution in="uni3355" out="uni3355.vert"/>
+          <Substitution in="uni3356" out="uni3356.vert"/>
+          <Substitution in="uni3357" out="uni3357.vert"/>
+          <Substitution in="uniFF08" out="uniFE35"/>
+          <Substitution in="uniFF09" out="uniFE36"/>
+          <Substitution in="uniFF0C" out="uniFE10"/>
+          <Substitution in="uniFF0D" out="uniFF0D.vert"/>
+          <Substitution in="uniFF0E" out="uniFF0E.vert"/>
+          <Substitution in="uniFF1A" out="uniFF1A.vert"/>
+          <Substitution in="uniFF1C" out="uniFF1C.vert"/>
+          <Substitution in="uniFF1D" out="uniFF1D.vert"/>
+          <Substitution in="uniFF1E" out="uniFF1E.vert"/>
+          <Substitution in="uniFF3F" out="uniFF3F.vert"/>
+          <Substitution in="uniFF5B" out="uniFE37"/>
+          <Substitution in="uniFF5C" out="uniFF5C.vert"/>
+          <Substitution in="uniFF5D" out="uniFE38"/>
+          <Substitution in="uniFF5E" out="uni301C.vert"/>
+          <Substitution in="uniFFE3" out="uniFFE3.vert"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="1">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="uni0020" out="uni0020.vert"/>
+          <Substitution in="uni0021" out="uni0021.vert"/>
+          <Substitution in="uni0022" out="uni0022.vert"/>
+          <Substitution in="uni0023" out="uni0023.vert"/>
+          <Substitution in="uni0024" out="uni0024.vert"/>
+          <Substitution in="uni0025" out="uni0025.vert"/>
+          <Substitution in="uni0026" out="uni0026.vert"/>
+          <Substitution in="uni0027" out="uni0027.vert"/>
+          <Substitution in="uni0028" out="uni0028.vert"/>
+          <Substitution in="uni0029" out="uni0029.vert"/>
+          <Substitution in="uni002A" out="uni002A.vert"/>
+          <Substitution in="uni002B" out="uni002B.vert"/>
+          <Substitution in="uni002C" out="uni002C.vert"/>
+          <Substitution in="uni002D" out="uni002D.vert"/>
+          <Substitution in="uni002E" out="uni002E.vert"/>
+          <Substitution in="uni002F" out="uni002F.vert"/>
+          <Substitution in="uni0030" out="uni0030.vert"/>
+          <Substitution in="uni0031" out="uni0031.vert"/>
+          <Substitution in="uni0032" out="uni0032.vert"/>
+          <Substitution in="uni0033" out="uni0033.vert"/>
+          <Substitution in="uni0034" out="uni0034.vert"/>
+          <Substitution in="uni0035" out="uni0035.vert"/>
+          <Substitution in="uni0036" out="uni0036.vert"/>
+          <Substitution in="uni0037" out="uni0037.vert"/>
+          <Substitution in="uni0038" out="uni0038.vert"/>
+          <Substitution in="uni0039" out="uni0039.vert"/>
+          <Substitution in="uni003A" out="uni003A.vert"/>
+          <Substitution in="uni003B" out="uni003B.vert"/>
+          <Substitution in="uni003F" out="uni003F.vert"/>
+          <Substitution in="uni0040" out="uni0040.vert"/>
+          <Substitution in="uni0041" out="uni0041.vert"/>
+          <Substitution in="uni0042" out="uni0042.vert"/>
+          <Substitution in="uni0043" out="uni0043.vert"/>
+          <Substitution in="uni0044" out="uni0044.vert"/>
+          <Substitution in="uni0045" out="uni0045.vert"/>
+          <Substitution in="uni0046" out="uni0046.vert"/>
+          <Substitution in="uni0047" out="uni0047.vert"/>
+          <Substitution in="uni0048" out="uni0048.vert"/>
+          <Substitution in="uni0049" out="uni0049.vert"/>
+          <Substitution in="uni004A" out="uni004A.vert"/>
+          <Substitution in="uni004B" out="uni004B.vert"/>
+          <Substitution in="uni004C" out="uni004C.vert"/>
+          <Substitution in="uni004D" out="uni004D.vert"/>
+          <Substitution in="uni004E" out="uni004E.vert"/>
+          <Substitution in="uni004F" out="uni004F.vert"/>
+          <Substitution in="uni0050" out="uni0050.vert"/>
+          <Substitution in="uni0051" out="uni0051.vert"/>
+          <Substitution in="uni0052" out="uni0052.vert"/>
+          <Substitution in="uni0053" out="uni0053.vert"/>
+          <Substitution in="uni0054" out="uni0054.vert"/>
+          <Substitution in="uni0055" out="uni0055.vert"/>
+          <Substitution in="uni0056" out="uni0056.vert"/>
+          <Substitution in="uni0057" out="uni0057.vert"/>
+          <Substitution in="uni0058" out="uni0058.vert"/>
+          <Substitution in="uni0059" out="uni0059.vert"/>
+          <Substitution in="uni005A" out="uni005A.vert"/>
+          <Substitution in="uni005C" out="uni00A5.vert"/>
+          <Substitution in="uni005E" out="uni005E.vert"/>
+          <Substitution in="uni005F" out="uni005F.vert"/>
+          <Substitution in="uni0061" out="uni0061.vert"/>
+          <Substitution in="uni0062" out="uni0062.vert"/>
+          <Substitution in="uni0063" out="uni0063.vert"/>
+          <Substitution in="uni0064" out="uni0064.vert"/>
+          <Substitution in="uni0065" out="uni0065.vert"/>
+          <Substitution in="uni0066" out="uni0066.vert"/>
+          <Substitution in="uni0067" out="uni0067.vert"/>
+          <Substitution in="uni0068" out="uni0068.vert"/>
+          <Substitution in="uni0069" out="uni0069.vert"/>
+          <Substitution in="uni006A" out="uni006A.vert"/>
+          <Substitution in="uni006B" out="uni006B.vert"/>
+          <Substitution in="uni006C" out="uni006C.vert"/>
+          <Substitution in="uni006D" out="uni006D.vert"/>
+          <Substitution in="uni006E" out="uni006E.vert"/>
+          <Substitution in="uni006F" out="uni006F.vert"/>
+          <Substitution in="uni0070" out="uni0070.vert"/>
+          <Substitution in="uni0071" out="uni0071.vert"/>
+          <Substitution in="uni0072" out="uni0072.vert"/>
+          <Substitution in="uni0073" out="uni0073.vert"/>
+          <Substitution in="uni0074" out="uni0074.vert"/>
+          <Substitution in="uni0075" out="uni0075.vert"/>
+          <Substitution in="uni0076" out="uni0076.vert"/>
+          <Substitution in="uni0077" out="uni0077.vert"/>
+          <Substitution in="uni0078" out="uni0078.vert"/>
+          <Substitution in="uni0079" out="uni0079.vert"/>
+          <Substitution in="uni007A" out="uni007A.vert"/>
+          <Substitution in="uni007B" out="uni007B.vert"/>
+          <Substitution in="uni007C" out="uni007C.vert"/>
+          <Substitution in="uni007D" out="uni007D.vert"/>
+          <Substitution in="uni00A0" out="uni0020.vert"/>
+          <Substitution in="uni00A5" out="uni00A5.vert"/>
+          <Substitution in="uni00B2" out="uni00B2.vert"/>
+          <Substitution in="uni00B3" out="uni00B3.vert"/>
+          <Substitution in="uni00B5" out="uni03BC.vert"/>
+          <Substitution in="uni00B9" out="uni00B9.vert"/>
+          <Substitution in="uni0386" out="uni0386.vert"/>
+          <Substitution in="uni0388" out="uni0388.vert"/>
+          <Substitution in="uni0389" out="uni0389.vert"/>
+          <Substitution in="uni038A" out="uni038A.vert"/>
+          <Substitution in="uni038C" out="uni038C.vert"/>
+          <Substitution in="uni038E" out="uni038E.vert"/>
+          <Substitution in="uni038F" out="uni038F.vert"/>
+          <Substitution in="uni0390" out="uni0390.vert"/>
+          <Substitution in="uni0391" out="uni0391.vert"/>
+          <Substitution in="uni0392" out="uni0392.vert"/>
+          <Substitution in="uni0393" out="uni0393.vert"/>
+          <Substitution in="uni0394" out="uni0394.vert"/>
+          <Substitution in="uni0395" out="uni0395.vert"/>
+          <Substitution in="uni0396" out="uni0396.vert"/>
+          <Substitution in="uni0397" out="uni0397.vert"/>
+          <Substitution in="uni0398" out="uni0398.vert"/>
+          <Substitution in="uni0399" out="uni0399.vert"/>
+          <Substitution in="uni039A" out="uni039A.vert"/>
+          <Substitution in="uni039B" out="uni039B.vert"/>
+          <Substitution in="uni039C" out="uni039C.vert"/>
+          <Substitution in="uni039D" out="uni039D.vert"/>
+          <Substitution in="uni039E" out="uni039E.vert"/>
+          <Substitution in="uni039F" out="uni039F.vert"/>
+          <Substitution in="uni03A0" out="uni03A0.vert"/>
+          <Substitution in="uni03A1" out="uni03A1.vert"/>
+          <Substitution in="uni03A3" out="uni03A3.vert"/>
+          <Substitution in="uni03A4" out="uni03A4.vert"/>
+          <Substitution in="uni03A5" out="uni03A5.vert"/>
+          <Substitution in="uni03A6" out="uni03A6.vert"/>
+          <Substitution in="uni03A7" out="uni03A7.vert"/>
+          <Substitution in="uni03A8" out="uni03A8.vert"/>
+          <Substitution in="uni03A9" out="uni03A9.vert"/>
+          <Substitution in="uni03AC" out="uni03AC.vert"/>
+          <Substitution in="uni03AD" out="uni03AD.vert"/>
+          <Substitution in="uni03AE" out="uni03AE.vert"/>
+          <Substitution in="uni03AF" out="uni03AF.vert"/>
+          <Substitution in="uni03B0" out="uni03B0.vert"/>
+          <Substitution in="uni03B1" out="uni03B1.vert"/>
+          <Substitution in="uni03B2" out="uni03B2.vert"/>
+          <Substitution in="uni03B3" out="uni03B3.vert"/>
+          <Substitution in="uni03B4" out="uni03B4.vert"/>
+          <Substitution in="uni03B5" out="uni03B5.vert"/>
+          <Substitution in="uni03B6" out="uni03B6.vert"/>
+          <Substitution in="uni03B7" out="uni03B7.vert"/>
+          <Substitution in="uni03B8" out="uni03B8.vert"/>
+          <Substitution in="uni03B9" out="uni03B9.vert"/>
+          <Substitution in="uni03BA" out="uni03BA.vert"/>
+          <Substitution in="uni03BB" out="uni03BB.vert"/>
+          <Substitution in="uni03BC" out="uni03BC.vert"/>
+          <Substitution in="uni03BD" out="uni03BD.vert"/>
+          <Substitution in="uni03BE" out="uni03BE.vert"/>
+          <Substitution in="uni03BF" out="uni03BF.vert"/>
+          <Substitution in="uni03C0" out="uni03C0.vert"/>
+          <Substitution in="uni03C1" out="uni03C1.vert"/>
+          <Substitution in="uni03C2" out="uni03C2.vert"/>
+          <Substitution in="uni03C3" out="uni03C3.vert"/>
+          <Substitution in="uni03C4" out="uni03C4.vert"/>
+          <Substitution in="uni03C5" out="uni03C5.vert"/>
+          <Substitution in="uni03C6" out="uni03C6.vert"/>
+          <Substitution in="uni03C7" out="uni03C7.vert"/>
+          <Substitution in="uni03C8" out="uni03C8.vert"/>
+          <Substitution in="uni03C9" out="uni03C9.vert"/>
+          <Substitution in="uni03CA" out="uni03CA.vert"/>
+          <Substitution in="uni03CB" out="uni03CB.vert"/>
+          <Substitution in="uni03CC" out="uni03CC.vert"/>
+          <Substitution in="uni03CD" out="uni03CD.vert"/>
+          <Substitution in="uni03CE" out="uni03CE.vert"/>
+          <Substitution in="uni0410" out="uni0410.vert"/>
+          <Substitution in="uni0411" out="uni0411.vert"/>
+          <Substitution in="uni0412" out="uni0412.vert"/>
+          <Substitution in="uni0413" out="uni0413.vert"/>
+          <Substitution in="uni0414" out="uni0414.vert"/>
+          <Substitution in="uni0415" out="uni0415.vert"/>
+          <Substitution in="uni0418" out="uni0418.vert"/>
+          <Substitution in="uni0419" out="uni0419.vert"/>
+          <Substitution in="uni041A" out="uni041A.vert"/>
+          <Substitution in="uni041B" out="uni041B.vert"/>
+          <Substitution in="uni041C" out="uni041C.vert"/>
+          <Substitution in="uni041D" out="uni041D.vert"/>
+          <Substitution in="uni041E" out="uni041E.vert"/>
+          <Substitution in="uni041F" out="uni041F.vert"/>
+          <Substitution in="uni0420" out="uni0420.vert"/>
+          <Substitution in="uni0421" out="uni0421.vert"/>
+          <Substitution in="uni0422" out="uni0422.vert"/>
+          <Substitution in="uni0423" out="uni0423.vert"/>
+          <Substitution in="uni0424" out="uni0424.vert"/>
+          <Substitution in="uni0425" out="uni0425.vert"/>
+          <Substitution in="uni0426" out="uni0426.vert"/>
+          <Substitution in="uni0427" out="uni0427.vert"/>
+          <Substitution in="uni0428" out="uni0428.vert"/>
+          <Substitution in="uni0429" out="uni0429.vert"/>
+          <Substitution in="uni042A" out="uni042A.vert"/>
+          <Substitution in="uni042B" out="uni042B.vert"/>
+          <Substitution in="uni042C" out="uni042C.vert"/>
+          <Substitution in="uni042D" out="uni042D.vert"/>
+          <Substitution in="uni042E" out="uni042E.vert"/>
+          <Substitution in="uni042F" out="uni042F.vert"/>
+          <Substitution in="uni0531" out="uni0531.vert"/>
+          <Substitution in="uni0532" out="uni0532.vert"/>
+          <Substitution in="uni0533" out="uni0533.vert"/>
+          <Substitution in="uni0534" out="uni0534.vert"/>
+          <Substitution in="uni0535" out="uni0535.vert"/>
+          <Substitution in="uni0536" out="uni0536.vert"/>
+          <Substitution in="uni0537" out="uni0537.vert"/>
+          <Substitution in="uni0538" out="uni0538.vert"/>
+          <Substitution in="uni0539" out="uni0539.vert"/>
+          <Substitution in="uni053A" out="uni053A.vert"/>
+          <Substitution in="uni053B" out="uni053B.vert"/>
+          <Substitution in="uni053C" out="uni053C.vert"/>
+          <Substitution in="uni053D" out="uni053D.vert"/>
+          <Substitution in="uni053E" out="uni053E.vert"/>
+          <Substitution in="uni053F" out="uni053F.vert"/>
+          <Substitution in="uni0540" out="uni0540.vert"/>
+          <Substitution in="uni0541" out="uni0541.vert"/>
+          <Substitution in="uni0542" out="uni0542.vert"/>
+          <Substitution in="uni0543" out="uni0543.vert"/>
+          <Substitution in="uni0544" out="uni0544.vert"/>
+          <Substitution in="uni0545" out="uni0545.vert"/>
+          <Substitution in="uni0546" out="uni0546.vert"/>
+          <Substitution in="uni0547" out="uni0547.vert"/>
+          <Substitution in="uni0548" out="uni0548.vert"/>
+          <Substitution in="uni0549" out="uni0549.vert"/>
+          <Substitution in="uni054A" out="uni054A.vert"/>
+          <Substitution in="uni054B" out="uni054B.vert"/>
+          <Substitution in="uni054C" out="uni054C.vert"/>
+          <Substitution in="uni054D" out="uni054D.vert"/>
+          <Substitution in="uni054E" out="uni054E.vert"/>
+          <Substitution in="uni054F" out="uni054F.vert"/>
+          <Substitution in="uni0550" out="uni0550.vert"/>
+          <Substitution in="uni0551" out="uni0551.vert"/>
+          <Substitution in="uni0552" out="uni0552.vert"/>
+          <Substitution in="uni0553" out="uni0553.vert"/>
+          <Substitution in="uni0554" out="uni0554.vert"/>
+          <Substitution in="uni0555" out="uni0555.vert"/>
+          <Substitution in="uni0556" out="uni0556.vert"/>
+          <Substitution in="uni2010" out="uni002D.vert"/>
+          <Substitution in="uni2012" out="uni002D.vert"/>
+          <Substitution in="uni2013" out="uni002D.vert"/>
+          <Substitution in="uni2018" out="uni2018.vert"/>
+          <Substitution in="uni2019" out="uni2019.vert"/>
+          <Substitution in="uni201D" out="uni201D.vert"/>
+          <Substitution in="uni2026" out="uniFE19"/>
+          <Substitution in="uni203E" out="uniFFE3.vert"/>
+          <Substitution in="uni2070" out="uni2070.vert"/>
+          <Substitution in="uni2074" out="uni2074.vert"/>
+          <Substitution in="uni2075" out="uni2075.vert"/>
+          <Substitution in="uni2076" out="uni2076.vert"/>
+          <Substitution in="uni2077" out="uni2077.vert"/>
+          <Substitution in="uni2078" out="uni2078.vert"/>
+          <Substitution in="uni2079" out="uni2079.vert"/>
+          <Substitution in="uni207A" out="uni207A.vert"/>
+          <Substitution in="uni207B" out="uni207B.vert"/>
+          <Substitution in="uni220F" out="uni03A0.vert"/>
+          <Substitution in="uni2211" out="uni03A3.vert"/>
+          <Substitution in="uni2212" out="uni002D.vert"/>
+          <Substitution in="uni221A" out="uni221A.vert"/>
+          <Substitution in="uni222B" out="uni222B.vert"/>
+          <Substitution in="uni2236" out="uni003A.vert"/>
+          <Substitution in="uni2283" out="uni2283.vert"/>
+          <Substitution in="uni3001" out="uniFE11"/>
+          <Substitution in="uni3002" out="uniFE12"/>
+          <Substitution in="uni300C" out="uniFE41"/>
+          <Substitution in="uni300D" out="uniFE42"/>
+          <Substitution in="uni301C" out="uni301C.vert"/>
+          <Substitution in="uni3041" out="uni3041.vert"/>
+          <Substitution in="uni3043" out="uni3043.vert"/>
+          <Substitution in="uni3045" out="uni3045.vert"/>
+          <Substitution in="uni3047" out="uni3047.vert"/>
+          <Substitution in="uni3049" out="uni3049.vert"/>
+          <Substitution in="uni3063" out="uni3063.vert"/>
+          <Substitution in="uni3083" out="uni3083.vert"/>
+          <Substitution in="uni3085" out="uni3085.vert"/>
+          <Substitution in="uni3087" out="uni3087.vert"/>
+          <Substitution in="uni308E" out="uni308E.vert"/>
+          <Substitution in="uni3095" out="uni3095.vert"/>
+          <Substitution in="uni309B" out="uni309B.vert"/>
+          <Substitution in="uni309C" out="uni309C.vert"/>
+          <Substitution in="uni30A1" out="uni30A1.vert"/>
+          <Substitution in="uni30A3" out="uni30A3.vert"/>
+          <Substitution in="uni30A5" out="uni30A5.vert"/>
+          <Substitution in="uni30A7" out="uni30A7.vert"/>
+          <Substitution in="uni30A9" out="uni30A9.vert"/>
+          <Substitution in="uni30C3" out="uni30C3.vert"/>
+          <Substitution in="uni30E3" out="uni30E3.vert"/>
+          <Substitution in="uni30E5" out="uni30E5.vert"/>
+          <Substitution in="uni30E7" out="uni30E7.vert"/>
+          <Substitution in="uni30EE" out="uni30EE.vert"/>
+          <Substitution in="uni30F5" out="uni30F5.vert"/>
+          <Substitution in="uni30FC" out="uni30FC.vert"/>
+          <Substitution in="uni3300" out="uni3300.vert"/>
+          <Substitution in="uni3301" out="uni3301.vert"/>
+          <Substitution in="uni3302" out="uni3302.vert"/>
+          <Substitution in="uni3303" out="uni3303.vert"/>
+          <Substitution in="uni3304" out="uni3304.vert"/>
+          <Substitution in="uni3305" out="uni3305.vert"/>
+          <Substitution in="uni3306" out="uni3306.vert"/>
+          <Substitution in="uni3307" out="uni3307.vert"/>
+          <Substitution in="uni3308" out="uni3308.vert"/>
+          <Substitution in="uni3309" out="uni3309.vert"/>
+          <Substitution in="uni330A" out="uni330A.vert"/>
+          <Substitution in="uni330B" out="uni330B.vert"/>
+          <Substitution in="uni330D" out="uni330D.vert"/>
+          <Substitution in="uni330E" out="uni330E.vert"/>
+          <Substitution in="uni330F" out="uni330F.vert"/>
+          <Substitution in="uni3310" out="uni3310.vert"/>
+          <Substitution in="uni3311" out="uni3311.vert"/>
+          <Substitution in="uni3312" out="uni3312.vert"/>
+          <Substitution in="uni3313" out="uni3313.vert"/>
+          <Substitution in="uni3314" out="uni3314.vert"/>
+          <Substitution in="uni3315" out="uni3315.vert"/>
+          <Substitution in="uni3316" out="uni3316.vert"/>
+          <Substitution in="uni3317" out="uni3317.vert"/>
+          <Substitution in="uni3318" out="uni3318.vert"/>
+          <Substitution in="uni3319" out="uni3319.vert"/>
+          <Substitution in="uni331A" out="uni331A.vert"/>
+          <Substitution in="uni331B" out="uni331B.vert"/>
+          <Substitution in="uni331C" out="uni331C.vert"/>
+          <Substitution in="uni331D" out="uni331D.vert"/>
+          <Substitution in="uni331E" out="uni331E.vert"/>
+          <Substitution in="uni331F" out="uni331F.vert"/>
+          <Substitution in="uni3320" out="uni3320.vert"/>
+          <Substitution in="uni3321" out="uni3321.vert"/>
+          <Substitution in="uni3322" out="uni3322.vert"/>
+          <Substitution in="uni3323" out="uni3323.vert"/>
+          <Substitution in="uni3324" out="uni3324.vert"/>
+          <Substitution in="uni3325" out="uni3325.vert"/>
+          <Substitution in="uni3326" out="uni3326.vert"/>
+          <Substitution in="uni3327" out="uni3327.vert"/>
+          <Substitution in="uni3329" out="uni3329.vert"/>
+          <Substitution in="uni332A" out="uni332A.vert"/>
+          <Substitution in="uni332B" out="uni332B.vert"/>
+          <Substitution in="uni332C" out="uni332C.vert"/>
+          <Substitution in="uni332E" out="uni332E.vert"/>
+          <Substitution in="uni332F" out="uni332F.vert"/>
+          <Substitution in="uni3330" out="uni3330.vert"/>
+          <Substitution in="uni3331" out="uni3331.vert"/>
+          <Substitution in="uni3332" out="uni3332.vert"/>
+          <Substitution in="uni3333" out="uni3333.vert"/>
+          <Substitution in="uni3334" out="uni3334.vert"/>
+          <Substitution in="uni3335" out="uni3335.vert"/>
+          <Substitution in="uni3336" out="uni3336.vert"/>
+          <Substitution in="uni3337" out="uni3337.vert"/>
+          <Substitution in="uni3338" out="uni3338.vert"/>
+          <Substitution in="uni3339" out="uni3339.vert"/>
+          <Substitution in="uni333A" out="uni333A.vert"/>
+          <Substitution in="uni333B" out="uni333B.vert"/>
+          <Substitution in="uni333C" out="uni333C.vert"/>
+          <Substitution in="uni333D" out="uni333D.vert"/>
+          <Substitution in="uni333E" out="uni333E.vert"/>
+          <Substitution in="uni3340" out="uni3340.vert"/>
+          <Substitution in="uni3341" out="uni3341.vert"/>
+          <Substitution in="uni3342" out="uni3342.vert"/>
+          <Substitution in="uni3343" out="uni3343.vert"/>
+          <Substitution in="uni3344" out="uni3344.vert"/>
+          <Substitution in="uni3345" out="uni3345.vert"/>
+          <Substitution in="uni3346" out="uni3346.vert"/>
+          <Substitution in="uni3347" out="uni3347.vert"/>
+          <Substitution in="uni3348" out="uni3348.vert"/>
+          <Substitution in="uni3349" out="uni3349.vert"/>
+          <Substitution in="uni334B" out="uni334B.vert"/>
+          <Substitution in="uni334C" out="uni334C.vert"/>
+          <Substitution in="uni334D" out="uni334D.vert"/>
+          <Substitution in="uni334E" out="uni334E.vert"/>
+          <Substitution in="uni334F" out="uni334F.vert"/>
+          <Substitution in="uni3350" out="uni3350.vert"/>
+          <Substitution in="uni3351" out="uni3351.vert"/>
+          <Substitution in="uni3352" out="uni3352.vert"/>
+          <Substitution in="uni3353" out="uni3353.vert"/>
+          <Substitution in="uni3354" out="uni3354.vert"/>
+          <Substitution in="uni3355" out="uni3355.vert"/>
+          <Substitution in="uni3356" out="uni3356.vert"/>
+          <Substitution in="uni3357" out="uni3357.vert"/>
+          <Substitution in="uniFF08" out="uniFE35"/>
+          <Substitution in="uniFF09" out="uniFE36"/>
+          <Substitution in="uniFF0C" out="uniFE10"/>
+          <Substitution in="uniFF0D" out="uniFF0D.vert"/>
+          <Substitution in="uniFF0E" out="uniFF0E.vert"/>
+          <Substitution in="uniFF1A" out="uniFF1A.vert"/>
+          <Substitution in="uniFF1C" out="uniFF1C.vert"/>
+          <Substitution in="uniFF1D" out="uniFF1D.vert"/>
+          <Substitution in="uniFF1E" out="uniFF1E.vert"/>
+          <Substitution in="uniFF3F" out="uniFF3F.vert"/>
+          <Substitution in="uniFF5B" out="uniFE37"/>
+          <Substitution in="uniFF5C" out="uniFF5C.vert"/>
+          <Substitution in="uniFF5D" out="uniFE38"/>
+          <Substitution in="uniFF5E" out="uni301C.vert"/>
+          <Substitution in="uniFFE3" out="uniFFE3.vert"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>

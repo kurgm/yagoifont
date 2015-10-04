@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bitmap2OTFFontParameters>
+	<TemplateTTX src="yagoi_template.ttx"/>
+	<Output path="yagoifont.otf"/>
+	<FontInfo>
+		<setting key="ascent" value="13"/><!-- ピクセル -->
+		<setting key="descent" value="1"/><!-- ピクセル -->
+		<setting key="x-height" value="8"/><!-- ピクセル -->
+		<setting key="vertascent" value="7"/><!-- ピクセル -->
+		<setting key="vertdescent" value="7"/><!-- ピクセル -->
+		<setting key="bold" value="0"/><!-- 0 or 1 -->
+		<setting key="italic" value="0"/><!-- 0 or 1 -->
+		<namerecords platformID="1,3" platEncID="0,1" langID="0x0,0x409" useAsCFFNames="True">
+			<!-- English (United States) -->
+			<namerecord key="copyright" value="(C) 8:51:22 pm"/>
+			<namerecord key="fontFamily" value="yagoifont"/>
+			<namerecord key="subfamily" value="Regular"/>
+			<namerecord key="uniqueID" value="Bitmap2OTF : 851 font : 2015-10-05"/><!-- バージョンを変えた場合ここも変えてください -->
+			<namerecord key="fullName" value="851 font"/>
+			<namerecord key="version" value="Version 0.38"/>
+			<namerecord key="postscriptName" value="yagoifont"/><!-- 含められる文字: 0-9,A-Z,a-z と !"#$&'*+,-.:;=?@\^_`| (空白は含められません) -->
+			<namerecord key="preferredFamily" value="851 font"/>
+			<namerecord key="preferredSubfamily" value="Regular"/>
+		</namerecords>
+		<namerecords platformID="1,3" platEncID="1,1" langID="0xb,0x411">
+			<!-- Japanese (Japan) -->
+			<namerecord key="copyright" value="(C) 8:51:22 pm"/>
+			<namerecord key="fontFamily" value="851フォント"/>
+			<namerecord key="subfamily" value="標準"/>
+			<namerecord key="fullName" value="851フォント"/>
+			<namerecord key="version" value="バージョン 0.38"/>
+			<namerecord key="preferredFamily" value="851フォント"/>
+			<namerecord key="preferredSubfamily" value="標準"/>
+		</namerecords>
+	</FontInfo>
+	<Outline>
+		<!-- emサイズは (ascent + descent) * DotSize_y になります -->
+		<DotSize x="100.0" y="100.0"/>
+		
+		<!-- 各ドットの形状 -->
+		<DotShape type="pixel-outline"/>
+		<!-- または別ファイルに定義されたカスタム形状: (丸い点 80% 横幅, 70% 高さ)
+			<DotShape src="../Bitmap2OTF/sample/shapes/circle.xml" width="0.8" height="0.7"/>
+		-->
+	</Outline>
+	
+	<Bitmap/><!-- これを省略すると、生成されるフォントに EBDT/EBLC テーブルを含めません -->
+	
+	<GlyphSources bitmapwidth="13" bitmapheight="13" originx="0" originy="0" voriginy="13" advancewidth="14" advanceheight="14"><!-- 既定の値 -->
+		
+		<!-- ビットマップデータの埋め込み -->
+		<BitmapData name=".notdef"><!-- コードポイントなし -->
+			<!-- ".", "0" と空白(U+0020)は白、他の文字は黒に相当。改行とタブ文字は無視されます。 -->
+			.............
+			.............
+			.............
+			.............
+			.............
+			......@@.....
+			......@@.....
+			.............
+			.............
+			.............
+			.............
+			.............
+			.............
+		</BitmapData>
+		
+		<!-- 輪郭のないグリフを含める -->
+		<Space name=".null" codepoint="0" advancewidth="0"/>
+		<Space name="CR" codepoint="0x0D" advancewidth="7"/>
+		<Spaces advancewidth="7">
+			<!-- 改行とタブ文字は無視されます。 -->
+			&#x0020;&#x00A0;
+		</Spaces>
+		<Spaces>
+			&#x3000;<!-- いわゆる全角スペース -->
+		</Spaces>
+		
+		<!-- 画像ファイルからグリフを含める -->
+		<!-- 注意: グリフの色は黒(#000000)でなければなりません。グリフは等倍(1ドット=1ピクセル)である必要があります。 -->
+		<!--
+			stepx, stepyはグリフの間隔（グリフ左上からグリフ左上までの距離）
+			charsPerRowは一行あたり文字数
+		-->
+		<Image src="851font_all.png" stepx="16" stepy="16" charsPerRow="5">
+			<!-- 左上の画素が x=0,y=0 -->
+			<!-- x, yは領域の左上座標 -->
+			<!-- 改行とタブ文字は無視されます。空白文字は無視されません。 -->
+			<!--
+			グリフが無いところ、またはグリフをフォントに含めたくないところには空白文字(U+0020)を置きます。
+			すでにグリフが割り当てられている符号位置は無視されます。（グリフは再定義されません。）
+			-->
+			<Glyphs x="6" y="31">
+				０１２３４５６７８９
+			</Glyphs>
+			<Glyphs x="6" y="63" bitmapwidth="6" advancewidth="7"><!-- 半角なので -->
+				0123456789
+			</Glyphs>
+			<Glyphs x="6" y="95">
+				ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ；：－／
+			</Glyphs>
+			<Glyphs x="86" y="31">
+				ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ！？，．
+			</Glyphs>
+			<Glyphs x="86" y="127" bitmapwidth="6" advancewidth="7">
+				⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻
+			</Glyphs>
+			<Glyphs x="86" y="159">
+				  ‼⁉ ⊃
+			</Glyphs>
+			<Glyphs x="168" y="31" bitmapwidth="6" advancewidth="7">
+				ABCDEFGHIJKLMNOPQRSTUVWXYZ
+			</Glyphs>
+			<Glyphs x="248" y="31" bitmapwidth="6" advancewidth="7">
+				abcdefghijklmnopqrstuvwxyz,.!? $% ()  -      '_
+			</Glyphs>
+			<Glyphs x="248" y="127" bitmapwidth="7" advancewidth="7">
+				#  &amp;  *+ / @ ¥^
+			</Glyphs>
+			<Glyph x="248" y="159" char="＝"/>
+			<Glyph x="280" y="159" char="＠"/>
+			<Glyphs x="248" y="175">
+				  ×÷ ”＃＄％＆’￥｜＾‘｛＋＊｝＿＜＞√∫￣＼
+			</Glyphs>
+			<Glyphs x="331" y="31">
+				㌀㌁㌂㌃㌄㌅㌆㌇㌈㌉㌊㌋㌍㌎㌏㌐㌑㌒㌓㌔㌕㌖㌗㌘㌙㌚㌛㌜㌝㌞㌟㌠㌡㌢㌣㌤㌥㌦㌧㌩㌪㌫㌬㌮㌯㌰㌱㌲㌳㌴
+			</Glyphs>
+			<Glyphs x="414" y="31">
+				㌵㌶㌷㌸㌹㌺㌻㌼㌽㌾㍀㍁㍂㍃㍄㍅㍆㍇㍈㍉㍋㍌㍍㍎㍏㍐㍑㍒㍓㍔㍕㍖㍗
+			</Glyphs>
+			<Glyphs x="495" y="31">
+				あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもや ゆ よらりるれろわをん、。
+			</Glyphs>
+			<Glyphs x="575" y="31">
+				がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉゃゅょっゕ゙゚「」＂ー～・…ゎゐゑ
+			</Glyphs>
+			<Glyphs x="655" y="31">
+				アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤ ユ ヨラリルレロワヰヱヲン
+			</Glyphs>
+			<Glyphs x="735" y="31">
+				ガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォャュョッヵ゛゜       ヮ
+			</Glyphs>
+			<!-- ヰヱ は左側を使う https://twitter.com/pm85122/status/490159036545769472 -->
+			<Glyph x="768" y="174" char="ヴ"/><!-- ヴ は1ピクセル上にずれているので個別対応 -->
+			<Glyphs x="6" y="226">
+				一乙丶丿亅丨乀乚乁
+			</Glyphs>
+			<Glyphs x="6" y="293">
+				九七十人丁刀二入乃八卜又了力乂亠儿冂冖冫几凵勹匕匚匸卩厂厶刁𠂉丂丩亻𠆢𠘨刂丄丅乄乜
+			</Glyphs>
+			<Glyphs x="6" y="472">
+				下干丸久及弓巾己乞口工叉才三山士子勺女小上丈刃寸千川大土之亡凡万巳也夕与个于兀刄囗夂夊孑宀尢尸屮巛已
+			</Glyphs>
+			<Glyphs x="89" y="472">
+				幺广廴廾弋彑彡彳
+			</Glyphs>
+			<Glyphs x="6" y="667">
+				井允引丑云円王化火牙介刈仇牛凶斤区欠月犬元幻戸五互午公勾孔今支止氏尺手収什升少冗心仁壬水切双太丹中弔
+			</Glyphs>
+			<Glyphs x="89" y="667">
+				爪天斗屯内匂廿日巴反比匹不夫父仏分文片方乏毛木勿尤匁厄友予六
+			</Glyphs>
+			<Glyphs x="6" y="862">
+				圧以右卯永凹央加可禾外且叶瓦刊甘丘旧去巨玉句兄穴玄乎古功巧広弘甲号込左冊札皿仕仔司史四市示叱失写主囚
+			</Glyphs>
+			<Glyphs x="89" y="862">
+				汁出処召尻申世正生斥石仙占匝他打代台凧只叩旦庁汀田奴冬凸乍尼白半氾犯皮疋必氷付布弗払丙平辺弁戊母包北
+			</Glyphs>
+			<Glyphs x="172" y="862">
+				本末未民矛目矢由幼用立令礼
+			</Glyphs>
+			<Glyphs x="6" y="1057">
+				旭扱安伊夷衣亥芋印因吋宇羽臼瓜曳汚仮会回灰各汗缶企伎危机気吉吃休吸朽兇共匡叫仰曲刑圭血件伍交光向后好
+			</Glyphs>
+			<Glyphs x="89" y="1057">
+				江考行合此艮再在旨死糸至字寺次而耳自汐式芝守朱州舟充戎夙旬巡匠庄丞色尽迅成西舌先尖舛全壮早争存多宅托
+			</Glyphs>
+			<Glyphs x="172" y="1057">
+				団地弛池竹仲虫兆辻吊伝吐灯当同凪汝弐肉如任年肌伐帆汎妃百伏米忙朴毎亦牟名牝妄有羊吏両列劣老肋亙亘
+			</Glyphs>
+			<Glyphs x="6" y="1252">
+				亜芦杏位囲医壱迂応沖牡何伽花我快戒改芥貝角苅完肝含岐希忌汽妓技却求汲灸究亨狂局均芹近吟玖串君形系芸迎
+			</Glyphs>
+			<Glyphs x="89" y="1252">
+				決見言呉吾坑孝宏抗攻更劫克告困佐沙坐災材冴坂阪作伺志孜私似児宍社車杓灼寿秀住初助序床抄肖条杖状伸臣芯
+			</Glyphs>
+			<Glyphs x="172" y="1252">
+				身辛図吹杉声赤折宋走即束足村汰妥体対択沢但辰辿谷男町沈佃低呈廷弟兎杜努投豆禿酉沌呑那尿妊忍把芭売伯麦
+			</Glyphs>
+			<Glyphs x="255" y="1252">
+				抜伴判釆否庇批尾肘扶芙吻扮兵別返甫呆芳邦坊妨忘防吠没迄妙杢戻冶役佑邑余妖抑沃来乱卵利李里良伶冷励呂労
+			</Glyphs>
+			<Glyphs x="338" y="1252">
+				弄牢
+			</Glyphs>
+			<Glyphs x="6" y="1447">
+				阿宛姐或依委易育雨泳英奄延沿炎苑於往押旺欧殴岡価佳果河苛茄画芽怪拐劾拡学岳茅侃官岸玩岩奇祈季宜杵泣居
+			</Glyphs>
+			<Glyphs x="89" y="1447">
+				拒拠享京供侠協怯況尭欣金狗苦具空屈沓卦祁径茎券肩弦呼固姑股虎佼効幸庚拘昂杭肯肱刻国忽狛坤昏昆些妻采肴
+			</Glyphs>
+			<Glyphs x="172" y="1447">
+				咋刷参使刺始姉枝祉肢事侍治竺実舎者邪若取受呪周宗叔述所妾尚承招昇昌松沼垂炊枢制姓征性青斉昔析拙岨狙阻
+			</Glyphs>
+			<Glyphs x="255" y="1447">
+				卒其陀岱苔卓拓坦担知宙忠抽注苧帖長直坪定底抵邸泥的迭典店妬宕東到毒突届苫奈迩乳念杷波拝杯拍泊迫函板版
+			</Glyphs>
+			<Glyphs x="338" y="1447">
+				彼披泌肥非枇表苗府怖斧阜附侮武服沸物併並歩奉宝庖抱放朋法泡房肪牧奔妹枚枕抹沫侭味岬命明免茂孟盲門夜弥
+			</Glyphs>
+			<Glyphs x="421" y="1447">
+				油林例怜苓炉和枠
+			</Glyphs>
+			<Glyphs x="6" y="1642">
+				娃哀姶茜虻按威為畏胃郁茨咽姻胤姥荏映栄洩盈疫怨屋卸音科架珂迦俄臥廻悔恢海界皆咳垣柿革恰括活冠巻姦柑看
+			</Glyphs>
+			<Glyphs x="89" y="1642">
+				竿紀軌祇客虐逆急級糾峡挟狭粁衿粂軍係型契荊計建研県限孤弧故枯狐胡後侯厚垢巷恒洪皇紅荒郊香拷恨査砂哉砕
+			</Glyphs>
+			<Glyphs x="172" y="1642">
+				咲削昨柵拶珊姿屍思指施持室狩首拾洲秋臭酋柔重祝俊春盾叙昭省乗城浄拭食信侵神甚帥是政星牲窃宣専泉浅洗染
+			</Glyphs>
+			<Glyphs x="255" y="1642">
+				穿前祖奏相草荘送促則俗柁耐待怠胎退茸単炭胆段茶昼柱挑勅珍津追栂柘亭剃貞帝訂点度怒逃洞峠独栃南虹祢廼派
+			</Glyphs>
+			<Glyphs x="338" y="1642">
+				盃背肺矧柏畑発叛卑飛毘眉美柊彦秒品負赴封風柄頁変便保胞某冒勃殆盆昧柾俣迷姪面籾耶約柳勇宥幽柚祐洋要洛
+			</Glyphs>
+			<Glyphs x="421" y="1642">
+				律侶亮厘玲郎歪
+			</Glyphs>
+			<Glyphs x="6" y="1837">
+				唖挨案員院烏唄浦益悦宴翁荻俺恩夏家荷華蚊峨害浬格核株釜栢桓莞陥既帰記起飢鬼桔砧宮笈挙恐恭胸脅桐倶矩屑
+			</Glyphs>
+			<Glyphs x="89" y="1837">
+				栗桑訓郡珪恵桂桁倹倦兼剣拳軒原個庫娯悟候倖晃校浩紘耕航貢砿降高剛骨根唆差座挫宰栽剤財朔窄索桜殺捌晒桟
+			</Glyphs>
+			<Glyphs x="172" y="1837">
+				蚕残師紙脂時疾柴射紗借酌弱殊珠酒修従峻准殉純書徐恕除哨宵将消症祥称笑辱唇娠振晋浸疹真秦針訊陣粋衰畝凄
+			</Glyphs>
+			<Glyphs x="255" y="1837">
+				栖逝脆隻席脊扇栓栴閃租素倉捜挿造息捉速袖孫帯泰啄託狸耽値恥致畜逐秩衷酎凋捗朕通庭悌挺逓釘哲展徒途砥砺
+			</Glyphs>
+			<Glyphs x="338" y="1837">
+				倒党凍唐套島桃涛討透胴匿涜特悩納能蚤破馬俳配倍梅狽秤剥莫畠隼班畔般挽匪疲秘被畢桧姫紐俵豹病浜敏浮粉紛
+			</Glyphs>
+			<Glyphs x="421" y="1837">
+				陛勉娩圃捕倣俸峰峯砲剖紡埋哩脈粍眠娘冥耗紋涌容浴莱流留竜旅凌料倫涙烈恋連朗浪狼倭脇
+			</Glyphs>
+			<Glyphs x="6" y="2032">
+				逢悪梓袷庵尉惟異移萎域逸淫陰液掩焔黄桶菓貨晦械崖涯蛎殻郭掛笠梶喝渇椛兜乾勘患貫眼基寄規亀偽掬菊脚救球
+			</Glyphs>
+			<Glyphs x="89" y="2032">
+				虚許魚強教郷菌躯偶釧掘袈啓掲渓畦経蛍訣健捲牽険現絃舷袴梧康控梗黒惚頃婚梱混痕紺彩採済砦祭斎細菜崎埼笹
+			</Glyphs>
+			<Glyphs x="172" y="2032">
+				匙皐惨産斬視痔鹿雫執悉偲捨赦斜蛇釈寂授終習週渋宿淑粛術淳渚庶商唱娼捷梢渉章紹菖訟剰常情埴深紳進笥逗推
+			</Glyphs>
+			<Glyphs x="255" y="2032">
+				酔崇据菅雀清盛惜戚責接設雪旋船措曽粗組爽掃掻曹巣窓側族唾舵堆袋逮第琢脱探淡蛋断窒猪著帳張彫眺頂鳥陳掴
+			</Glyphs>
+			<Glyphs x="338" y="2032">
+				壷紬釣停偵梯笛添甜転都悼梼盗淘祷陶動堂萄得寅惇豚捺軟猫捻粘埜脳婆排敗培陪這粕舶販菱彪票描彬貧瓶埠婦冨
+			</Glyphs>
+			<Glyphs x="421" y="2032">
+				符部副閉偏菩崩捧烹萌訪望釦堀麻桝密務猛問野訳唯悠郵庸欲翌淀梨理陸率掠略琉粒隆梁涼猟陵淋累婁
+			</Glyphs>
+			<Glyphs x="6" y="2227">
+				葵握渥絢粟偉椅飲渦閏運雲営瑛詠越堰援甥奥温過賀絵開階凱街蛙鈎覚割葛萱粥寒喚堪換敢棺款間閑雁喜幾揮期棋
+			</Glyphs>
+			<Glyphs x="89" y="2227">
+				稀貴欺喫黍給渠距卿喬暁極勤欽琴筋喰寓遇隅隈敬景軽戟結喧圏堅検硯減湖菰雇御喉慌港硬絞腔項詐最犀裁堺策傘
+			</Glyphs>
+			<Glyphs x="172" y="2227">
+				散斯紫詞歯滋軸湿屡煮惹就衆集竣循順暑勝掌晶湘焼焦硝粧証詔象場畳植殖森診尋靭須酢厨遂随椙晴棲税絶善然曾
+			</Glyphs>
+			<Glyphs x="255" y="2227">
+				疏疎訴創喪惣痩葬装測属揃尊詑堕惰替貸隊達巽棚湛短弾智遅筑着註貯喋朝脹超椎痛塚堤提程貼堵屠渡登菟塔搭棟
+			</Glyphs>
+			<Glyphs x="338" y="2227">
+				湯痘等答筒統董童道敦鈍韮葱覗琶廃牌媒買萩博硲筈溌筏蛤斑飯晩番蛮悲扉斐費備琵弼筆媛評蛭斌富普葡葺復幅淵
+			</Glyphs>
+			<Glyphs x="421" y="2227">
+				焚雰塀遍補募報傍帽棒貿満湊無椋婿棉貰悶愉揖湧猶裕遊雄揚揺葉遥陽絡落嵐痢裡葎硫量琳塁裂廊禄惑椀湾腕
+			</Glyphs>
+			<Glyphs x="6" y="2422">
+				愛葦暗意違溢碓園煙猿遠鉛塩嫁暇禍嘩蛾雅解塊慨碍蓋該較隔楽滑褐蒲勧寛幹感漢頑棄義詰業僅禁禽愚虞窟靴群傾
+			</Glyphs>
+			<Glyphs x="89" y="2422">
+				携継罫詣隙傑嫌献絹遣源誇跨鈷鼓瑚碁溝鉱腰嵯裟債催塞歳載罪碕搾嗣獅詩試資飼慈蒔辞嫉腫愁蒐酬舜楯準署傷奨
+			</Glyphs>
+			<Glyphs x="172" y="2422">
+				照蒋詳鉦蒸飾触寝慎新腎睡瑞嵩数裾勢聖誠跡摂節戦煎羨腺詮賎践禅塑楚鼠僧想蒼賊続損楕滞滝蛸嘆暖痴稚置馳蓄
+			</Glyphs>
+			<Glyphs x="255" y="2422">
+				牒腸跳賃椿碇禎艇鼎溺鉄填殿電塗塘働督椴遁頓楢馴畷楠農楳煤漠鉢鳩塙搬煩頒微稗逼蒜楓福腹墓蜂豊飽睦幌幕蓑
+			</Glyphs>
+			<Glyphs x="338" y="2422">
+				稔夢盟滅摸蒙爺靖愈猷誉預傭楊溶蓉裸雷酪裏溜虜稜鈴零廉煉蓮賂路楼話賄詫碗
+			</Glyphs>
+			<Glyphs x="6" y="2617">
+				斡飴綾維稲蔭隠嘘蔚厩駅榎厭演嘉寡歌箇魁概劃廓赫閣樺鞄慣潅管関旗疑漁僑境銀駆窪熊頚語誤構綱膏酵閤豪穀酷
+			</Glyphs>
+			<Glyphs x="657" y="234">
+				ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ ΆΈΉΊΌΎΏ
+			</Glyphs>
+			<Glyphs x="740" y="234">
+				άέήίΰαβγδεζηθικλμνξοπρςστυφχψωΐϊϋόύώ
+			</Glyphs>
+			<Glyphs x="657" y="397">
+				АБВГДЕИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
+			</Glyphs>
+			<Glyphs x="657" y="528">
+				ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖ
+			</Glyphs>
+		</Image>
+		<!-- 以下、うごメモはてなにあった「851フォント」Ver 0.36α より -->
+		<!-- グリフは上書きされないので、851font_all.png に追加すれば以下のグリフは自動的に使われなくなります -->
+		<Image src="D9936E_0C1DFDCFD7553_002_028.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				鑽鑼鑾顳驤驩鱸黷讝靍靎鱷鸕纝豓貜
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_029.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				欟纜钁鑿鸚鸛欞戇癴钄黸齽龞豔饠鸙鼺
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_030.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				鬱爨驪靏纞讟钃韊鸜
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_031.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				驫鸞厵鱺鸝
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_032.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				灩
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_033.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				籲龖
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_034.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				麤龗鱻
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_035.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				䯂
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_036.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				仿伃伋佾㒵冝刕剗咡咩嗎噶嚬𡈽圡垜﨏埇埵孁孖㞍岪峐峴嵓嵭嶁庾廹弶徯扚挊揥摠朳杦杇杻极枛柀柼栁桒桵梥棈椊
+			</Glyphs>
+			<Glyphs x="173" y="31">
+				楉
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_041.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				  輔  魑魅魍魎 顰蹙          黌 轟         &#xE00A;     魂
+				<!-- U+E00A: ガンダム -->
+			</Glyphs>
+			<Glyphs x="173" y="31">
+				           檎 蜜     蕉檸檬蕃 樹    榴鳳           説
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_042.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				                                      旛
+			</Glyphs>
+			<Glyphs x="173" y="31">
+				&#xE000;&#xE001;&#xE002;&#xE003;&#xE004;&#xE005;&#xE006;&#xE007;&#xE008;&#xE009;     &#xE00B;𪚥  墾           &#xE00C; 圀      龜龜𪚲 𪛁
+				<!--
+					U+E000-U+E009: 手書き風の数字？
+					U+E00B:        たいと
+					U+E00C:        http://glyphwiki.org/wiki/u4a3b-itaiji-001
+				-->
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_043.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				㋀㋁㋂㋃㋄㋅㋆㋇㋈㋉㋊㋋   ㏠㏡㏢㏣㏤㏥㏦㏧㏨㏩㏪㏫㏬㏭㏮㏯㏰㏱㏲㏳㏴㏵㏶㏷㏸㏹㏺㏻㏼㏽㏾
+			</Glyphs>
+			<Glyphs x="173" y="31">
+				䶔䶕䶖䶗䶘䶙䶚䶛䶝䶞䶟䶠䶡䶢䶣䶤䶥䶦䶧䶨䶩䶪䶯          燃閄𠃉
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_044.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="31">
+				鵺  𠚤      絆         畓娚曺㕦夻巭媤頉囍䭏哛乭乤乷乶䯩厁巪乺㖈㖌釗旀㫆
+				<!-- 6行1列 の字は【功/天】だけど見つからないのでとりあえず「巭」（【功/夫】）に割り当てておく -->
+			</Glyphs>
+		</Image>
+		<Image src="D9936E_0C1DFDCFD7553_002_045.gif" stepx="16" stepy="16" charsPerRow="5">
+			<Glyphs x="6" y="159">
+				♩♪
+			</Glyphs>
+			<Glyphs x="173" y="31">
+				涮 𫙵 &#xE00D;
+				<!-- U+E00D: 「純」の欠画 -->
+			</Glyphs>
+			<Glyph x="173" y="63" char="®" bitmapwidth="7" advancewidth="7"/><!-- 半角 -->
+			<Glyphs x="173" y="63">
+				  劉       裵 &#xE00E; 丫     質 曉
+				<!-- U+E00E: ビャンビャン麺のビャン -->
+			</Glyphs>
+		</Image>
+		
+		<!-- 既存のグリフからくろごまが作成したもの -->
+		<Image src="variants.gif" stepx="16" stepy="16" charsPerRow="32">
+			<!-- 全角形から作成した半角形 -->
+			<Glyphs x="1" y="1" bitmapwidth="6" advancewidth="7">
+				":;{|}
+			</Glyphs>
+			<!-- 半角形から作成した全角形 -->
+			<Glyphs x="1" y="17">
+				＇（）
+			</Glyphs>
+			<!-- 縦組み用字形(コードポイントが割り当てられている) -->
+			<Glyphs x="1" y="33" charsPerRow="8">
+				︐︑︒︙︵︶︷︸
+				﹁﹂
+			</Glyphs>
+			<!-- 縦組み用字形(コードポイントが割り当てられていない) -->
+			<Glyphs x="1" y="65" charsPerRow="11">
+				<!-- 捨て仮名 -->
+				<Glyph name="uni3041.vert"/><!--ぁ-->
+				<Glyph name="uni3043.vert"/><!--ぃ-->
+				<Glyph name="uni3045.vert"/><!--ぅ-->
+				<Glyph name="uni3047.vert"/><!--ぇ-->
+				<Glyph name="uni3049.vert"/><!--ぉ-->
+				<Glyph name="uni3063.vert"/><!--っ-->
+				<Glyph name="uni3083.vert"/><!--ゃ-->
+				<Glyph name="uni3085.vert"/><!--ゅ-->
+				<Glyph name="uni3087.vert"/><!--ょ-->
+				<Glyph name="uni308E.vert"/><!--ゎ-->
+				<Glyph name="uni3095.vert"/><!--ゕ-->
+				
+				<Glyph name="uni30A1.vert"/><!--ァ-->
+				<Glyph name="uni30A3.vert"/><!--ィ-->
+				<Glyph name="uni30A5.vert"/><!--ゥ-->
+				<Glyph name="uni30A7.vert"/><!--ェ-->
+				<Glyph name="uni30A9.vert"/><!--ォ-->
+				<Glyph name="uni30C3.vert"/><!--ッ-->
+				<Glyph name="uni30E3.vert"/><!--ャ-->
+				<Glyph name="uni30E5.vert"/><!--ュ-->
+				<Glyph name="uni30E7.vert"/><!--ョ-->
+				<Glyph name="uni30EE.vert"/><!--ヮ-->
+				<Glyph name="uni30F5.vert"/><!--ヵ-->
+				
+				<!-- 回転・反転など複合 -->
+				<Glyph name="uni301C.vert"/><!--〜-->
+				<Glyph name="uni30FC.vert"/><!--ー-->
+				<Glyph name="uniFF0E.vert"/><!--．-->
+			</Glyphs>
+			<Glyphs x="1" y="113">
+				<!-- 移動 -->
+				<Glyph name="uni309B.vert"/><!--゛-->
+				<Glyph name="uni309C.vert"/><!--゜-->
+			</Glyphs>
+			<!-- 組文字の縦組み用字形（横組み用字形を参考にくろごまが作成したもの） -->
+			<Glyphs x="1" y="129">
+				<Glyph name="uni3300.vert"/><!--㌀-->
+				<Glyph name="uni3301.vert"/><!--㌁-->
+				<Glyph name="uni3302.vert"/><!--㌂-->
+				<Glyph name="uni3303.vert"/><!--㌃-->
+				<Glyph name="uni3304.vert"/><!--㌄-->
+				<Glyph name="uni3305.vert"/><!--㌅-->
+				<Glyph name="uni3306.vert"/><!--㌆-->
+				<Glyph name="uni3307.vert"/><!--㌇-->
+				<Glyph name="uni3308.vert"/><!--㌈-->
+				<Glyph name="uni3309.vert"/><!--㌉-->
+				<Glyph name="uni330A.vert"/><!--㌊-->
+				<Glyph name="uni330B.vert"/><!--㌋-->
+				<Glyph name="uni330D.vert"/><!--㌍-->
+				<Glyph name="uni330E.vert"/><!--㌎-->
+				<Glyph name="uni330F.vert"/><!--㌏-->
+				<Glyph name="uni3310.vert"/><!--㌐-->
+				<Glyph name="uni3311.vert"/><!--㌑-->
+				<Glyph name="uni3312.vert"/><!--㌒-->
+				<Glyph name="uni3313.vert"/><!--㌓-->
+				<Glyph name="uni3314.vert"/><!--㌔-->
+				<Glyph name="uni3315.vert"/><!--㌕-->
+				<Glyph name="uni3316.vert"/><!--㌖-->
+				<Glyph name="uni3317.vert"/><!--㌗-->
+				<Glyph name="uni3318.vert"/><!--㌘-->
+				<Glyph name="uni3319.vert"/><!--㌙-->
+				<Glyph name="uni331A.vert"/><!--㌚-->
+				<Glyph name="uni331B.vert"/><!--㌛-->
+				<Glyph name="uni331C.vert"/><!--㌜-->
+				<Glyph name="uni331D.vert"/><!--㌝-->
+				<Glyph name="uni331E.vert"/><!--㌞-->
+				<Glyph name="uni331F.vert"/><!--㌟-->
+				<Glyph name="uni3320.vert"/><!--㌠-->
+				<Glyph name="uni3321.vert"/><!--㌡-->
+				<Glyph name="uni3322.vert"/><!--㌢-->
+				<Glyph name="uni3323.vert"/><!--㌣-->
+				<Glyph name="uni3324.vert"/><!--㌤-->
+				<Glyph name="uni3325.vert"/><!--㌥-->
+				<Glyph name="uni3326.vert"/><!--㌦-->
+				<Glyph name="uni3327.vert"/><!--㌧-->
+				<Glyph name="uni3329.vert"/><!--㌩-->
+				<Glyph name="uni332A.vert"/><!--㌪-->
+				<Glyph name="uni332B.vert"/><!--㌫-->
+				<Glyph name="uni332C.vert"/><!--㌬-->
+				<Glyph name="uni332E.vert"/><!--㌮-->
+				<Glyph name="uni332F.vert"/><!--㌯-->
+				<Glyph name="uni3330.vert"/><!--㌰-->
+				<Glyph name="uni3331.vert"/><!--㌱-->
+				<Glyph name="uni3332.vert"/><!--㌲-->
+				<Glyph name="uni3333.vert"/><!--㌳-->
+				<Glyph name="uni3334.vert"/><!--㌴-->
+				<Glyph name="uni3335.vert"/><!--㌵-->
+				<Glyph name="uni3336.vert"/><!--㌶-->
+				<Glyph name="uni3337.vert"/><!--㌷-->
+				<Glyph name="uni3338.vert"/><!--㌸-->
+				<Glyph name="uni3339.vert"/><!--㌹-->
+				<Glyph name="uni333A.vert"/><!--㌺-->
+				<Glyph name="uni333B.vert"/><!--㌻-->
+				<Glyph name="uni333C.vert"/><!--㌼-->
+				<Glyph name="uni333D.vert"/><!--㌽-->
+				<Glyph name="uni333E.vert"/><!--㌾-->
+				<Glyph name="uni3340.vert"/><!--㍀-->
+				<Glyph name="uni3341.vert"/><!--㍁-->
+				<Glyph name="uni3342.vert"/><!--㍂-->
+				<Glyph name="uni3343.vert"/><!--㍃-->
+				<Glyph name="uni3344.vert"/><!--㍄-->
+				<Glyph name="uni3345.vert"/><!--㍅-->
+				<Glyph name="uni3346.vert"/><!--㍆-->
+				<Glyph name="uni3347.vert"/><!--㍇-->
+				<Glyph name="uni3348.vert"/><!--㍈-->
+				<Glyph name="uni3349.vert"/><!--㍉-->
+				<Glyph name="uni334B.vert"/><!--㍋-->
+				<Glyph name="uni334C.vert"/><!--㍌-->
+				<Glyph name="uni334D.vert"/><!--㍍-->
+				<Glyph name="uni334E.vert"/><!--㍎-->
+				<Glyph name="uni334F.vert"/><!--㍏-->
+				<Glyph name="uni3350.vert"/><!--㍐-->
+				<Glyph name="uni3351.vert"/><!--㍑-->
+				<Glyph name="uni3352.vert"/><!--㍒-->
+				<Glyph name="uni3353.vert"/><!--㍓-->
+				<Glyph name="uni3354.vert"/><!--㍔-->
+				<Glyph name="uni3355.vert"/><!--㍕-->
+				<Glyph name="uni3356.vert"/><!--㍖-->
+				<Glyph name="uni3357.vert"/><!--㍗-->
+			</Glyphs>
+		</Image>
+		
+		<!-- グリフの複製 -->
+		<!-- 注意: 元のグリフはあらかじめ含められている必要があります。 -->
+		<!-- 'fromCodepoint'、'fromName' 属性も使用できます -->
+		<Copy fromChar="¥" char="\" advancewidth="7"/><!-- U+00A5 YEN SIGN → U+005C REVERSE SOLIDUS -->
+		<Copy fromChar="μ" char="µ"/><!-- U+03BC GREEK SMALL LETTER MU → U+00B5 MICRO SIGN -->
+		<Copy fromChar="-" char="‐" advancewidth="7"/><!-- U+002D HYPHEN-MINUS → U+2010 HYPHEN -->
+		<Copy fromChar="-" char="‒" advancewidth="7"/><!-- U+002D HYPHEN-MINUS → U+2012 FIGURE DASH -->
+		<Copy fromChar="-" char="–" advancewidth="7"/><!-- U+002D HYPHEN-MINUS → U+2013 EN DASH -->
+		<Copy fromChar="￣" char="‾"/><!-- U+FFE3 FULLWIDTH MACRON → U+203E OVERLINE -->
+		<Copy fromChar="Π" char="∏" advancewidth="7"/><!-- U+03A0 GREEK CAPITAL LETTER PI → U+220F N-ARY PRODUCT -->
+		<Copy fromChar="Σ" char="∑" advancewidth="7"/><!-- U+03A3 GREEK CAPITAL LETTER SIGMA → U+2211 N-ARY SUMMATION -->
+		<Copy fromChar="-" char="−" advancewidth="7"/><!-- U+002D HYPHEN-MINUS → U+2212 MINUS SIGN -->
+		<Copy fromChar=":" char="∶" advancewidth="7"/><!-- U+003A COLON → U+2236 RATIO -->
+		<Copy fromChar="𠚤" char="々"/><!-- U+206A4 CJK UNIFIED IDEOGRAPH-206A4 → U+3005 IDEOGRAPHIC ITERATION MARK -->
+		<Copy fromChar="～" char="〜"/><!-- U+FF5E FULLWIDTH TILDE → U+301C WAVE DASH -->
+		<Copy fromChar="♩" char="𝅘𝅥"/><!-- U+2669 QUARTER NOTE → U+1D15F MUSICAL SYMBOL QUARTER NOTE -->
+		<Copy fromChar="♪" char="𝅘𝅥𝅮"/><!-- U+266A EIGHTH NOTE → U+1D160 MUSICAL SYMBOL EIGHTH NOTE -->
+		
+		<!-- 縦組み用字形が、横組み用字形を回転させればできるもの(半角)（コピーしてあとで回転する） -->
+		<!-- メモ: UTR #50 を参照して作った（はず）。 -->
+		<Copy fromChar=" " name="uni0020.vert" advancewidth="7"/>
+		<Copy fromChar="!" name="uni0021.vert" advancewidth="7"/>
+		<Copy fromChar="&quot;" name="uni0022.vert" advancewidth="7"/>
+		<Copy fromChar="#" name="uni0023.vert" advancewidth="7"/>
+		<Copy fromChar="$" name="uni0024.vert" advancewidth="7"/>
+		<Copy fromChar="%" name="uni0025.vert" advancewidth="7"/>
+		<Copy fromChar="&amp;" name="uni0026.vert" advancewidth="7"/>
+		<Copy fromChar="'" name="uni0027.vert" advancewidth="7"/>
+		<Copy fromChar="(" name="uni0028.vert" advancewidth="7"/>
+		<Copy fromChar=")" name="uni0029.vert" advancewidth="7"/>
+		<Copy fromChar="*" name="uni002A.vert" advancewidth="7"/>
+		<Copy fromChar="+" name="uni002B.vert" advancewidth="7"/>
+		<Copy fromChar="," name="uni002C.vert" advancewidth="7"/>
+		<Copy fromChar="-" name="uni002D.vert" advancewidth="7"/>
+		<Copy fromChar="." name="uni002E.vert" advancewidth="7"/>
+		<Copy fromChar="/" name="uni002F.vert" advancewidth="7"/>
+		<Copy fromChar="0" name="uni0030.vert" advancewidth="7"/>
+		<Copy fromChar="1" name="uni0031.vert" advancewidth="7"/>
+		<Copy fromChar="2" name="uni0032.vert" advancewidth="7"/>
+		<Copy fromChar="3" name="uni0033.vert" advancewidth="7"/>
+		<Copy fromChar="4" name="uni0034.vert" advancewidth="7"/>
+		<Copy fromChar="5" name="uni0035.vert" advancewidth="7"/>
+		<Copy fromChar="6" name="uni0036.vert" advancewidth="7"/>
+		<Copy fromChar="7" name="uni0037.vert" advancewidth="7"/>
+		<Copy fromChar="8" name="uni0038.vert" advancewidth="7"/>
+		<Copy fromChar="9" name="uni0039.vert" advancewidth="7"/>
+		<Copy fromChar=":" name="uni003A.vert" advancewidth="7"/>
+		<Copy fromChar=";" name="uni003B.vert" advancewidth="7"/>
+		<Copy fromChar="?" name="uni003F.vert" advancewidth="7"/>
+		<Copy fromChar="@" name="uni0040.vert" advancewidth="7"/>
+		<Copy fromChar="A" name="uni0041.vert" advancewidth="7"/>
+		<Copy fromChar="B" name="uni0042.vert" advancewidth="7"/>
+		<Copy fromChar="C" name="uni0043.vert" advancewidth="7"/>
+		<Copy fromChar="D" name="uni0044.vert" advancewidth="7"/>
+		<Copy fromChar="E" name="uni0045.vert" advancewidth="7"/>
+		<Copy fromChar="F" name="uni0046.vert" advancewidth="7"/>
+		<Copy fromChar="G" name="uni0047.vert" advancewidth="7"/>
+		<Copy fromChar="H" name="uni0048.vert" advancewidth="7"/>
+		<Copy fromChar="I" name="uni0049.vert" advancewidth="7"/>
+		<Copy fromChar="J" name="uni004A.vert" advancewidth="7"/>
+		<Copy fromChar="K" name="uni004B.vert" advancewidth="7"/>
+		<Copy fromChar="L" name="uni004C.vert" advancewidth="7"/>
+		<Copy fromChar="M" name="uni004D.vert" advancewidth="7"/>
+		<Copy fromChar="N" name="uni004E.vert" advancewidth="7"/>
+		<Copy fromChar="O" name="uni004F.vert" advancewidth="7"/>
+		<Copy fromChar="P" name="uni0050.vert" advancewidth="7"/>
+		<Copy fromChar="Q" name="uni0051.vert" advancewidth="7"/>
+		<Copy fromChar="R" name="uni0052.vert" advancewidth="7"/>
+		<Copy fromChar="S" name="uni0053.vert" advancewidth="7"/>
+		<Copy fromChar="T" name="uni0054.vert" advancewidth="7"/>
+		<Copy fromChar="U" name="uni0055.vert" advancewidth="7"/>
+		<Copy fromChar="V" name="uni0056.vert" advancewidth="7"/>
+		<Copy fromChar="W" name="uni0057.vert" advancewidth="7"/>
+		<Copy fromChar="X" name="uni0058.vert" advancewidth="7"/>
+		<Copy fromChar="Y" name="uni0059.vert" advancewidth="7"/>
+		<Copy fromChar="Z" name="uni005A.vert" advancewidth="7"/>
+		<Copy fromChar="^" name="uni005E.vert" advancewidth="7"/>
+		<Copy fromChar="_" name="uni005F.vert" advancewidth="7"/>
+		<Copy fromChar="a" name="uni0061.vert" advancewidth="7"/>
+		<Copy fromChar="b" name="uni0062.vert" advancewidth="7"/>
+		<Copy fromChar="c" name="uni0063.vert" advancewidth="7"/>
+		<Copy fromChar="d" name="uni0064.vert" advancewidth="7"/>
+		<Copy fromChar="e" name="uni0065.vert" advancewidth="7"/>
+		<Copy fromChar="f" name="uni0066.vert" advancewidth="7"/>
+		<Copy fromChar="g" name="uni0067.vert" advancewidth="7"/>
+		<Copy fromChar="h" name="uni0068.vert" advancewidth="7"/>
+		<Copy fromChar="i" name="uni0069.vert" advancewidth="7"/>
+		<Copy fromChar="j" name="uni006A.vert" advancewidth="7"/>
+		<Copy fromChar="k" name="uni006B.vert" advancewidth="7"/>
+		<Copy fromChar="l" name="uni006C.vert" advancewidth="7"/>
+		<Copy fromChar="m" name="uni006D.vert" advancewidth="7"/>
+		<Copy fromChar="n" name="uni006E.vert" advancewidth="7"/>
+		<Copy fromChar="o" name="uni006F.vert" advancewidth="7"/>
+		<Copy fromChar="p" name="uni0070.vert" advancewidth="7"/>
+		<Copy fromChar="q" name="uni0071.vert" advancewidth="7"/>
+		<Copy fromChar="r" name="uni0072.vert" advancewidth="7"/>
+		<Copy fromChar="s" name="uni0073.vert" advancewidth="7"/>
+		<Copy fromChar="t" name="uni0074.vert" advancewidth="7"/>
+		<Copy fromChar="u" name="uni0075.vert" advancewidth="7"/>
+		<Copy fromChar="v" name="uni0076.vert" advancewidth="7"/>
+		<Copy fromChar="w" name="uni0077.vert" advancewidth="7"/>
+		<Copy fromChar="x" name="uni0078.vert" advancewidth="7"/>
+		<Copy fromChar="y" name="uni0079.vert" advancewidth="7"/>
+		<Copy fromChar="z" name="uni007A.vert" advancewidth="7"/>
+		<Copy fromChar="{" name="uni007B.vert" advancewidth="7"/>
+		<Copy fromChar="|" name="uni007C.vert" advancewidth="7"/>
+		<Copy fromChar="}" name="uni007D.vert" advancewidth="7"/>
+		<Copy fromChar="¥" name="uni00A5.vert" advancewidth="7"/>
+		<Copy fromChar="²" name="uni00B2.vert" advancewidth="7"/>
+		<Copy fromChar="³" name="uni00B3.vert" advancewidth="7"/>
+		<Copy fromChar="¹" name="uni00B9.vert" advancewidth="7"/>
+		<Copy fromChar="⁰" name="uni2070.vert" advancewidth="7"/>
+		<Copy fromChar="⁴" name="uni2074.vert" advancewidth="7"/>
+		<Copy fromChar="⁵" name="uni2075.vert" advancewidth="7"/>
+		<Copy fromChar="⁶" name="uni2076.vert" advancewidth="7"/>
+		<Copy fromChar="⁷" name="uni2077.vert" advancewidth="7"/>
+		<Copy fromChar="⁸" name="uni2078.vert" advancewidth="7"/>
+		<Copy fromChar="⁹" name="uni2079.vert" advancewidth="7"/>
+		<Copy fromChar="⁺" name="uni207A.vert" advancewidth="7"/>
+		<Copy fromChar="⁻" name="uni207B.vert" advancewidth="7"/>
+		
+		<!-- 縦組み用字形が、横組み用字形を回転させればできるもの(全角)（コピーしてあとで回転する） -->
+		<Copy fromChar="Ά" name="uni0386.vert"/>
+		<Copy fromChar="Έ" name="uni0388.vert"/>
+		<Copy fromChar="Ή" name="uni0389.vert"/>
+		<Copy fromChar="Ί" name="uni038A.vert"/>
+		<Copy fromChar="Ό" name="uni038C.vert"/>
+		<Copy fromChar="Ύ" name="uni038E.vert"/>
+		<Copy fromChar="Ώ" name="uni038F.vert"/>
+		<Copy fromChar="ΐ" name="uni0390.vert"/>
+		<Copy fromChar="Α" name="uni0391.vert"/>
+		<Copy fromChar="Β" name="uni0392.vert"/>
+		<Copy fromChar="Γ" name="uni0393.vert"/>
+		<Copy fromChar="Δ" name="uni0394.vert"/>
+		<Copy fromChar="Ε" name="uni0395.vert"/>
+		<Copy fromChar="Ζ" name="uni0396.vert"/>
+		<Copy fromChar="Η" name="uni0397.vert"/>
+		<Copy fromChar="Θ" name="uni0398.vert"/>
+		<Copy fromChar="Ι" name="uni0399.vert"/>
+		<Copy fromChar="Κ" name="uni039A.vert"/>
+		<Copy fromChar="Λ" name="uni039B.vert"/>
+		<Copy fromChar="Μ" name="uni039C.vert"/>
+		<Copy fromChar="Ν" name="uni039D.vert"/>
+		<Copy fromChar="Ξ" name="uni039E.vert"/>
+		<Copy fromChar="Ο" name="uni039F.vert"/>
+		<Copy fromChar="Π" name="uni03A0.vert"/>
+		<Copy fromChar="Ρ" name="uni03A1.vert"/>
+		<Copy fromChar="Σ" name="uni03A3.vert"/>
+		<Copy fromChar="Τ" name="uni03A4.vert"/>
+		<Copy fromChar="Υ" name="uni03A5.vert"/>
+		<Copy fromChar="Φ" name="uni03A6.vert"/>
+		<Copy fromChar="Χ" name="uni03A7.vert"/>
+		<Copy fromChar="Ψ" name="uni03A8.vert"/>
+		<Copy fromChar="Ω" name="uni03A9.vert"/>
+		<Copy fromChar="ά" name="uni03AC.vert"/>
+		<Copy fromChar="έ" name="uni03AD.vert"/>
+		<Copy fromChar="ή" name="uni03AE.vert"/>
+		<Copy fromChar="ί" name="uni03AF.vert"/>
+		<Copy fromChar="ΰ" name="uni03B0.vert"/>
+		<Copy fromChar="α" name="uni03B1.vert"/>
+		<Copy fromChar="β" name="uni03B2.vert"/>
+		<Copy fromChar="γ" name="uni03B3.vert"/>
+		<Copy fromChar="δ" name="uni03B4.vert"/>
+		<Copy fromChar="ε" name="uni03B5.vert"/>
+		<Copy fromChar="ζ" name="uni03B6.vert"/>
+		<Copy fromChar="η" name="uni03B7.vert"/>
+		<Copy fromChar="θ" name="uni03B8.vert"/>
+		<Copy fromChar="ι" name="uni03B9.vert"/>
+		<Copy fromChar="κ" name="uni03BA.vert"/>
+		<Copy fromChar="λ" name="uni03BB.vert"/>
+		<Copy fromChar="μ" name="uni03BC.vert"/>
+		<Copy fromChar="ν" name="uni03BD.vert"/>
+		<Copy fromChar="ξ" name="uni03BE.vert"/>
+		<Copy fromChar="ο" name="uni03BF.vert"/>
+		<Copy fromChar="π" name="uni03C0.vert"/>
+		<Copy fromChar="ρ" name="uni03C1.vert"/>
+		<Copy fromChar="ς" name="uni03C2.vert"/>
+		<Copy fromChar="σ" name="uni03C3.vert"/>
+		<Copy fromChar="τ" name="uni03C4.vert"/>
+		<Copy fromChar="υ" name="uni03C5.vert"/>
+		<Copy fromChar="φ" name="uni03C6.vert"/>
+		<Copy fromChar="χ" name="uni03C7.vert"/>
+		<Copy fromChar="ψ" name="uni03C8.vert"/>
+		<Copy fromChar="ω" name="uni03C9.vert"/>
+		<Copy fromChar="ϊ" name="uni03CA.vert"/>
+		<Copy fromChar="ϋ" name="uni03CB.vert"/>
+		<Copy fromChar="ό" name="uni03CC.vert"/>
+		<Copy fromChar="ύ" name="uni03CD.vert"/>
+		<Copy fromChar="ώ" name="uni03CE.vert"/>
+		<Copy fromChar="А" name="uni0410.vert"/>
+		<Copy fromChar="Б" name="uni0411.vert"/>
+		<Copy fromChar="В" name="uni0412.vert"/>
+		<Copy fromChar="Г" name="uni0413.vert"/>
+		<Copy fromChar="Д" name="uni0414.vert"/>
+		<Copy fromChar="Е" name="uni0415.vert"/>
+		<Copy fromChar="И" name="uni0418.vert"/>
+		<Copy fromChar="Й" name="uni0419.vert"/>
+		<Copy fromChar="К" name="uni041A.vert"/>
+		<Copy fromChar="Л" name="uni041B.vert"/>
+		<Copy fromChar="М" name="uni041C.vert"/>
+		<Copy fromChar="Н" name="uni041D.vert"/>
+		<Copy fromChar="О" name="uni041E.vert"/>
+		<Copy fromChar="П" name="uni041F.vert"/>
+		<Copy fromChar="Р" name="uni0420.vert"/>
+		<Copy fromChar="С" name="uni0421.vert"/>
+		<Copy fromChar="Т" name="uni0422.vert"/>
+		<Copy fromChar="У" name="uni0423.vert"/>
+		<Copy fromChar="Ф" name="uni0424.vert"/>
+		<Copy fromChar="Х" name="uni0425.vert"/>
+		<Copy fromChar="Ц" name="uni0426.vert"/>
+		<Copy fromChar="Ч" name="uni0427.vert"/>
+		<Copy fromChar="Ш" name="uni0428.vert"/>
+		<Copy fromChar="Щ" name="uni0429.vert"/>
+		<Copy fromChar="Ъ" name="uni042A.vert"/>
+		<Copy fromChar="Ы" name="uni042B.vert"/>
+		<Copy fromChar="Ь" name="uni042C.vert"/>
+		<Copy fromChar="Э" name="uni042D.vert"/>
+		<Copy fromChar="Ю" name="uni042E.vert"/>
+		<Copy fromChar="Я" name="uni042F.vert"/>
+		<Copy fromChar="Ա" name="uni0531.vert"/>
+		<Copy fromChar="Բ" name="uni0532.vert"/>
+		<Copy fromChar="Գ" name="uni0533.vert"/>
+		<Copy fromChar="Դ" name="uni0534.vert"/>
+		<Copy fromChar="Ե" name="uni0535.vert"/>
+		<Copy fromChar="Զ" name="uni0536.vert"/>
+		<Copy fromChar="Է" name="uni0537.vert"/>
+		<Copy fromChar="Ը" name="uni0538.vert"/>
+		<Copy fromChar="Թ" name="uni0539.vert"/>
+		<Copy fromChar="Ժ" name="uni053A.vert"/>
+		<Copy fromChar="Ի" name="uni053B.vert"/>
+		<Copy fromChar="Լ" name="uni053C.vert"/>
+		<Copy fromChar="Խ" name="uni053D.vert"/>
+		<Copy fromChar="Ծ" name="uni053E.vert"/>
+		<Copy fromChar="Կ" name="uni053F.vert"/>
+		<Copy fromChar="Հ" name="uni0540.vert"/>
+		<Copy fromChar="Ձ" name="uni0541.vert"/>
+		<Copy fromChar="Ղ" name="uni0542.vert"/>
+		<Copy fromChar="Ճ" name="uni0543.vert"/>
+		<Copy fromChar="Մ" name="uni0544.vert"/>
+		<Copy fromChar="Յ" name="uni0545.vert"/>
+		<Copy fromChar="Ն" name="uni0546.vert"/>
+		<Copy fromChar="Շ" name="uni0547.vert"/>
+		<Copy fromChar="Ո" name="uni0548.vert"/>
+		<Copy fromChar="Չ" name="uni0549.vert"/>
+		<Copy fromChar="Պ" name="uni054A.vert"/>
+		<Copy fromChar="Ջ" name="uni054B.vert"/>
+		<Copy fromChar="Ռ" name="uni054C.vert"/>
+		<Copy fromChar="Ս" name="uni054D.vert"/>
+		<Copy fromChar="Վ" name="uni054E.vert"/>
+		<Copy fromChar="Տ" name="uni054F.vert"/>
+		<Copy fromChar="Ր" name="uni0550.vert"/>
+		<Copy fromChar="Ց" name="uni0551.vert"/>
+		<Copy fromChar="Ւ" name="uni0552.vert"/>
+		<Copy fromChar="Փ" name="uni0553.vert"/>
+		<Copy fromChar="Ք" name="uni0554.vert"/>
+		<Copy fromChar="Օ" name="uni0555.vert"/>
+		<Copy fromChar="Ֆ" name="uni0556.vert"/>
+		<Copy fromChar="‘" name="uni2018.vert"/>
+		<Copy fromChar="’" name="uni2019.vert"/>
+		<Copy fromChar="”" name="uni201D.vert"/>
+		<Copy fromChar="√" name="uni221A.vert"/>
+		<Copy fromChar="∫" name="uni222B.vert"/>
+		<Copy fromChar="⊃" name="uni2283.vert"/>
+		<Copy fromChar="－" name="uniFF0D.vert"/>
+		<Copy fromChar="＜" name="uniFF1C.vert"/>
+		<Copy fromChar="＝" name="uniFF1D.vert"/>
+		<Copy fromChar="＞" name="uniFF1E.vert"/>
+		<Copy fromChar="：" name="uniFF1A.vert"/>
+		<Copy fromChar="＿" name="uniFF3F.vert"/>
+		<Copy fromChar="｜" name="uniFF5C.vert"/>
+		<Copy fromChar="￣" name="uniFFE3.vert"/>
+	</GlyphSources>
+	<Effects>
+		
+		<!--
+		縦組み用字形を作る
+		
+		最初にグリフは原点の右上にあるので（原点を中心に）右回転すると右下にうつります
+		それからグリフの上端を揃えるために上へ平行移動します
+		-->
+		<rotate n="1">
+			<!-- エフェクトを適用するグリフ -->
+			<!-- Unicode 文字を直接ここに置くこともできます（改行とタブ文字は無視されます） -->
+			<!-- 縦組み用字形が、横組み用字形を回転させればできるもの(半角) -->
+			<Glyph name="uni0020.vert"/>
+			<Glyph name="uni0021.vert"/>
+			<Glyph name="uni0022.vert"/>
+			<Glyph name="uni0023.vert"/>
+			<Glyph name="uni0024.vert"/>
+			<Glyph name="uni0025.vert"/>
+			<Glyph name="uni0026.vert"/>
+			<Glyph name="uni0027.vert"/>
+			<Glyph name="uni0028.vert"/>
+			<Glyph name="uni0029.vert"/>
+			<Glyph name="uni002A.vert"/>
+			<Glyph name="uni002B.vert"/>
+			<Glyph name="uni002C.vert"/>
+			<Glyph name="uni002D.vert"/>
+			<Glyph name="uni002E.vert"/>
+			<Glyph name="uni002F.vert"/>
+			<Glyph name="uni0030.vert"/>
+			<Glyph name="uni0031.vert"/>
+			<Glyph name="uni0032.vert"/>
+			<Glyph name="uni0033.vert"/>
+			<Glyph name="uni0034.vert"/>
+			<Glyph name="uni0035.vert"/>
+			<Glyph name="uni0036.vert"/>
+			<Glyph name="uni0037.vert"/>
+			<Glyph name="uni0038.vert"/>
+			<Glyph name="uni0039.vert"/>
+			<Glyph name="uni003A.vert"/>
+			<Glyph name="uni003B.vert"/>
+			<Glyph name="uni003F.vert"/>
+			<Glyph name="uni0040.vert"/>
+			<Glyph name="uni0041.vert"/>
+			<Glyph name="uni0042.vert"/>
+			<Glyph name="uni0043.vert"/>
+			<Glyph name="uni0044.vert"/>
+			<Glyph name="uni0045.vert"/>
+			<Glyph name="uni0046.vert"/>
+			<Glyph name="uni0047.vert"/>
+			<Glyph name="uni0048.vert"/>
+			<Glyph name="uni0049.vert"/>
+			<Glyph name="uni004A.vert"/>
+			<Glyph name="uni004B.vert"/>
+			<Glyph name="uni004C.vert"/>
+			<Glyph name="uni004D.vert"/>
+			<Glyph name="uni004E.vert"/>
+			<Glyph name="uni004F.vert"/>
+			<Glyph name="uni0050.vert"/>
+			<Glyph name="uni0051.vert"/>
+			<Glyph name="uni0052.vert"/>
+			<Glyph name="uni0053.vert"/>
+			<Glyph name="uni0054.vert"/>
+			<Glyph name="uni0055.vert"/>
+			<Glyph name="uni0056.vert"/>
+			<Glyph name="uni0057.vert"/>
+			<Glyph name="uni0058.vert"/>
+			<Glyph name="uni0059.vert"/>
+			<Glyph name="uni005A.vert"/>
+			<Glyph name="uni005E.vert"/>
+			<Glyph name="uni005F.vert"/>
+			<Glyph name="uni0061.vert"/>
+			<Glyph name="uni0062.vert"/>
+			<Glyph name="uni0063.vert"/>
+			<Glyph name="uni0064.vert"/>
+			<Glyph name="uni0065.vert"/>
+			<Glyph name="uni0066.vert"/>
+			<Glyph name="uni0067.vert"/>
+			<Glyph name="uni0068.vert"/>
+			<Glyph name="uni0069.vert"/>
+			<Glyph name="uni006A.vert"/>
+			<Glyph name="uni006B.vert"/>
+			<Glyph name="uni006C.vert"/>
+			<Glyph name="uni006D.vert"/>
+			<Glyph name="uni006E.vert"/>
+			<Glyph name="uni006F.vert"/>
+			<Glyph name="uni0070.vert"/>
+			<Glyph name="uni0071.vert"/>
+			<Glyph name="uni0072.vert"/>
+			<Glyph name="uni0073.vert"/>
+			<Glyph name="uni0074.vert"/>
+			<Glyph name="uni0075.vert"/>
+			<Glyph name="uni0076.vert"/>
+			<Glyph name="uni0077.vert"/>
+			<Glyph name="uni0078.vert"/>
+			<Glyph name="uni0079.vert"/>
+			<Glyph name="uni007A.vert"/>
+			<Glyph name="uni007B.vert"/>
+			<Glyph name="uni007C.vert"/>
+			<Glyph name="uni007D.vert"/>
+			<Glyph name="uni00A5.vert"/>
+			<Glyph name="uni00B2.vert"/>
+			<Glyph name="uni00B3.vert"/>
+			<Glyph name="uni00B9.vert"/>
+			<Glyph name="uni2070.vert"/>
+			<Glyph name="uni2074.vert"/>
+			<Glyph name="uni2075.vert"/>
+			<Glyph name="uni2076.vert"/>
+			<Glyph name="uni2077.vert"/>
+			<Glyph name="uni2078.vert"/>
+			<Glyph name="uni2079.vert"/>
+			<Glyph name="uni207A.vert"/>
+			<Glyph name="uni207B.vert"/>
+			<!-- 縦組み用字形が、横組み用字形を回転させればできるもの(全角) -->
+			<Glyph name="uni0386.vert"/>
+			<Glyph name="uni0388.vert"/>
+			<Glyph name="uni0389.vert"/>
+			<Glyph name="uni038A.vert"/>
+			<Glyph name="uni038C.vert"/>
+			<Glyph name="uni038E.vert"/>
+			<Glyph name="uni038F.vert"/>
+			<Glyph name="uni0390.vert"/>
+			<Glyph name="uni0391.vert"/>
+			<Glyph name="uni0392.vert"/>
+			<Glyph name="uni0393.vert"/>
+			<Glyph name="uni0394.vert"/>
+			<Glyph name="uni0395.vert"/>
+			<Glyph name="uni0396.vert"/>
+			<Glyph name="uni0397.vert"/>
+			<Glyph name="uni0398.vert"/>
+			<Glyph name="uni0399.vert"/>
+			<Glyph name="uni039A.vert"/>
+			<Glyph name="uni039B.vert"/>
+			<Glyph name="uni039C.vert"/>
+			<Glyph name="uni039D.vert"/>
+			<Glyph name="uni039E.vert"/>
+			<Glyph name="uni039F.vert"/>
+			<Glyph name="uni03A0.vert"/>
+			<Glyph name="uni03A1.vert"/>
+			<Glyph name="uni03A3.vert"/>
+			<Glyph name="uni03A4.vert"/>
+			<Glyph name="uni03A5.vert"/>
+			<Glyph name="uni03A6.vert"/>
+			<Glyph name="uni03A7.vert"/>
+			<Glyph name="uni03A8.vert"/>
+			<Glyph name="uni03A9.vert"/>
+			<Glyph name="uni03AC.vert"/>
+			<Glyph name="uni03AD.vert"/>
+			<Glyph name="uni03AE.vert"/>
+			<Glyph name="uni03AF.vert"/>
+			<Glyph name="uni03B0.vert"/>
+			<Glyph name="uni03B1.vert"/>
+			<Glyph name="uni03B2.vert"/>
+			<Glyph name="uni03B3.vert"/>
+			<Glyph name="uni03B4.vert"/>
+			<Glyph name="uni03B5.vert"/>
+			<Glyph name="uni03B6.vert"/>
+			<Glyph name="uni03B7.vert"/>
+			<Glyph name="uni03B8.vert"/>
+			<Glyph name="uni03B9.vert"/>
+			<Glyph name="uni03BA.vert"/>
+			<Glyph name="uni03BB.vert"/>
+			<Glyph name="uni03BC.vert"/>
+			<Glyph name="uni03BD.vert"/>
+			<Glyph name="uni03BE.vert"/>
+			<Glyph name="uni03BF.vert"/>
+			<Glyph name="uni03C0.vert"/>
+			<Glyph name="uni03C1.vert"/>
+			<Glyph name="uni03C2.vert"/>
+			<Glyph name="uni03C3.vert"/>
+			<Glyph name="uni03C4.vert"/>
+			<Glyph name="uni03C5.vert"/>
+			<Glyph name="uni03C6.vert"/>
+			<Glyph name="uni03C7.vert"/>
+			<Glyph name="uni03C8.vert"/>
+			<Glyph name="uni03C9.vert"/>
+			<Glyph name="uni03CA.vert"/>
+			<Glyph name="uni03CB.vert"/>
+			<Glyph name="uni03CC.vert"/>
+			<Glyph name="uni03CD.vert"/>
+			<Glyph name="uni03CE.vert"/>
+			<Glyph name="uni0410.vert"/>
+			<Glyph name="uni0411.vert"/>
+			<Glyph name="uni0412.vert"/>
+			<Glyph name="uni0413.vert"/>
+			<Glyph name="uni0414.vert"/>
+			<Glyph name="uni0415.vert"/>
+			<Glyph name="uni0418.vert"/>
+			<Glyph name="uni0419.vert"/>
+			<Glyph name="uni041A.vert"/>
+			<Glyph name="uni041B.vert"/>
+			<Glyph name="uni041C.vert"/>
+			<Glyph name="uni041D.vert"/>
+			<Glyph name="uni041E.vert"/>
+			<Glyph name="uni041F.vert"/>
+			<Glyph name="uni0420.vert"/>
+			<Glyph name="uni0421.vert"/>
+			<Glyph name="uni0422.vert"/>
+			<Glyph name="uni0423.vert"/>
+			<Glyph name="uni0424.vert"/>
+			<Glyph name="uni0425.vert"/>
+			<Glyph name="uni0426.vert"/>
+			<Glyph name="uni0427.vert"/>
+			<Glyph name="uni0428.vert"/>
+			<Glyph name="uni0429.vert"/>
+			<Glyph name="uni042A.vert"/>
+			<Glyph name="uni042B.vert"/>
+			<Glyph name="uni042C.vert"/>
+			<Glyph name="uni042D.vert"/>
+			<Glyph name="uni042E.vert"/>
+			<Glyph name="uni042F.vert"/>
+			<Glyph name="uni0531.vert"/>
+			<Glyph name="uni0532.vert"/>
+			<Glyph name="uni0533.vert"/>
+			<Glyph name="uni0534.vert"/>
+			<Glyph name="uni0535.vert"/>
+			<Glyph name="uni0536.vert"/>
+			<Glyph name="uni0537.vert"/>
+			<Glyph name="uni0538.vert"/>
+			<Glyph name="uni0539.vert"/>
+			<Glyph name="uni053A.vert"/>
+			<Glyph name="uni053B.vert"/>
+			<Glyph name="uni053C.vert"/>
+			<Glyph name="uni053D.vert"/>
+			<Glyph name="uni053E.vert"/>
+			<Glyph name="uni053F.vert"/>
+			<Glyph name="uni0540.vert"/>
+			<Glyph name="uni0541.vert"/>
+			<Glyph name="uni0542.vert"/>
+			<Glyph name="uni0543.vert"/>
+			<Glyph name="uni0544.vert"/>
+			<Glyph name="uni0545.vert"/>
+			<Glyph name="uni0546.vert"/>
+			<Glyph name="uni0547.vert"/>
+			<Glyph name="uni0548.vert"/>
+			<Glyph name="uni0549.vert"/>
+			<Glyph name="uni054A.vert"/>
+			<Glyph name="uni054B.vert"/>
+			<Glyph name="uni054C.vert"/>
+			<Glyph name="uni054D.vert"/>
+			<Glyph name="uni054E.vert"/>
+			<Glyph name="uni054F.vert"/>
+			<Glyph name="uni0550.vert"/>
+			<Glyph name="uni0551.vert"/>
+			<Glyph name="uni0552.vert"/>
+			<Glyph name="uni0553.vert"/>
+			<Glyph name="uni0554.vert"/>
+			<Glyph name="uni0555.vert"/>
+			<Glyph name="uni0556.vert"/>
+			<Glyph name="uni2018.vert"/>
+			<Glyph name="uni2019.vert"/>
+			<Glyph name="uni201D.vert"/>
+			<Glyph name="uni221A.vert"/>
+			<Glyph name="uni222B.vert"/>
+			<Glyph name="uni2283.vert"/>
+			<Glyph name="uniFF0D.vert"/>
+			<Glyph name="uniFF1C.vert"/>
+			<Glyph name="uniFF1D.vert"/>
+			<Glyph name="uniFF1E.vert"/>
+			<Glyph name="uniFF1A.vert"/>
+			<Glyph name="uniFF3F.vert"/>
+			<Glyph name="uniFF5C.vert"/>
+			<Glyph name="uniFFE3.vert"/>
+		</rotate>
+		<translate x="0" y="13">
+			<!-- 縦組み用字形が、横組み用字形を回転させればできるもの(半角) -->
+			<Glyph name="uni0020.vert"/>
+			<Glyph name="uni0021.vert"/>
+			<Glyph name="uni0022.vert"/>
+			<Glyph name="uni0023.vert"/>
+			<Glyph name="uni0024.vert"/>
+			<Glyph name="uni0025.vert"/>
+			<Glyph name="uni0026.vert"/>
+			<Glyph name="uni0027.vert"/>
+			<Glyph name="uni0028.vert"/>
+			<Glyph name="uni0029.vert"/>
+			<Glyph name="uni002A.vert"/>
+			<Glyph name="uni002B.vert"/>
+			<Glyph name="uni002C.vert"/>
+			<Glyph name="uni002D.vert"/>
+			<Glyph name="uni002E.vert"/>
+			<Glyph name="uni002F.vert"/>
+			<Glyph name="uni0030.vert"/>
+			<Glyph name="uni0031.vert"/>
+			<Glyph name="uni0032.vert"/>
+			<Glyph name="uni0033.vert"/>
+			<Glyph name="uni0034.vert"/>
+			<Glyph name="uni0035.vert"/>
+			<Glyph name="uni0036.vert"/>
+			<Glyph name="uni0037.vert"/>
+			<Glyph name="uni0038.vert"/>
+			<Glyph name="uni0039.vert"/>
+			<Glyph name="uni003A.vert"/>
+			<Glyph name="uni003B.vert"/>
+			<Glyph name="uni003F.vert"/>
+			<Glyph name="uni0040.vert"/>
+			<Glyph name="uni0041.vert"/>
+			<Glyph name="uni0042.vert"/>
+			<Glyph name="uni0043.vert"/>
+			<Glyph name="uni0044.vert"/>
+			<Glyph name="uni0045.vert"/>
+			<Glyph name="uni0046.vert"/>
+			<Glyph name="uni0047.vert"/>
+			<Glyph name="uni0048.vert"/>
+			<Glyph name="uni0049.vert"/>
+			<Glyph name="uni004A.vert"/>
+			<Glyph name="uni004B.vert"/>
+			<Glyph name="uni004C.vert"/>
+			<Glyph name="uni004D.vert"/>
+			<Glyph name="uni004E.vert"/>
+			<Glyph name="uni004F.vert"/>
+			<Glyph name="uni0050.vert"/>
+			<Glyph name="uni0051.vert"/>
+			<Glyph name="uni0052.vert"/>
+			<Glyph name="uni0053.vert"/>
+			<Glyph name="uni0054.vert"/>
+			<Glyph name="uni0055.vert"/>
+			<Glyph name="uni0056.vert"/>
+			<Glyph name="uni0057.vert"/>
+			<Glyph name="uni0058.vert"/>
+			<Glyph name="uni0059.vert"/>
+			<Glyph name="uni005A.vert"/>
+			<Glyph name="uni005E.vert"/>
+			<Glyph name="uni005F.vert"/>
+			<Glyph name="uni0061.vert"/>
+			<Glyph name="uni0062.vert"/>
+			<Glyph name="uni0063.vert"/>
+			<Glyph name="uni0064.vert"/>
+			<Glyph name="uni0065.vert"/>
+			<Glyph name="uni0066.vert"/>
+			<Glyph name="uni0067.vert"/>
+			<Glyph name="uni0068.vert"/>
+			<Glyph name="uni0069.vert"/>
+			<Glyph name="uni006A.vert"/>
+			<Glyph name="uni006B.vert"/>
+			<Glyph name="uni006C.vert"/>
+			<Glyph name="uni006D.vert"/>
+			<Glyph name="uni006E.vert"/>
+			<Glyph name="uni006F.vert"/>
+			<Glyph name="uni0070.vert"/>
+			<Glyph name="uni0071.vert"/>
+			<Glyph name="uni0072.vert"/>
+			<Glyph name="uni0073.vert"/>
+			<Glyph name="uni0074.vert"/>
+			<Glyph name="uni0075.vert"/>
+			<Glyph name="uni0076.vert"/>
+			<Glyph name="uni0077.vert"/>
+			<Glyph name="uni0078.vert"/>
+			<Glyph name="uni0079.vert"/>
+			<Glyph name="uni007A.vert"/>
+			<Glyph name="uni007B.vert"/>
+			<Glyph name="uni007C.vert"/>
+			<Glyph name="uni007D.vert"/>
+			<Glyph name="uni00A5.vert"/>
+			<Glyph name="uni00B2.vert"/>
+			<Glyph name="uni00B3.vert"/>
+			<Glyph name="uni00B9.vert"/>
+			<Glyph name="uni2070.vert"/>
+			<Glyph name="uni2074.vert"/>
+			<Glyph name="uni2075.vert"/>
+			<Glyph name="uni2076.vert"/>
+			<Glyph name="uni2077.vert"/>
+			<Glyph name="uni2078.vert"/>
+			<Glyph name="uni2079.vert"/>
+			<Glyph name="uni207A.vert"/>
+			<Glyph name="uni207B.vert"/>
+			<!-- 縦組み用字形が、横組み用字形を回転させればできるもの(全角) -->
+			<Glyph name="uni0386.vert"/>
+			<Glyph name="uni0388.vert"/>
+			<Glyph name="uni0389.vert"/>
+			<Glyph name="uni038A.vert"/>
+			<Glyph name="uni038C.vert"/>
+			<Glyph name="uni038E.vert"/>
+			<Glyph name="uni038F.vert"/>
+			<Glyph name="uni0390.vert"/>
+			<Glyph name="uni0391.vert"/>
+			<Glyph name="uni0392.vert"/>
+			<Glyph name="uni0393.vert"/>
+			<Glyph name="uni0394.vert"/>
+			<Glyph name="uni0395.vert"/>
+			<Glyph name="uni0396.vert"/>
+			<Glyph name="uni0397.vert"/>
+			<Glyph name="uni0398.vert"/>
+			<Glyph name="uni0399.vert"/>
+			<Glyph name="uni039A.vert"/>
+			<Glyph name="uni039B.vert"/>
+			<Glyph name="uni039C.vert"/>
+			<Glyph name="uni039D.vert"/>
+			<Glyph name="uni039E.vert"/>
+			<Glyph name="uni039F.vert"/>
+			<Glyph name="uni03A0.vert"/>
+			<Glyph name="uni03A1.vert"/>
+			<Glyph name="uni03A3.vert"/>
+			<Glyph name="uni03A4.vert"/>
+			<Glyph name="uni03A5.vert"/>
+			<Glyph name="uni03A6.vert"/>
+			<Glyph name="uni03A7.vert"/>
+			<Glyph name="uni03A8.vert"/>
+			<Glyph name="uni03A9.vert"/>
+			<Glyph name="uni03AC.vert"/>
+			<Glyph name="uni03AD.vert"/>
+			<Glyph name="uni03AE.vert"/>
+			<Glyph name="uni03AF.vert"/>
+			<Glyph name="uni03B0.vert"/>
+			<Glyph name="uni03B1.vert"/>
+			<Glyph name="uni03B2.vert"/>
+			<Glyph name="uni03B3.vert"/>
+			<Glyph name="uni03B4.vert"/>
+			<Glyph name="uni03B5.vert"/>
+			<Glyph name="uni03B6.vert"/>
+			<Glyph name="uni03B7.vert"/>
+			<Glyph name="uni03B8.vert"/>
+			<Glyph name="uni03B9.vert"/>
+			<Glyph name="uni03BA.vert"/>
+			<Glyph name="uni03BB.vert"/>
+			<Glyph name="uni03BC.vert"/>
+			<Glyph name="uni03BD.vert"/>
+			<Glyph name="uni03BE.vert"/>
+			<Glyph name="uni03BF.vert"/>
+			<Glyph name="uni03C0.vert"/>
+			<Glyph name="uni03C1.vert"/>
+			<Glyph name="uni03C2.vert"/>
+			<Glyph name="uni03C3.vert"/>
+			<Glyph name="uni03C4.vert"/>
+			<Glyph name="uni03C5.vert"/>
+			<Glyph name="uni03C6.vert"/>
+			<Glyph name="uni03C7.vert"/>
+			<Glyph name="uni03C8.vert"/>
+			<Glyph name="uni03C9.vert"/>
+			<Glyph name="uni03CA.vert"/>
+			<Glyph name="uni03CB.vert"/>
+			<Glyph name="uni03CC.vert"/>
+			<Glyph name="uni03CD.vert"/>
+			<Glyph name="uni03CE.vert"/>
+			<Glyph name="uni0410.vert"/>
+			<Glyph name="uni0411.vert"/>
+			<Glyph name="uni0412.vert"/>
+			<Glyph name="uni0413.vert"/>
+			<Glyph name="uni0414.vert"/>
+			<Glyph name="uni0415.vert"/>
+			<Glyph name="uni0418.vert"/>
+			<Glyph name="uni0419.vert"/>
+			<Glyph name="uni041A.vert"/>
+			<Glyph name="uni041B.vert"/>
+			<Glyph name="uni041C.vert"/>
+			<Glyph name="uni041D.vert"/>
+			<Glyph name="uni041E.vert"/>
+			<Glyph name="uni041F.vert"/>
+			<Glyph name="uni0420.vert"/>
+			<Glyph name="uni0421.vert"/>
+			<Glyph name="uni0422.vert"/>
+			<Glyph name="uni0423.vert"/>
+			<Glyph name="uni0424.vert"/>
+			<Glyph name="uni0425.vert"/>
+			<Glyph name="uni0426.vert"/>
+			<Glyph name="uni0427.vert"/>
+			<Glyph name="uni0428.vert"/>
+			<Glyph name="uni0429.vert"/>
+			<Glyph name="uni042A.vert"/>
+			<Glyph name="uni042B.vert"/>
+			<Glyph name="uni042C.vert"/>
+			<Glyph name="uni042D.vert"/>
+			<Glyph name="uni042E.vert"/>
+			<Glyph name="uni042F.vert"/>
+			<Glyph name="uni0531.vert"/>
+			<Glyph name="uni0532.vert"/>
+			<Glyph name="uni0533.vert"/>
+			<Glyph name="uni0534.vert"/>
+			<Glyph name="uni0535.vert"/>
+			<Glyph name="uni0536.vert"/>
+			<Glyph name="uni0537.vert"/>
+			<Glyph name="uni0538.vert"/>
+			<Glyph name="uni0539.vert"/>
+			<Glyph name="uni053A.vert"/>
+			<Glyph name="uni053B.vert"/>
+			<Glyph name="uni053C.vert"/>
+			<Glyph name="uni053D.vert"/>
+			<Glyph name="uni053E.vert"/>
+			<Glyph name="uni053F.vert"/>
+			<Glyph name="uni0540.vert"/>
+			<Glyph name="uni0541.vert"/>
+			<Glyph name="uni0542.vert"/>
+			<Glyph name="uni0543.vert"/>
+			<Glyph name="uni0544.vert"/>
+			<Glyph name="uni0545.vert"/>
+			<Glyph name="uni0546.vert"/>
+			<Glyph name="uni0547.vert"/>
+			<Glyph name="uni0548.vert"/>
+			<Glyph name="uni0549.vert"/>
+			<Glyph name="uni054A.vert"/>
+			<Glyph name="uni054B.vert"/>
+			<Glyph name="uni054C.vert"/>
+			<Glyph name="uni054D.vert"/>
+			<Glyph name="uni054E.vert"/>
+			<Glyph name="uni054F.vert"/>
+			<Glyph name="uni0550.vert"/>
+			<Glyph name="uni0551.vert"/>
+			<Glyph name="uni0552.vert"/>
+			<Glyph name="uni0553.vert"/>
+			<Glyph name="uni0554.vert"/>
+			<Glyph name="uni0555.vert"/>
+			<Glyph name="uni0556.vert"/>
+			<Glyph name="uni2018.vert"/>
+			<Glyph name="uni2019.vert"/>
+			<Glyph name="uni201D.vert"/>
+			<Glyph name="uni221A.vert"/>
+			<Glyph name="uni222B.vert"/>
+			<Glyph name="uni2283.vert"/>
+			<Glyph name="uniFF0D.vert"/>
+			<Glyph name="uniFF1C.vert"/>
+			<Glyph name="uniFF1D.vert"/>
+			<Glyph name="uniFF1E.vert"/>
+			<Glyph name="uniFF1A.vert"/>
+			<Glyph name="uniFF3F.vert"/>
+			<Glyph name="uniFF5C.vert"/>
+			<Glyph name="uniFFE3.vert"/>
+		</translate>
+		<!--
+			<translate x="2" y="1">...</translate>  .... グリフを右へ x、上へ y だけ平行移動する
+			<rotate n="1">...</rotate>              .... グリフを原点を中心に n*90 度時計回りに回転する
+			<scale x="2" y="2">...</scale>          .... グリフを x*y 倍に拡大する
+		-->
+		
+		<!-- 注意: これらのエフェクトを適用する際には（FontInfo セクションの）"bold" や "italic" パラメータを変更する必要があるでしょう。 -->
+		<!--
+			<makebold boldtype="0" x="1" y="0"><AllGlyphs/></makebold>
+			<makeitalic cotangent="3"><AllGlyphs/></makeitalic>
+		-->
+	</Effects>
+</Bitmap2OTFFontParameters>
