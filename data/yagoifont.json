@@ -1,0 +1,2885 @@
+{
+	"ttx": "yagoi_template.ttx",
+	"output": "yagoifont.otf",
+	"fontInfo": {
+		"settings": {
+			"ascent": 13,
+			"descent": 1,
+			"x-height": 8,
+			"vertascent": 7,
+			"vertdescent": 7,
+			"bold": 0,
+			"italic": 0
+		},
+		"namerecords": [
+			{
+				"platformID": [1, 3],
+				"platEncID": [0, 1],
+				"langID": [0, 1033],
+				"useAsCFFNames": true,
+				"namerecord": {
+					"copyright": "(C) 8:51:22 pm",
+					"fontFamily": "yagoifont",
+					"subfamily": "Regular",
+					"uniqueID": "Bitmap2OTF : 851 font : 2015-10-05",
+					"fullName": "851 font",
+					"version": "Version 0.38",
+					"postscriptName": "yagoifont",
+					"preferredFamily": "851 font",
+					"preferredSubfamily": "Regular"
+				}
+			},
+			{
+				"platformID": [1, 3],
+				"platEncID": [1, 1],
+				"langID": [11, 1041],
+				"namerecord": {
+					"copyright": "(C) 8:51:22 pm",
+					"fontFamily": "851フォント",
+					"subfamily": "標準",
+					"fullName": "851フォント",
+					"version": "バージョン 0.38",
+					"preferredFamily": "851フォント",
+					"preferredSubfamily": "標準"
+				}
+			}
+		]
+	},
+	"outline": {
+		"dotSize": [100.0, 100.0],
+		"dotShape": "pixel-outline"
+	},
+	"bitmap": true,
+	"glyphs": {
+		"bitmapSize": [13, 13],
+		"origin": [0, 0],
+		"voriginy": 13,
+		"advancewidth": 14,
+		"advanceheight": 14,
+		"sources": [
+			{
+				"name": ".notdef",
+				"data": [
+					".............",
+					".............",
+					".............",
+					".............",
+					".............",
+					"......@@.....",
+					"......@@.....",
+					".............",
+					".............",
+					".............",
+					".............",
+					".............",
+					"............."
+				]
+			},
+			{
+				"name": ".null",
+				"codepoint": 0,
+				"advancewidth": 0,
+				"space": true
+			},
+			{
+				"name": "CR",
+				"char": "\u000D",
+				"advancewidth": 7,
+				"space": true
+			},
+			{
+				"chars": "\u0020\u00A0",
+				"advancewidth": 7,
+				"space": true
+			},
+			{
+				"chars": "\u3000",
+				"space": true
+			},
+			{
+				"chars": "０１２３４５６７８９",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "0123456789",
+				"bitmapSize": [6, 13],
+				"advancewidth": 7,
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 63],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ；：－／",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 95],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ！？，．",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [86, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻",
+				"bitmapSize": [6, 13],
+				"advancewidth": 7,
+				"image": {
+					"src": "851font_all.png",
+					"pos": [86, 127],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "  ‼⁉ ⊃",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [86, 159],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+				"bitmapSize": [6, 13],
+				"advancewidth": 7,
+				"image": {
+					"src": "851font_all.png",
+					"pos": [168, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "abcdefghijklmnopqrstuvwxyz,.!? $% ()  -      '_",
+				"bitmapSize": [6, 13],
+				"advancewidth": 7,
+				"image": {
+					"src": "851font_all.png",
+					"pos": [248, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "#  &  *+ / @ ¥^",
+				"bitmapSize": [7, 13],
+				"advancewidth": 7,
+				"image": {
+					"src": "851font_all.png",
+					"pos": [248, 127],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"char": "＝",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [248, 159]
+				}
+			},
+			{
+				"char": "＠",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [280, 159]
+				}
+			},
+			{
+				"chars": "  ×÷ ”＃＄％＆’￥｜＾‘｛＋＊｝＿＜＞√∫￣＼",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [248, 175],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "㌀㌁㌂㌃㌄㌅㌆㌇㌈㌉㌊㌋㌍㌎㌏㌐㌑㌒㌓㌔㌕㌖㌗㌘㌙㌚㌛㌜㌝㌞㌟㌠㌡㌢㌣㌤㌥㌦㌧㌩㌪㌫㌬㌮㌯㌰㌱㌲㌳㌴",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [331, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "㌵㌶㌷㌸㌹㌺㌻㌼㌽㌾㍀㍁㍂㍃㍄㍅㍆㍇㍈㍉㍋㍌㍍㍎㍏㍐㍑㍒㍓㍔㍕㍖㍗",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [414, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもや ゆ よらりるれろわをん、。",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [495, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉゃゅょっゕ゙゚「」＂ー～・…ゎゐゑ",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [575, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤ ユ ヨラリルレロワヰヱヲン",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [655, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "ガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォャュョッヵ゛゜       ヮ",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [735, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				},
+				"_comment": "ヰヱ は左側を使う https://twitter.com/pm85122/status/490159036545769472"
+			},
+			{
+				"char": "ヴ",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [768, 174]
+				},
+				"_comment": "ヴ は1ピクセル上にずれているので個別対応"
+			},
+			{
+				"chars": "一乙丶丿亅丨乀乚乁",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 226],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "九七十人丁刀二入乃八卜又了力乂亠儿冂冖冫几凵勹匕匚匸卩厂厶刁𠂉丂丩亻𠆢𠘨刂丄丅乄乜",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 293],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "下干丸久及弓巾己乞口工叉才三山士子勺女小上丈刃寸千川大土之亡凡万巳也夕与个于兀刄囗夂夊孑宀尢尸屮巛已",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 472],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "幺广廴廾弋彑彡彳",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 472],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "井允引丑云円王化火牙介刈仇牛凶斤区欠月犬元幻戸五互午公勾孔今支止氏尺手収什升少冗心仁壬水切双太丹中弔",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 667],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "爪天斗屯内匂廿日巴反比匹不夫父仏分文片方乏毛木勿尤匁厄友予六",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 667],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "圧以右卯永凹央加可禾外且叶瓦刊甘丘旧去巨玉句兄穴玄乎古功巧広弘甲号込左冊札皿仕仔司史四市示叱失写主囚",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 862],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "汁出処召尻申世正生斥石仙占匝他打代台凧只叩旦庁汀田奴冬凸乍尼白半氾犯皮疋必氷付布弗払丙平辺弁戊母包北",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 862],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "本末未民矛目矢由幼用立令礼",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [172, 862],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "旭扱安伊夷衣亥芋印因吋宇羽臼瓜曳汚仮会回灰各汗缶企伎危机気吉吃休吸朽兇共匡叫仰曲刑圭血件伍交光向后好",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 1057],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "江考行合此艮再在旨死糸至字寺次而耳自汐式芝守朱州舟充戎夙旬巡匠庄丞色尽迅成西舌先尖舛全壮早争存多宅托",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 1057],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "団地弛池竹仲虫兆辻吊伝吐灯当同凪汝弐肉如任年肌伐帆汎妃百伏米忙朴毎亦牟名牝妄有羊吏両列劣老肋亙亘",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [172, 1057],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "亜芦杏位囲医壱迂応沖牡何伽花我快戒改芥貝角苅完肝含岐希忌汽妓技却求汲灸究亨狂局均芹近吟玖串君形系芸迎",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 1252],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "決見言呉吾坑孝宏抗攻更劫克告困佐沙坐災材冴坂阪作伺志孜私似児宍社車杓灼寿秀住初助序床抄肖条杖状伸臣芯",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 1252],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "身辛図吹杉声赤折宋走即束足村汰妥体対択沢但辰辿谷男町沈佃低呈廷弟兎杜努投豆禿酉沌呑那尿妊忍把芭売伯麦",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [172, 1252],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "抜伴判釆否庇批尾肘扶芙吻扮兵別返甫呆芳邦坊妨忘防吠没迄妙杢戻冶役佑邑余妖抑沃来乱卵利李里良伶冷励呂労",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [255, 1252],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "弄牢",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [338, 1252],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "阿宛姐或依委易育雨泳英奄延沿炎苑於往押旺欧殴岡価佳果河苛茄画芽怪拐劾拡学岳茅侃官岸玩岩奇祈季宜杵泣居",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 1447],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "拒拠享京供侠協怯況尭欣金狗苦具空屈沓卦祁径茎券肩弦呼固姑股虎佼効幸庚拘昂杭肯肱刻国忽狛坤昏昆些妻采肴",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 1447],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "咋刷参使刺始姉枝祉肢事侍治竺実舎者邪若取受呪周宗叔述所妾尚承招昇昌松沼垂炊枢制姓征性青斉昔析拙岨狙阻",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [172, 1447],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "卒其陀岱苔卓拓坦担知宙忠抽注苧帖長直坪定底抵邸泥的迭典店妬宕東到毒突届苫奈迩乳念杷波拝杯拍泊迫函板版",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [255, 1447],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "彼披泌肥非枇表苗府怖斧阜附侮武服沸物併並歩奉宝庖抱放朋法泡房肪牧奔妹枚枕抹沫侭味岬命明免茂孟盲門夜弥",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [338, 1447],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "油林例怜苓炉和枠",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [421, 1447],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "娃哀姶茜虻按威為畏胃郁茨咽姻胤姥荏映栄洩盈疫怨屋卸音科架珂迦俄臥廻悔恢海界皆咳垣柿革恰括活冠巻姦柑看",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 1642],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "竿紀軌祇客虐逆急級糾峡挟狭粁衿粂軍係型契荊計建研県限孤弧故枯狐胡後侯厚垢巷恒洪皇紅荒郊香拷恨査砂哉砕",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 1642],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "咲削昨柵拶珊姿屍思指施持室狩首拾洲秋臭酋柔重祝俊春盾叙昭省乗城浄拭食信侵神甚帥是政星牲窃宣専泉浅洗染",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [172, 1642],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "穿前祖奏相草荘送促則俗柁耐待怠胎退茸単炭胆段茶昼柱挑勅珍津追栂柘亭剃貞帝訂点度怒逃洞峠独栃南虹祢廼派",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [255, 1642],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "盃背肺矧柏畑発叛卑飛毘眉美柊彦秒品負赴封風柄頁変便保胞某冒勃殆盆昧柾俣迷姪面籾耶約柳勇宥幽柚祐洋要洛",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [338, 1642],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "律侶亮厘玲郎歪",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [421, 1642],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "唖挨案員院烏唄浦益悦宴翁荻俺恩夏家荷華蚊峨害浬格核株釜栢桓莞陥既帰記起飢鬼桔砧宮笈挙恐恭胸脅桐倶矩屑",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 1837],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "栗桑訓郡珪恵桂桁倹倦兼剣拳軒原個庫娯悟候倖晃校浩紘耕航貢砿降高剛骨根唆差座挫宰栽剤財朔窄索桜殺捌晒桟",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 1837],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "蚕残師紙脂時疾柴射紗借酌弱殊珠酒修従峻准殉純書徐恕除哨宵将消症祥称笑辱唇娠振晋浸疹真秦針訊陣粋衰畝凄",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [172, 1837],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "栖逝脆隻席脊扇栓栴閃租素倉捜挿造息捉速袖孫帯泰啄託狸耽値恥致畜逐秩衷酎凋捗朕通庭悌挺逓釘哲展徒途砥砺",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [255, 1837],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "倒党凍唐套島桃涛討透胴匿涜特悩納能蚤破馬俳配倍梅狽秤剥莫畠隼班畔般挽匪疲秘被畢桧姫紐俵豹病浜敏浮粉紛",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [338, 1837],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "陛勉娩圃捕倣俸峰峯砲剖紡埋哩脈粍眠娘冥耗紋涌容浴莱流留竜旅凌料倫涙烈恋連朗浪狼倭脇",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [421, 1837],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "逢悪梓袷庵尉惟異移萎域逸淫陰液掩焔黄桶菓貨晦械崖涯蛎殻郭掛笠梶喝渇椛兜乾勘患貫眼基寄規亀偽掬菊脚救球",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 2032],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "虚許魚強教郷菌躯偶釧掘袈啓掲渓畦経蛍訣健捲牽険現絃舷袴梧康控梗黒惚頃婚梱混痕紺彩採済砦祭斎細菜崎埼笹",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 2032],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "匙皐惨産斬視痔鹿雫執悉偲捨赦斜蛇釈寂授終習週渋宿淑粛術淳渚庶商唱娼捷梢渉章紹菖訟剰常情埴深紳進笥逗推",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [172, 2032],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "酔崇据菅雀清盛惜戚責接設雪旋船措曽粗組爽掃掻曹巣窓側族唾舵堆袋逮第琢脱探淡蛋断窒猪著帳張彫眺頂鳥陳掴",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [255, 2032],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "壷紬釣停偵梯笛添甜転都悼梼盗淘祷陶動堂萄得寅惇豚捺軟猫捻粘埜脳婆排敗培陪這粕舶販菱彪票描彬貧瓶埠婦冨",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [338, 2032],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "符部副閉偏菩崩捧烹萌訪望釦堀麻桝密務猛問野訳唯悠郵庸欲翌淀梨理陸率掠略琉粒隆梁涼猟陵淋累婁",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [421, 2032],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "葵握渥絢粟偉椅飲渦閏運雲営瑛詠越堰援甥奥温過賀絵開階凱街蛙鈎覚割葛萱粥寒喚堪換敢棺款間閑雁喜幾揮期棋",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 2227],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "稀貴欺喫黍給渠距卿喬暁極勤欽琴筋喰寓遇隅隈敬景軽戟結喧圏堅検硯減湖菰雇御喉慌港硬絞腔項詐最犀裁堺策傘",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 2227],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "散斯紫詞歯滋軸湿屡煮惹就衆集竣循順暑勝掌晶湘焼焦硝粧証詔象場畳植殖森診尋靭須酢厨遂随椙晴棲税絶善然曾",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [172, 2227],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "疏疎訴創喪惣痩葬装測属揃尊詑堕惰替貸隊達巽棚湛短弾智遅筑着註貯喋朝脹超椎痛塚堤提程貼堵屠渡登菟塔搭棟",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [255, 2227],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "湯痘等答筒統董童道敦鈍韮葱覗琶廃牌媒買萩博硲筈溌筏蛤斑飯晩番蛮悲扉斐費備琵弼筆媛評蛭斌富普葡葺復幅淵",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [338, 2227],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "焚雰塀遍補募報傍帽棒貿満湊無椋婿棉貰悶愉揖湧猶裕遊雄揚揺葉遥陽絡落嵐痢裡葎硫量琳塁裂廊禄惑椀湾腕",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [421, 2227],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "愛葦暗意違溢碓園煙猿遠鉛塩嫁暇禍嘩蛾雅解塊慨碍蓋該較隔楽滑褐蒲勧寛幹感漢頑棄義詰業僅禁禽愚虞窟靴群傾",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 2422],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "携継罫詣隙傑嫌献絹遣源誇跨鈷鼓瑚碁溝鉱腰嵯裟債催塞歳載罪碕搾嗣獅詩試資飼慈蒔辞嫉腫愁蒐酬舜楯準署傷奨",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [89, 2422],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "照蒋詳鉦蒸飾触寝慎新腎睡瑞嵩数裾勢聖誠跡摂節戦煎羨腺詮賎践禅塑楚鼠僧想蒼賊続損楕滞滝蛸嘆暖痴稚置馳蓄",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [172, 2422],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "牒腸跳賃椿碇禎艇鼎溺鉄填殿電塗塘働督椴遁頓楢馴畷楠農楳煤漠鉢鳩塙搬煩頒微稗逼蒜楓福腹墓蜂豊飽睦幌幕蓑",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [255, 2422],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "稔夢盟滅摸蒙爺靖愈猷誉預傭楊溶蓉裸雷酪裏溜虜稜鈴零廉煉蓮賂路楼話賄詫碗",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [338, 2422],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "斡飴綾維稲蔭隠嘘蔚厩駅榎厭演嘉寡歌箇魁概劃廓赫閣樺鞄慣潅管関旗疑漁僑境銀駆窪熊頚語誤構綱膏酵閤豪穀酷",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [6, 2617],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ ΆΈΉΊΌΎΏ",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [657, 234],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "άέήίΰαβγδεζηθικλμνξοπρςστυφχψωΐϊϋόύώ",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [740, 234],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "АБВГДЕИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [657, 397],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖ",
+				"image": {
+					"src": "851font_all.png",
+					"pos": [657, 528],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"_comment": "以下、うごメモはてなにあった「851フォント」Ver 0.36α より",
+				"chars": "鑽鑼鑾顳驤驩鱸黷讝靍靎鱷鸕纝豓貜",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_028.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "欟纜钁鑿鸚鸛欞戇癴钄黸齽龞豔饠鸙鼺",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_029.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "鬱爨驪靏纞讟钃韊鸜",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_030.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "驫鸞厵鱺鸝",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_031.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "灩",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_032.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "籲龖",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_033.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "麤龗鱻",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_034.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "䯂",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_035.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "仿伃伋佾㒵冝刕剗咡咩嗎噶嚬𡈽圡垜﨏埇埵孁孖㞍岪峐峴嵓嵭嶁庾廹弶徯扚挊揥摠朳杦杇杻极枛柀柼栁桒桵梥棈椊",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_036.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "楉",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_036.gif",
+					"pos": [173, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "  輔  魑魅魍魎 顰蹙          黌 轟         \uE00A     魂",
+				"_comment": "U+E00A: ガンダム",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_041.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "           檎 蜜     蕉檸檬蕃 樹    榴鳳           説",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_041.gif",
+					"pos": [173, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "                                      旛",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_042.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "\uE000\uE001\uE002\uE003\uE004\uE005\uE006\uE007\uE008\uE009     \uE00B𪚥  墾           \uE00C 圀      龜龜𪚲 𪛁",
+				"_comment": "U+E000-U+E009: 手書き風の数字？\nU+E00B: たいと\nU+E00C: http://glyphwiki.org/wiki/u4a3b-itaiji-001",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_042.gif",
+					"pos": [173, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "㋀㋁㋂㋃㋄㋅㋆㋇㋈㋉㋊㋋   ㏠㏡㏢㏣㏤㏥㏦㏧㏨㏩㏪㏫㏬㏭㏮㏯㏰㏱㏲㏳㏴㏵㏶㏷㏸㏹㏺㏻㏼㏽㏾",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_043.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "䶔䶕䶖䶗䶘䶙䶚䶛䶝䶞䶟䶠䶡䶢䶣䶤䶥䶦䶧䶨䶩䶪䶯          燃閄𠃉",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_043.gif",
+					"pos": [173, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "鵺  𠚤      絆         畓娚曺㕦夻巭媤頉囍䭏哛乭乤乷乶䯩厁巪乺㖈㖌釗旀㫆",
+				"_comment": "6行1列 の字は【功/天】だけど見つからないのでとりあえず「巭」（【功/夫】）に割り当てておく",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_044.gif",
+					"pos": [6, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "♩♪",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_045.gif",
+					"pos": [6, 159],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"chars": "涮 𫙵 \uE00D",
+				"_comment": "U+E00D: 「純」の欠画",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_045.gif",
+					"pos": [173, 31],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"char": "®",
+				"bitmapSize": [7, 13],
+				"advancewidth": 7,
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_045.gif",
+					"pos": [173, 63]
+				}
+			},
+			{
+				"chars": "  劉       裵 \uE00E 丫     質 曉",
+				"_comment": "U+E00E: ビャンビャン麺のビャン",
+				"image": {
+					"src": "D9936E_0C1DFDCFD7553_002_045.gif",
+					"pos": [173, 63],
+					"step": [16, 16],
+					"charsPerRow": 5
+				}
+			},
+			{
+				"_comment": [
+					"以下、既存のグリフからくろごまが作成したもの",
+					"全角形から作成した半角形"
+				],
+				"chars": "\":;{|}",
+				"bitmapSize": [6, 13],
+				"advancewidth": 7,
+				"image": {
+					"src": "variants.gif",
+					"pos": [1, 1],
+					"step": [16, 16],
+					"charsPerRow": 32
+				}
+			},
+			{
+				"_comment": "半角形から作成した全角形",
+				"chars": "＇（）",
+				"image": {
+					"src": "variants.gif",
+					"pos": [1, 17],
+					"step": [16, 16],
+					"charsPerRow": 32
+				}
+			},
+			{
+				"_comment": "縦組み用字形(コードポイントが割り当てられている)",
+				"chars": "︐︑︒︙︵︶︷︸﹁﹂",
+				"image": {
+					"src": "variants.gif",
+					"pos": [1, 33],
+					"step": [16, 16],
+					"charsPerRow": 8
+				}
+			},
+			{
+				"_comment": [
+					"縦組み用字形(コードポイントが割り当てられていない)",
+					"捨て仮名"
+				],
+				"names": [
+					"uni3041.vert",
+					"uni3043.vert",
+					"uni3045.vert",
+					"uni3047.vert",
+					"uni3049.vert",
+					"uni3063.vert",
+					"uni3083.vert",
+					"uni3085.vert",
+					"uni3087.vert",
+					"uni308E.vert",
+					"uni3095.vert",
+
+					"uni30A1.vert",
+					"uni30A3.vert",
+					"uni30A5.vert",
+					"uni30A7.vert",
+					"uni30A9.vert",
+					"uni30C3.vert",
+					"uni30E3.vert",
+					"uni30E5.vert",
+					"uni30E7.vert",
+					"uni30EE.vert",
+					"uni30F5.vert",
+
+					"uni301C.vert",
+					"uni30FC.vert",
+					"uniFF0E.vert"
+				],
+				"image": {
+					"src": "variants.gif",
+					"pos": [1, 65],
+					"step": [16, 16],
+					"charsPerRow": 11
+				}
+			},
+			{
+				"_comment": "移動",
+				"names": [
+					"uni309B.vert",
+					"uni309C.vert"
+				],
+				"image": {
+					"src": "variants.gif",
+					"pos": [1, 113],
+					"step": [16, 16],
+					"charsPerRow": 32
+				}
+			},
+			{
+				"_comment": "組文字の縦組み用字形（横組み用字形を参考にくろごまが作成したもの）",
+				"names": [
+					"uni3300.vert",
+					"uni3301.vert",
+					"uni3302.vert",
+					"uni3303.vert",
+					"uni3304.vert",
+					"uni3305.vert",
+					"uni3306.vert",
+					"uni3307.vert",
+					"uni3308.vert",
+					"uni3309.vert",
+					"uni330A.vert",
+					"uni330B.vert",
+					"uni330D.vert",
+					"uni330E.vert",
+					"uni330F.vert",
+					"uni3310.vert",
+					"uni3311.vert",
+					"uni3312.vert",
+					"uni3313.vert",
+					"uni3314.vert",
+					"uni3315.vert",
+					"uni3316.vert",
+					"uni3317.vert",
+					"uni3318.vert",
+					"uni3319.vert",
+					"uni331A.vert",
+					"uni331B.vert",
+					"uni331C.vert",
+					"uni331D.vert",
+					"uni331E.vert",
+					"uni331F.vert",
+					"uni3320.vert",
+					"uni3321.vert",
+					"uni3322.vert",
+					"uni3323.vert",
+					"uni3324.vert",
+					"uni3325.vert",
+					"uni3326.vert",
+					"uni3327.vert",
+					"uni3329.vert",
+					"uni332A.vert",
+					"uni332B.vert",
+					"uni332C.vert",
+					"uni332E.vert",
+					"uni332F.vert",
+					"uni3330.vert",
+					"uni3331.vert",
+					"uni3332.vert",
+					"uni3333.vert",
+					"uni3334.vert",
+					"uni3335.vert",
+					"uni3336.vert",
+					"uni3337.vert",
+					"uni3338.vert",
+					"uni3339.vert",
+					"uni333A.vert",
+					"uni333B.vert",
+					"uni333C.vert",
+					"uni333D.vert",
+					"uni333E.vert",
+					"uni3340.vert",
+					"uni3341.vert",
+					"uni3342.vert",
+					"uni3343.vert",
+					"uni3344.vert",
+					"uni3345.vert",
+					"uni3346.vert",
+					"uni3347.vert",
+					"uni3348.vert",
+					"uni3349.vert",
+					"uni334B.vert",
+					"uni334C.vert",
+					"uni334D.vert",
+					"uni334E.vert",
+					"uni334F.vert",
+					"uni3350.vert",
+					"uni3351.vert",
+					"uni3352.vert",
+					"uni3353.vert",
+					"uni3354.vert",
+					"uni3355.vert",
+					"uni3356.vert",
+					"uni3357.vert"
+				],
+				"image": {
+					"src": "variants.gif",
+					"pos": [1, 129],
+					"step": [16, 16],
+					"charsPerRow": 32
+				}
+			},
+			{
+				"_comment": "U+00A5 YEN SIGN → U+005C REVERSE SOLIDUS",
+				"char": "\\",
+				"advancewidth": 7,
+				"copy": {"fromChar": "\u00A5"}
+			},
+			{
+				"_comment": "U+03BC GREEK SMALL LETTER MU → U+00B5 MICRO SIGN",
+				"char": "µ",
+				"copy": {"fromChar": "μ"}
+			},
+			{
+				"_comment": "U+002D HYPHEN-MINUS → U+2010 HYPHEN",
+				"char": "‐",
+				"advancewidth": 7,
+				"copy": {"fromChar": "-"}
+			},
+			{
+				"_comment": "U+002D HYPHEN-MINUS → U+2012 FIGURE DASH",
+				"char": "‒",
+				"advancewidth": 7,
+				"copy": {"fromChar": "-"}
+			},
+			{
+				"_comment": "U+002D HYPHEN-MINUS → U+2013 EN DASH",
+				"char": "–",
+				"advancewidth": 7,
+				"copy": {"fromChar": "-"}
+			},
+			{
+				"_comment": "U+FFE3 FULLWIDTH MACRON → U+203E OVERLINE",
+				"char": "‾",
+				"copy": {"fromChar": "￣"}
+			},
+			{
+				"_comment": "U+03A0 GREEK CAPITAL LETTER PI → U+220F N-ARY PRODUCT",
+				"char": "∏",
+				"advancewidth": 7,
+				"copy": {"fromChar": "Π"}
+			},
+			{
+				"_comment": "U+03A3 GREEK CAPITAL LETTER SIGMA → U+2211 N-ARY SUMMATION",
+				"char": "∑",
+				"advancewidth": 7,
+				"copy": {"fromChar": "Σ"}
+			},
+			{
+				"_comment": "U+002D HYPHEN-MINUS → U+2212 MINUS SIGN",
+				"char": "−",
+				"advancewidth": 7,
+				"copy": {"fromChar": "-"}
+			},
+			{
+				"_comment": "U+003A COLON → U+2236 RATIO",
+				"char": "∶",
+				"advancewidth": 7,
+				"copy": {"fromChar": ":"}
+			},
+			{
+				"_comment": "U+206A4 CJK UNIFIED IDEOGRAPH-206A4 → U+3005 IDEOGRAPHIC ITERATION MARK",
+				"char": "々",
+				"copy": {"fromChar": "𠚤"}
+			},
+			{
+				"_comment": "U+FF5E FULLWIDTH TILDE → U+301C WAVE DASH",
+				"char": "〜",
+				"copy": {"fromChar": "～"}
+			},
+			{
+				"_comment": "U+2669 QUARTER NOTE → U+1D15F MUSICAL SYMBOL QUARTER NOTE",
+				"char": "𝅘𝅥",
+				"copy": {"fromChar": "♩"}
+			},
+			{
+				"_comment": "U+266A EIGHTH NOTE → U+1D160 MUSICAL SYMBOL EIGHTH NOTE",
+				"char": "𝅘𝅥𝅮",
+				"copy": {"fromChar": "♪"}
+			},
+
+			{
+				"_comment": [
+					"以下、縦組み用字形が、横組み用字形を回転させればできるもの(半角)（コピーしてあとで回転する）",
+					"メモ: UTR #50 を参照して作った（はず）。"
+				],
+				"name": "uni0020.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": " "}
+			},
+			{
+				"name": "uni0021.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "!"}
+			},
+			{
+				"name": "uni0022.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "\""}
+			},
+			{
+				"name": "uni0023.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "#"}
+			},
+			{
+				"name": "uni0024.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "$"}
+			},
+			{
+				"name": "uni0025.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "%"}
+			},
+			{
+				"name": "uni0026.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "&"}
+			},
+			{
+				"name": "uni0027.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "'"}
+			},
+			{
+				"name": "uni0028.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "("}
+			},
+			{
+				"name": "uni0029.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": ")"}
+			},
+			{
+				"name": "uni002A.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "*"}
+			},
+			{
+				"name": "uni002B.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "+"}
+			},
+			{
+				"name": "uni002C.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": ","}
+			},
+			{
+				"name": "uni002D.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "-"}
+			},
+			{
+				"name": "uni002E.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "."}
+			},
+			{
+				"name": "uni002F.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "/"}
+			},
+			{
+				"name": "uni0030.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "0"}
+			},
+			{
+				"name": "uni0031.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "1"}
+			},
+			{
+				"name": "uni0032.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "2"}
+			},
+			{
+				"name": "uni0033.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "3"}
+			},
+			{
+				"name": "uni0034.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "4"}
+			},
+			{
+				"name": "uni0035.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "5"}
+			},
+			{
+				"name": "uni0036.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "6"}
+			},
+			{
+				"name": "uni0037.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "7"}
+			},
+			{
+				"name": "uni0038.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "8"}
+			},
+			{
+				"name": "uni0039.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "9"}
+			},
+			{
+				"name": "uni003A.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": ":"}
+			},
+			{
+				"name": "uni003B.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": ";"}
+			},
+			{
+				"name": "uni003F.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "?"}
+			},
+			{
+				"name": "uni0040.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "@"}
+			},
+			{
+				"name": "uni0041.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "A"}
+			},
+			{
+				"name": "uni0042.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "B"}
+			},
+			{
+				"name": "uni0043.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "C"}
+			},
+			{
+				"name": "uni0044.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "D"}
+			},
+			{
+				"name": "uni0045.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "E"}
+			},
+			{
+				"name": "uni0046.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "F"}
+			},
+			{
+				"name": "uni0047.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "G"}
+			},
+			{
+				"name": "uni0048.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "H"}
+			},
+			{
+				"name": "uni0049.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "I"}
+			},
+			{
+				"name": "uni004A.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "J"}
+			},
+			{
+				"name": "uni004B.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "K"}
+			},
+			{
+				"name": "uni004C.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "L"}
+			},
+			{
+				"name": "uni004D.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "M"}
+			},
+			{
+				"name": "uni004E.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "N"}
+			},
+			{
+				"name": "uni004F.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "O"}
+			},
+			{
+				"name": "uni0050.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "P"}
+			},
+			{
+				"name": "uni0051.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "Q"}
+			},
+			{
+				"name": "uni0052.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "R"}
+			},
+			{
+				"name": "uni0053.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "S"}
+			},
+			{
+				"name": "uni0054.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "T"}
+			},
+			{
+				"name": "uni0055.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "U"}
+			},
+			{
+				"name": "uni0056.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "V"}
+			},
+			{
+				"name": "uni0057.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "W"}
+			},
+			{
+				"name": "uni0058.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "X"}
+			},
+			{
+				"name": "uni0059.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "Y"}
+			},
+			{
+				"name": "uni005A.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "Z"}
+			},
+			{
+				"name": "uni005E.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "^"}
+			},
+			{
+				"name": "uni005F.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "_"}
+			},
+			{
+				"name": "uni0061.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "a"}
+			},
+			{
+				"name": "uni0062.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "b"}
+			},
+			{
+				"name": "uni0063.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "c"}
+			},
+			{
+				"name": "uni0064.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "d"}
+			},
+			{
+				"name": "uni0065.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "e"}
+			},
+			{
+				"name": "uni0066.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "f"}
+			},
+			{
+				"name": "uni0067.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "g"}
+			},
+			{
+				"name": "uni0068.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "h"}
+			},
+			{
+				"name": "uni0069.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "i"}
+			},
+			{
+				"name": "uni006A.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "j"}
+			},
+			{
+				"name": "uni006B.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "k"}
+			},
+			{
+				"name": "uni006C.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "l"}
+			},
+			{
+				"name": "uni006D.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "m"}
+			},
+			{
+				"name": "uni006E.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "n"}
+			},
+			{
+				"name": "uni006F.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "o"}
+			},
+			{
+				"name": "uni0070.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "p"}
+			},
+			{
+				"name": "uni0071.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "q"}
+			},
+			{
+				"name": "uni0072.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "r"}
+			},
+			{
+				"name": "uni0073.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "s"}
+			},
+			{
+				"name": "uni0074.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "t"}
+			},
+			{
+				"name": "uni0075.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "u"}
+			},
+			{
+				"name": "uni0076.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "v"}
+			},
+			{
+				"name": "uni0077.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "w"}
+			},
+			{
+				"name": "uni0078.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "x"}
+			},
+			{
+				"name": "uni0079.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "y"}
+			},
+			{
+				"name": "uni007A.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "z"}
+			},
+			{
+					"name": "uni007B.vert",
+					"advancewidth": 7,
+					"copy": {"fromChar": "{"}
+				},
+			{
+				"name": "uni007C.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "|"}
+			},
+			{
+				"name": "uni007D.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "}"}
+			},
+			{
+				"name": "uni00A5.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "¥"}
+			},
+			{
+				"name": "uni00B2.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "²"}
+			},
+			{
+				"name": "uni00B3.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "³"}
+			},
+			{
+				"name": "uni00B9.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "¹"}
+			},
+			{
+				"name": "uni2070.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "⁰"}
+			},
+			{
+				"name": "uni2074.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "⁴"}
+			},
+			{
+				"name": "uni2075.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "⁵"}
+			},
+			{
+				"name": "uni2076.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "⁶"}
+			},
+			{
+				"name": "uni2077.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "⁷"}
+			},
+			{
+				"name": "uni2078.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "⁸"}
+			},
+			{
+				"name": "uni2079.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "⁹"}
+			},
+			{
+				"name": "uni207A.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "⁺"}
+			},
+			{
+				"name": "uni207B.vert",
+				"advancewidth": 7,
+				"copy": {"fromChar": "⁻"}
+			},
+
+			{
+				"_comment": "以下、縦組み用字形が、横組み用字形を回転させればできるもの(全角)（コピーしてあとで回転する）",
+				"name": "uni0386.vert",
+				"copy": {"fromChar": "Ά"}
+			},
+			{
+				"name": "uni0388.vert",
+				"copy": {"fromChar": "Έ"}
+			},
+			{
+				"name": "uni0389.vert",
+				"copy": {"fromChar": "Ή"}
+			},
+			{
+				"name": "uni038A.vert",
+				"copy": {"fromChar": "Ί"}
+			},
+			{
+				"name": "uni038C.vert",
+				"copy": {"fromChar": "Ό"}
+			},
+			{
+				"name": "uni038E.vert",
+				"copy": {"fromChar": "Ύ"}
+			},
+			{
+				"name": "uni038F.vert",
+				"copy": {"fromChar": "Ώ"}
+			},
+			{
+				"name": "uni0390.vert",
+				"copy": {"fromChar": "ΐ"}
+			},
+			{
+				"name": "uni0391.vert",
+				"copy": {"fromChar": "Α"}
+			},
+			{
+				"name": "uni0392.vert",
+				"copy": {"fromChar": "Β"}
+			},
+			{
+				"name": "uni0393.vert",
+				"copy": {"fromChar": "Γ"}
+			},
+			{
+				"name": "uni0394.vert",
+				"copy": {"fromChar": "Δ"}
+			},
+			{
+				"name": "uni0395.vert",
+				"copy": {"fromChar": "Ε"}
+			},
+			{
+				"name": "uni0396.vert",
+				"copy": {"fromChar": "Ζ"}
+			},
+			{
+				"name": "uni0397.vert",
+				"copy": {"fromChar": "Η"}
+			},
+			{
+				"name": "uni0398.vert",
+				"copy": {"fromChar": "Θ"}
+			},
+			{
+				"name": "uni0399.vert",
+				"copy": {"fromChar": "Ι"}
+			},
+			{
+				"name": "uni039A.vert",
+				"copy": {"fromChar": "Κ"}
+			},
+			{
+				"name": "uni039B.vert",
+				"copy": {"fromChar": "Λ"}
+			},
+			{
+				"name": "uni039C.vert",
+				"copy": {"fromChar": "Μ"}
+			},
+			{
+				"name": "uni039D.vert",
+				"copy": {"fromChar": "Ν"}
+			},
+			{
+				"name": "uni039E.vert",
+				"copy": {"fromChar": "Ξ"}
+			},
+			{
+				"name": "uni039F.vert",
+				"copy": {"fromChar": "Ο"}
+			},
+			{
+				"name": "uni03A0.vert",
+				"copy": {"fromChar": "Π"}
+			},
+			{
+				"name": "uni03A1.vert",
+				"copy": {"fromChar": "Ρ"}
+			},
+			{
+				"name": "uni03A3.vert",
+				"copy": {"fromChar": "Σ"}
+			},
+			{
+				"name": "uni03A4.vert",
+				"copy": {"fromChar": "Τ"}
+			},
+			{
+				"name": "uni03A5.vert",
+				"copy": {"fromChar": "Υ"}
+			},
+			{
+				"name": "uni03A6.vert",
+				"copy": {"fromChar": "Φ"}
+			},
+			{
+				"name": "uni03A7.vert",
+				"copy": {"fromChar": "Χ"}
+			},
+			{
+				"name": "uni03A8.vert",
+				"copy": {"fromChar": "Ψ"}
+			},
+			{
+				"name": "uni03A9.vert",
+				"copy": {"fromChar": "Ω"}
+			},
+			{
+				"name": "uni03AC.vert",
+				"copy": {"fromChar": "ά"}
+			},
+			{
+				"name": "uni03AD.vert",
+				"copy": {"fromChar": "έ"}
+			},
+			{
+				"name": "uni03AE.vert",
+				"copy": {"fromChar": "ή"}
+			},
+			{
+				"name": "uni03AF.vert",
+				"copy": {"fromChar": "ί"}
+			},
+			{
+				"name": "uni03B0.vert",
+				"copy": {"fromChar": "ΰ"}
+			},
+			{
+				"name": "uni03B1.vert",
+				"copy": {"fromChar": "α"}
+			},
+			{
+				"name": "uni03B2.vert",
+				"copy": {"fromChar": "β"}
+			},
+			{
+				"name": "uni03B3.vert",
+				"copy": {"fromChar": "γ"}
+			},
+			{
+				"name": "uni03B4.vert",
+				"copy": {"fromChar": "δ"}
+			},
+			{
+				"name": "uni03B5.vert",
+				"copy": {"fromChar": "ε"}
+			},
+			{
+				"name": "uni03B6.vert",
+				"copy": {"fromChar": "ζ"}
+			},
+			{
+				"name": "uni03B7.vert",
+				"copy": {"fromChar": "η"}
+			},
+			{
+				"name": "uni03B8.vert",
+				"copy": {"fromChar": "θ"}
+			},
+			{
+				"name": "uni03B9.vert",
+				"copy": {"fromChar": "ι"}
+			},
+			{
+				"name": "uni03BA.vert",
+				"copy": {"fromChar": "κ"}
+			},
+			{
+				"name": "uni03BB.vert",
+				"copy": {"fromChar": "λ"}
+			},
+			{
+				"name": "uni03BC.vert",
+				"copy": {"fromChar": "μ"}
+			},
+			{
+				"name": "uni03BD.vert",
+				"copy": {"fromChar": "ν"}
+			},
+			{
+				"name": "uni03BE.vert",
+				"copy": {"fromChar": "ξ"}
+			},
+			{
+				"name": "uni03BF.vert",
+				"copy": {"fromChar": "ο"}
+			},
+			{
+				"name": "uni03C0.vert",
+				"copy": {"fromChar": "π"}
+			},
+			{
+				"name": "uni03C1.vert",
+				"copy": {"fromChar": "ρ"}
+			},
+			{
+				"name": "uni03C2.vert",
+				"copy": {"fromChar": "ς"}
+			},
+			{
+				"name": "uni03C3.vert",
+				"copy": {"fromChar": "σ"}
+			},
+			{
+				"name": "uni03C4.vert",
+				"copy": {"fromChar": "τ"}
+			},
+			{
+				"name": "uni03C5.vert",
+				"copy": {"fromChar": "υ"}
+			},
+			{
+				"name": "uni03C6.vert",
+				"copy": {"fromChar": "φ"}
+			},
+			{
+				"name": "uni03C7.vert",
+				"copy": {"fromChar": "χ"}
+			},
+			{
+				"name": "uni03C8.vert",
+				"copy": {"fromChar": "ψ"}
+			},
+			{
+				"name": "uni03C9.vert",
+				"copy": {"fromChar": "ω"}
+			},
+			{
+				"name": "uni03CA.vert",
+				"copy": {"fromChar": "ϊ"}
+			},
+			{
+				"name": "uni03CB.vert",
+				"copy": {"fromChar": "ϋ"}
+			},
+			{
+				"name": "uni03CC.vert",
+				"copy": {"fromChar": "ό"}
+			},
+			{
+				"name": "uni03CD.vert",
+				"copy": {"fromChar": "ύ"}
+			},
+			{
+				"name": "uni03CE.vert",
+				"copy": {"fromChar": "ώ"}
+			},
+			{
+				"name": "uni0410.vert",
+				"copy": {"fromChar": "А"}
+			},
+			{
+				"name": "uni0411.vert",
+				"copy": {"fromChar": "Б"}
+			},
+			{
+				"name": "uni0412.vert",
+				"copy": {"fromChar": "В"}
+			},
+			{
+				"name": "uni0413.vert",
+				"copy": {"fromChar": "Г"}
+			},
+			{
+				"name": "uni0414.vert",
+				"copy": {"fromChar": "Д"}
+			},
+			{
+				"name": "uni0415.vert",
+				"copy": {"fromChar": "Е"}
+			},
+			{
+				"name": "uni0418.vert",
+				"copy": {"fromChar": "И"}
+			},
+			{
+				"name": "uni0419.vert",
+				"copy": {"fromChar": "Й"}
+			},
+			{
+				"name": "uni041A.vert",
+				"copy": {"fromChar": "К"}
+			},
+			{
+				"name": "uni041B.vert",
+				"copy": {"fromChar": "Л"}
+			},
+			{
+				"name": "uni041C.vert",
+				"copy": {"fromChar": "М"}
+			},
+			{
+				"name": "uni041D.vert",
+				"copy": {"fromChar": "Н"}
+			},
+			{
+				"name": "uni041E.vert",
+				"copy": {"fromChar": "О"}
+			},
+			{
+				"name": "uni041F.vert",
+				"copy": {"fromChar": "П"}
+			},
+			{
+				"name": "uni0420.vert",
+				"copy": {"fromChar": "Р"}
+			},
+			{
+				"name": "uni0421.vert",
+				"copy": {"fromChar": "С"}
+			},
+			{
+				"name": "uni0422.vert",
+				"copy": {"fromChar": "Т"}
+			},
+			{
+				"name": "uni0423.vert",
+				"copy": {"fromChar": "У"}
+			},
+			{
+				"name": "uni0424.vert",
+				"copy": {"fromChar": "Ф"}
+			},
+			{
+				"name": "uni0425.vert",
+				"copy": {"fromChar": "Х"}
+			},
+			{
+				"name": "uni0426.vert",
+				"copy": {"fromChar": "Ц"}
+			},
+			{
+				"name": "uni0427.vert",
+				"copy": {"fromChar": "Ч"}
+			},
+			{
+				"name": "uni0428.vert",
+				"copy": {"fromChar": "Ш"}
+			},
+			{
+				"name": "uni0429.vert",
+				"copy": {"fromChar": "Щ"}
+			},
+			{
+				"name": "uni042A.vert",
+				"copy": {"fromChar": "Ъ"}
+			},
+			{
+				"name": "uni042B.vert",
+				"copy": {"fromChar": "Ы"}
+			},
+			{
+				"name": "uni042C.vert",
+				"copy": {"fromChar": "Ь"}
+			},
+			{
+				"name": "uni042D.vert",
+				"copy": {"fromChar": "Э"}
+			},
+			{
+				"name": "uni042E.vert",
+				"copy": {"fromChar": "Ю"}
+			},
+			{
+				"name": "uni042F.vert",
+				"copy": {"fromChar": "Я"}
+			},
+			{
+				"name": "uni0531.vert",
+				"copy": {"fromChar": "Ա"}
+			},
+			{
+				"name": "uni0532.vert",
+				"copy": {"fromChar": "Բ"}
+			},
+			{
+				"name": "uni0533.vert",
+				"copy": {"fromChar": "Գ"}
+			},
+			{
+				"name": "uni0534.vert",
+				"copy": {"fromChar": "Դ"}
+			},
+			{
+				"name": "uni0535.vert",
+				"copy": {"fromChar": "Ե"}
+			},
+			{
+				"name": "uni0536.vert",
+				"copy": {"fromChar": "Զ"}
+			},
+			{
+				"name": "uni0537.vert",
+				"copy": {"fromChar": "Է"}
+			},
+			{
+				"name": "uni0538.vert",
+				"copy": {"fromChar": "Ը"}
+			},
+			{
+				"name": "uni0539.vert",
+				"copy": {"fromChar": "Թ"}
+			},
+			{
+				"name": "uni053A.vert",
+				"copy": {"fromChar": "Ժ"}
+			},
+			{
+				"name": "uni053B.vert",
+				"copy": {"fromChar": "Ի"}
+			},
+			{
+				"name": "uni053C.vert",
+				"copy": {"fromChar": "Լ"}
+			},
+			{
+				"name": "uni053D.vert",
+				"copy": {"fromChar": "Խ"}
+			},
+			{
+				"name": "uni053E.vert",
+				"copy": {"fromChar": "Ծ"}
+			},
+			{
+				"name": "uni053F.vert",
+				"copy": {"fromChar": "Կ"}
+			},
+			{
+				"name": "uni0540.vert",
+				"copy": {"fromChar": "Հ"}
+			},
+			{
+				"name": "uni0541.vert",
+				"copy": {"fromChar": "Ձ"}
+			},
+			{
+				"name": "uni0542.vert",
+				"copy": {"fromChar": "Ղ"}
+			},
+			{
+				"name": "uni0543.vert",
+				"copy": {"fromChar": "Ճ"}
+			},
+			{
+				"name": "uni0544.vert",
+				"copy": {"fromChar": "Մ"}
+			},
+			{
+				"name": "uni0545.vert",
+				"copy": {"fromChar": "Յ"}
+			},
+			{
+				"name": "uni0546.vert",
+				"copy": {"fromChar": "Ն"}
+			},
+			{
+				"name": "uni0547.vert",
+				"copy": {"fromChar": "Շ"}
+			},
+			{
+				"name": "uni0548.vert",
+				"copy": {"fromChar": "Ո"}
+			},
+			{
+				"name": "uni0549.vert",
+				"copy": {"fromChar": "Չ"}
+			},
+			{
+				"name": "uni054A.vert",
+				"copy": {"fromChar": "Պ"}
+			},
+			{
+				"name": "uni054B.vert",
+				"copy": {"fromChar": "Ջ"}
+			},
+			{
+				"name": "uni054C.vert",
+				"copy": {"fromChar": "Ռ"}
+			},
+			{
+				"name": "uni054D.vert",
+				"copy": {"fromChar": "Ս"}
+			},
+			{
+				"name": "uni054E.vert",
+				"copy": {"fromChar": "Վ"}
+			},
+			{
+				"name": "uni054F.vert",
+				"copy": {"fromChar": "Տ"}
+			},
+			{
+				"name": "uni0550.vert",
+				"copy": {"fromChar": "Ր"}
+			},
+			{
+				"name": "uni0551.vert",
+				"copy": {"fromChar": "Ց"}
+			},
+			{
+				"name": "uni0552.vert",
+				"copy": {"fromChar": "Ւ"}
+			},
+			{
+				"name": "uni0553.vert",
+				"copy": {"fromChar": "Փ"}
+			},
+			{
+				"name": "uni0554.vert",
+				"copy": {"fromChar": "Ք"}
+			},
+			{
+				"name": "uni0555.vert",
+				"copy": {"fromChar": "Օ"}
+			},
+			{
+				"name": "uni0556.vert",
+				"copy": {"fromChar": "Ֆ"}
+			},
+			{
+				"name": "uni2018.vert",
+				"copy": {"fromChar": "‘"}
+			},
+			{
+				"name": "uni2019.vert",
+				"copy": {"fromChar": "’"}
+			},
+			{
+				"name": "uni201D.vert",
+				"copy": {"fromChar": "”"}
+			},
+			{
+				"name": "uni221A.vert",
+				"copy": {"fromChar": "√"}
+			},
+			{
+				"name": "uni222B.vert",
+				"copy": {"fromChar": "∫"}
+			},
+			{
+				"name": "uni2283.vert",
+				"copy": {"fromChar": "⊃"}
+			},
+			{
+				"name": "uniFF0D.vert",
+				"copy": {"fromChar": "－"}
+			},
+			{
+				"name": "uniFF1C.vert",
+				"copy": {"fromChar": "＜"}
+			},
+			{
+				"name": "uniFF1D.vert",
+				"copy": {"fromChar": "＝"}
+			},
+			{
+				"name": "uniFF1E.vert",
+				"copy": {"fromChar": "＞"}
+			},
+			{
+				"name": "uniFF1A.vert",
+				"copy": {"fromChar": "："}
+			},
+			{
+				"name": "uniFF3F.vert",
+				"copy": {"fromChar": "＿"}
+			},
+			{
+				"name": "uniFF5C.vert",
+				"copy": {"fromChar": "｜"}
+			},
+			{
+				"name": "uniFFE3.vert",
+				"copy": {"fromChar": "￣"}
+			}
+		]
+	},
+	"effects": [
+		{
+			"_comment": [
+				"縦組み用字形を作る",
+				"最初にグリフは原点の右上にあるので（原点を中心に）右回転すると右下にうつります",
+				"それからグリフの上端を揃えるために上へ平行移動します"
+			],
+			"target": [
+				{
+					"_comment": "縦組み用字形が、横組み用字形を回転させればできるもの(半角)",
+					"names": [
+						"uni0020.vert",
+						"uni0021.vert",
+						"uni0022.vert",
+						"uni0023.vert",
+						"uni0024.vert",
+						"uni0025.vert",
+						"uni0026.vert",
+						"uni0027.vert",
+						"uni0028.vert",
+						"uni0029.vert",
+						"uni002A.vert",
+						"uni002B.vert",
+						"uni002C.vert",
+						"uni002D.vert",
+						"uni002E.vert",
+						"uni002F.vert",
+						"uni0030.vert",
+						"uni0031.vert",
+						"uni0032.vert",
+						"uni0033.vert",
+						"uni0034.vert",
+						"uni0035.vert",
+						"uni0036.vert",
+						"uni0037.vert",
+						"uni0038.vert",
+						"uni0039.vert",
+						"uni003A.vert",
+						"uni003B.vert",
+						"uni003F.vert",
+						"uni0040.vert",
+						"uni0041.vert",
+						"uni0042.vert",
+						"uni0043.vert",
+						"uni0044.vert",
+						"uni0045.vert",
+						"uni0046.vert",
+						"uni0047.vert",
+						"uni0048.vert",
+						"uni0049.vert",
+						"uni004A.vert",
+						"uni004B.vert",
+						"uni004C.vert",
+						"uni004D.vert",
+						"uni004E.vert",
+						"uni004F.vert",
+						"uni0050.vert",
+						"uni0051.vert",
+						"uni0052.vert",
+						"uni0053.vert",
+						"uni0054.vert",
+						"uni0055.vert",
+						"uni0056.vert",
+						"uni0057.vert",
+						"uni0058.vert",
+						"uni0059.vert",
+						"uni005A.vert",
+						"uni005E.vert",
+						"uni005F.vert",
+						"uni0061.vert",
+						"uni0062.vert",
+						"uni0063.vert",
+						"uni0064.vert",
+						"uni0065.vert",
+						"uni0066.vert",
+						"uni0067.vert",
+						"uni0068.vert",
+						"uni0069.vert",
+						"uni006A.vert",
+						"uni006B.vert",
+						"uni006C.vert",
+						"uni006D.vert",
+						"uni006E.vert",
+						"uni006F.vert",
+						"uni0070.vert",
+						"uni0071.vert",
+						"uni0072.vert",
+						"uni0073.vert",
+						"uni0074.vert",
+						"uni0075.vert",
+						"uni0076.vert",
+						"uni0077.vert",
+						"uni0078.vert",
+						"uni0079.vert",
+						"uni007A.vert",
+						"uni007B.vert",
+						"uni007C.vert",
+						"uni007D.vert",
+						"uni00A5.vert",
+						"uni00B2.vert",
+						"uni00B3.vert",
+						"uni00B9.vert",
+						"uni2070.vert",
+						"uni2074.vert",
+						"uni2075.vert",
+						"uni2076.vert",
+						"uni2077.vert",
+						"uni2078.vert",
+						"uni2079.vert",
+						"uni207A.vert",
+						"uni207B.vert"
+					]
+				},
+				{
+					"_comment": "縦組み用字形が、横組み用字形を回転させればできるもの(全角)",
+					"names": [
+						"uni0386.vert",
+						"uni0388.vert",
+						"uni0389.vert",
+						"uni038A.vert",
+						"uni038C.vert",
+						"uni038E.vert",
+						"uni038F.vert",
+						"uni0390.vert",
+						"uni0391.vert",
+						"uni0392.vert",
+						"uni0393.vert",
+						"uni0394.vert",
+						"uni0395.vert",
+						"uni0396.vert",
+						"uni0397.vert",
+						"uni0398.vert",
+						"uni0399.vert",
+						"uni039A.vert",
+						"uni039B.vert",
+						"uni039C.vert",
+						"uni039D.vert",
+						"uni039E.vert",
+						"uni039F.vert",
+						"uni03A0.vert",
+						"uni03A1.vert",
+						"uni03A3.vert",
+						"uni03A4.vert",
+						"uni03A5.vert",
+						"uni03A6.vert",
+						"uni03A7.vert",
+						"uni03A8.vert",
+						"uni03A9.vert",
+						"uni03AC.vert",
+						"uni03AD.vert",
+						"uni03AE.vert",
+						"uni03AF.vert",
+						"uni03B0.vert",
+						"uni03B1.vert",
+						"uni03B2.vert",
+						"uni03B3.vert",
+						"uni03B4.vert",
+						"uni03B5.vert",
+						"uni03B6.vert",
+						"uni03B7.vert",
+						"uni03B8.vert",
+						"uni03B9.vert",
+						"uni03BA.vert",
+						"uni03BB.vert",
+						"uni03BC.vert",
+						"uni03BD.vert",
+						"uni03BE.vert",
+						"uni03BF.vert",
+						"uni03C0.vert",
+						"uni03C1.vert",
+						"uni03C2.vert",
+						"uni03C3.vert",
+						"uni03C4.vert",
+						"uni03C5.vert",
+						"uni03C6.vert",
+						"uni03C7.vert",
+						"uni03C8.vert",
+						"uni03C9.vert",
+						"uni03CA.vert",
+						"uni03CB.vert",
+						"uni03CC.vert",
+						"uni03CD.vert",
+						"uni03CE.vert",
+						"uni0410.vert",
+						"uni0411.vert",
+						"uni0412.vert",
+						"uni0413.vert",
+						"uni0414.vert",
+						"uni0415.vert",
+						"uni0418.vert",
+						"uni0419.vert",
+						"uni041A.vert",
+						"uni041B.vert",
+						"uni041C.vert",
+						"uni041D.vert",
+						"uni041E.vert",
+						"uni041F.vert",
+						"uni0420.vert",
+						"uni0421.vert",
+						"uni0422.vert",
+						"uni0423.vert",
+						"uni0424.vert",
+						"uni0425.vert",
+						"uni0426.vert",
+						"uni0427.vert",
+						"uni0428.vert",
+						"uni0429.vert",
+						"uni042A.vert",
+						"uni042B.vert",
+						"uni042C.vert",
+						"uni042D.vert",
+						"uni042E.vert",
+						"uni042F.vert",
+						"uni0531.vert",
+						"uni0532.vert",
+						"uni0533.vert",
+						"uni0534.vert",
+						"uni0535.vert",
+						"uni0536.vert",
+						"uni0537.vert",
+						"uni0538.vert",
+						"uni0539.vert",
+						"uni053A.vert",
+						"uni053B.vert",
+						"uni053C.vert",
+						"uni053D.vert",
+						"uni053E.vert",
+						"uni053F.vert",
+						"uni0540.vert",
+						"uni0541.vert",
+						"uni0542.vert",
+						"uni0543.vert",
+						"uni0544.vert",
+						"uni0545.vert",
+						"uni0546.vert",
+						"uni0547.vert",
+						"uni0548.vert",
+						"uni0549.vert",
+						"uni054A.vert",
+						"uni054B.vert",
+						"uni054C.vert",
+						"uni054D.vert",
+						"uni054E.vert",
+						"uni054F.vert",
+						"uni0550.vert",
+						"uni0551.vert",
+						"uni0552.vert",
+						"uni0553.vert",
+						"uni0554.vert",
+						"uni0555.vert",
+						"uni0556.vert",
+						"uni2018.vert",
+						"uni2019.vert",
+						"uni201D.vert",
+						"uni221A.vert",
+						"uni222B.vert",
+						"uni2283.vert",
+						"uniFF0D.vert",
+						"uniFF1C.vert",
+						"uniFF1D.vert",
+						"uniFF1E.vert",
+						"uniFF1A.vert",
+						"uniFF3F.vert",
+						"uniFF5C.vert",
+						"uniFFE3.vert"
+					]
+				}
+			],
+			"rotate": 1
+		},
+		{
+			"target": [
+				{
+					"_comment": "縦組み用字形が、横組み用字形を回転させればできるもの(半角)",
+					"names": [
+						"uni0020.vert",
+						"uni0021.vert",
+						"uni0022.vert",
+						"uni0023.vert",
+						"uni0024.vert",
+						"uni0025.vert",
+						"uni0026.vert",
+						"uni0027.vert",
+						"uni0028.vert",
+						"uni0029.vert",
+						"uni002A.vert",
+						"uni002B.vert",
+						"uni002C.vert",
+						"uni002D.vert",
+						"uni002E.vert",
+						"uni002F.vert",
+						"uni0030.vert",
+						"uni0031.vert",
+						"uni0032.vert",
+						"uni0033.vert",
+						"uni0034.vert",
+						"uni0035.vert",
+						"uni0036.vert",
+						"uni0037.vert",
+						"uni0038.vert",
+						"uni0039.vert",
+						"uni003A.vert",
+						"uni003B.vert",
+						"uni003F.vert",
+						"uni0040.vert",
+						"uni0041.vert",
+						"uni0042.vert",
+						"uni0043.vert",
+						"uni0044.vert",
+						"uni0045.vert",
+						"uni0046.vert",
+						"uni0047.vert",
+						"uni0048.vert",
+						"uni0049.vert",
+						"uni004A.vert",
+						"uni004B.vert",
+						"uni004C.vert",
+						"uni004D.vert",
+						"uni004E.vert",
+						"uni004F.vert",
+						"uni0050.vert",
+						"uni0051.vert",
+						"uni0052.vert",
+						"uni0053.vert",
+						"uni0054.vert",
+						"uni0055.vert",
+						"uni0056.vert",
+						"uni0057.vert",
+						"uni0058.vert",
+						"uni0059.vert",
+						"uni005A.vert",
+						"uni005E.vert",
+						"uni005F.vert",
+						"uni0061.vert",
+						"uni0062.vert",
+						"uni0063.vert",
+						"uni0064.vert",
+						"uni0065.vert",
+						"uni0066.vert",
+						"uni0067.vert",
+						"uni0068.vert",
+						"uni0069.vert",
+						"uni006A.vert",
+						"uni006B.vert",
+						"uni006C.vert",
+						"uni006D.vert",
+						"uni006E.vert",
+						"uni006F.vert",
+						"uni0070.vert",
+						"uni0071.vert",
+						"uni0072.vert",
+						"uni0073.vert",
+						"uni0074.vert",
+						"uni0075.vert",
+						"uni0076.vert",
+						"uni0077.vert",
+						"uni0078.vert",
+						"uni0079.vert",
+						"uni007A.vert",
+						"uni007B.vert",
+						"uni007C.vert",
+						"uni007D.vert",
+						"uni00A5.vert",
+						"uni00B2.vert",
+						"uni00B3.vert",
+						"uni00B9.vert",
+						"uni2070.vert",
+						"uni2074.vert",
+						"uni2075.vert",
+						"uni2076.vert",
+						"uni2077.vert",
+						"uni2078.vert",
+						"uni2079.vert",
+						"uni207A.vert",
+						"uni207B.vert"
+					]
+				},
+				{
+					"_comment": "縦組み用字形が、横組み用字形を回転させればできるもの(全角)",
+					"names": [
+						"uni0386.vert",
+						"uni0388.vert",
+						"uni0389.vert",
+						"uni038A.vert",
+						"uni038C.vert",
+						"uni038E.vert",
+						"uni038F.vert",
+						"uni0390.vert",
+						"uni0391.vert",
+						"uni0392.vert",
+						"uni0393.vert",
+						"uni0394.vert",
+						"uni0395.vert",
+						"uni0396.vert",
+						"uni0397.vert",
+						"uni0398.vert",
+						"uni0399.vert",
+						"uni039A.vert",
+						"uni039B.vert",
+						"uni039C.vert",
+						"uni039D.vert",
+						"uni039E.vert",
+						"uni039F.vert",
+						"uni03A0.vert",
+						"uni03A1.vert",
+						"uni03A3.vert",
+						"uni03A4.vert",
+						"uni03A5.vert",
+						"uni03A6.vert",
+						"uni03A7.vert",
+						"uni03A8.vert",
+						"uni03A9.vert",
+						"uni03AC.vert",
+						"uni03AD.vert",
+						"uni03AE.vert",
+						"uni03AF.vert",
+						"uni03B0.vert",
+						"uni03B1.vert",
+						"uni03B2.vert",
+						"uni03B3.vert",
+						"uni03B4.vert",
+						"uni03B5.vert",
+						"uni03B6.vert",
+						"uni03B7.vert",
+						"uni03B8.vert",
+						"uni03B9.vert",
+						"uni03BA.vert",
+						"uni03BB.vert",
+						"uni03BC.vert",
+						"uni03BD.vert",
+						"uni03BE.vert",
+						"uni03BF.vert",
+						"uni03C0.vert",
+						"uni03C1.vert",
+						"uni03C2.vert",
+						"uni03C3.vert",
+						"uni03C4.vert",
+						"uni03C5.vert",
+						"uni03C6.vert",
+						"uni03C7.vert",
+						"uni03C8.vert",
+						"uni03C9.vert",
+						"uni03CA.vert",
+						"uni03CB.vert",
+						"uni03CC.vert",
+						"uni03CD.vert",
+						"uni03CE.vert",
+						"uni0410.vert",
+						"uni0411.vert",
+						"uni0412.vert",
+						"uni0413.vert",
+						"uni0414.vert",
+						"uni0415.vert",
+						"uni0418.vert",
+						"uni0419.vert",
+						"uni041A.vert",
+						"uni041B.vert",
+						"uni041C.vert",
+						"uni041D.vert",
+						"uni041E.vert",
+						"uni041F.vert",
+						"uni0420.vert",
+						"uni0421.vert",
+						"uni0422.vert",
+						"uni0423.vert",
+						"uni0424.vert",
+						"uni0425.vert",
+						"uni0426.vert",
+						"uni0427.vert",
+						"uni0428.vert",
+						"uni0429.vert",
+						"uni042A.vert",
+						"uni042B.vert",
+						"uni042C.vert",
+						"uni042D.vert",
+						"uni042E.vert",
+						"uni042F.vert",
+						"uni0531.vert",
+						"uni0532.vert",
+						"uni0533.vert",
+						"uni0534.vert",
+						"uni0535.vert",
+						"uni0536.vert",
+						"uni0537.vert",
+						"uni0538.vert",
+						"uni0539.vert",
+						"uni053A.vert",
+						"uni053B.vert",
+						"uni053C.vert",
+						"uni053D.vert",
+						"uni053E.vert",
+						"uni053F.vert",
+						"uni0540.vert",
+						"uni0541.vert",
+						"uni0542.vert",
+						"uni0543.vert",
+						"uni0544.vert",
+						"uni0545.vert",
+						"uni0546.vert",
+						"uni0547.vert",
+						"uni0548.vert",
+						"uni0549.vert",
+						"uni054A.vert",
+						"uni054B.vert",
+						"uni054C.vert",
+						"uni054D.vert",
+						"uni054E.vert",
+						"uni054F.vert",
+						"uni0550.vert",
+						"uni0551.vert",
+						"uni0552.vert",
+						"uni0553.vert",
+						"uni0554.vert",
+						"uni0555.vert",
+						"uni0556.vert",
+						"uni2018.vert",
+						"uni2019.vert",
+						"uni201D.vert",
+						"uni221A.vert",
+						"uni222B.vert",
+						"uni2283.vert",
+						"uniFF0D.vert",
+						"uniFF1C.vert",
+						"uniFF1D.vert",
+						"uniFF1E.vert",
+						"uniFF1A.vert",
+						"uniFF3F.vert",
+						"uniFF5C.vert",
+						"uniFFE3.vert"
+					]
+				}
+			],
+			"translate": [0, 13]
+		}
+	]
+}
