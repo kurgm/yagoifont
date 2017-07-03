@@ -16,7 +16,7 @@
 
 ## 生成
 
-`python Bitmap2OTF/bitmap2otf/bitmapotf.py data/yagoifont.xml`
+`python Bitmap2OTF/bitmap2otf/bitmapotf.py data/yagoifont.json`
 
 
 ## データソース
